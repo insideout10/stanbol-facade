@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine" name="%io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine.name" description="%io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine.description">
+        <AD id="stanbol.enhancer.engine.name" type="String" default="ContentItemBagSpyEngine" name="%stanbol.enhancer.engine.name.name" description="%stanbol.enhancer.engine.name.description"/>
+    </OCD>
+    <Designate pid="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine">
+        <Object ocdref="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine"/>
+    </Designate>
+</metatype:MetaData>

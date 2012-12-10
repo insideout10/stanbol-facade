@@ -1,0 +1,6 @@
+{
+	"consumerKey": "1234567890",
+	"callbackURL": "http://example.org",
+	"mimeType": "application/rdf+xml",
+	"text": "George Bush é a Roma in Enel"
+}

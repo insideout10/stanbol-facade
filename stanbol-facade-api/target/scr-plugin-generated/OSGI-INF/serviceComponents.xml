@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" immediate="true" name="io.insideout.stanbol.facade.services.StanbolFacadeService" configuration-policy="ignore" activate="activate" deactivate="deactivate">
+        <implementation class="io.insideout.stanbol.facade.services.StanbolFacadeService"/>
+        <service servicefactory="false">
+            <provide interface="io.insideout.stanbol.facade.services.StanbolFacadeServiceInterface"/>
+        </service>
+        <property name="service.vendor" type="String" value="Apache Stanbol"/>
+        <property name="service.pid" value="io.insideout.stanbol.facade.services.StanbolFacadeService"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="io.insideout.stanbol.facade.services.TaskService">
+        <implementation class="io.insideout.stanbol.facade.services.TaskService"/>
+        <service servicefactory="false">
+            <provide interface="io.insideout.stanbol.facade.services.TaskServiceInterface"/>
+        </service>
+        <property name="service.vendor" type="String" value="Apache Stanbol"/>
+        <property name="service.pid" value="io.insideout.stanbol.facade.services.TaskService"/>
+        <reference name="contentItemFactory" interface="org.apache.stanbol.enhancer.servicesapi.ContentItemFactory" cardinality="1..1" policy="static" bind="bindContentItemFactory" unbind="unbindContentItemFactory"/>
+        <reference name="enhancementJobManager" interface="org.apache.stanbol.enhancer.servicesapi.EnhancementJobManager" cardinality="1..1" policy="static" bind="bindEnhancementJobManager" unbind="unbindEnhancementJobManager"/>
+        <reference name="chainManager" interface="org.apache.stanbol.enhancer.servicesapi.ChainManager" cardinality="1..1" policy="static" bind="bindChainManager" unbind="unbindChainManager"/>
+        <reference name="serializer" interface="org.apache.clerezza.rdf.core.serializedform.Serializer" cardinality="1..1" policy="static" bind="bindSerializer" unbind="unbindSerializer"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine" configuration-policy="ignore">
+        <implementation class="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.stanbol.enhancer.servicesapi.EnhancementEngine"/>
+            <provide interface="org.apache.stanbol.enhancer.servicesapi.ServiceProperties"/>
+        </service>
+        <property name="stanbol.enhancer.engine.name" type="String" value="ContentItemBagSpyEngine"/>
+        <property name="service.vendor" type="String" value="Apache Stanbol"/>
+        <property name="service.pid" value="io.insideout.stanbol.facade.engines.ContentItemBagSpyEngine"/>
+    </scr:component>
+</components>
