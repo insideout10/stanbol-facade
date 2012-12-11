@@ -6,6 +6,7 @@ public class TaskRequest {
 
 	private String mimeType;
 	private String content;
+	private String url;
 	private String chainName;
 	private Map<String, String> configuration;
 
@@ -23,6 +24,14 @@ public class TaskRequest {
 
 	public void setContent(String content) {
 		this.content = content;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 	public String getChainName() {

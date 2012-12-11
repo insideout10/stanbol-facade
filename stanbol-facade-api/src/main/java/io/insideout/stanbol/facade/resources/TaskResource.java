@@ -1,5 +1,7 @@
 package io.insideout.stanbol.facade.resources;
 
+import io.insideout.stanbol.facade.exceptions.InvalidTaskRequestException;
+import io.insideout.stanbol.facade.exceptions.UnsupportedMimeTypeException;
 import io.insideout.stanbol.facade.models.TaskRequest;
 import io.insideout.stanbol.facade.services.StanbolFacadeApplication;
 import io.insideout.stanbol.facade.services.TaskServiceInterface;
@@ -14,6 +16,8 @@ import javax.ws.rs.core.Response;
 
 import org.apache.stanbol.enhancer.servicesapi.ContentItem;
 import org.apache.stanbol.enhancer.servicesapi.EnhancementException;
+import org.apache.tika.exception.TikaException;
+import org.xml.sax.SAXException;
 
 @Path("/tasks")
 public class TaskResource {
@@ -23,7 +27,7 @@ public class TaskResource {
 
 	@POST
 	public Response create(final TaskRequest taskRequest) throws IOException,
-			EnhancementException {
+			EnhancementException, IllegalStateException, InvalidTaskRequestException, UnsupportedMimeTypeException, SAXException, TikaException {
 
 		final TaskServiceInterface taskService = getService(TaskServiceInterface.class);
 		final ContentItem contentItem = taskService.create(taskRequest);

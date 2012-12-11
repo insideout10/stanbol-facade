@@ -64,6 +64,22 @@
 			<groupId>com.fasterxml.jackson.jaxrs</groupId>
 			<artifactId>jackson-jaxrs-json-provider</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.tika</groupId>
+			<artifactId>tika-parsers</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.ccil.cowan.tagsoup</groupId>
+			<artifactId>tagsoup</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -76,7 +92,8 @@
 					<instructions>
 						<Export-Package>
 							io.insideout.stanbol.facade.*;version=${project.version},
-							com.fasterxml.jackson.*;version=${jackson-version}
+							com.fasterxml.jackson.*;version=${jackson-version},
+							org.ccil.cowan.tagsoup.*;version=${tagsource-version}
 						</Export-Package>
 					</instructions>
 				</configuration>

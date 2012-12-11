@@ -1,4 +1,7 @@
 {
+	"configuration": {
+		"freebase.entity-recognition.score.minimum": "1"
+	},
 	"mimeType": "application/rdf+xml",
 	"content": "Bersani invita Renzi a Roma alla FAO."
 }
