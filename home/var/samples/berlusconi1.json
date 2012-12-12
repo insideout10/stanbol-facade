@@ -1,0 +1,7 @@
+{
+	"content": "Silvio Berlusconi parla a Milano.",
+	"mimeType": "application/rdf+xml",
+	"configuration": {
+		"freebase.entity-recognition.score.minimum": "1"
+	}
+}
