@@ -25,8 +25,7 @@ public class UrlGrabberService {
 
 	private final static String CONTENT_TYPE_TEXT_PLAIN = "text/plain";
 	private final static String CONTENT_TYPE_TEXT_HTML = "text/html";
-	private final static String[] SUPPORTED_MIME_TYPES = {
-			CONTENT_TYPE_TEXT_PLAIN, CONTENT_TYPE_TEXT_HTML };
+	private final static String[] SUPPORTED_MIME_TYPES = { CONTENT_TYPE_TEXT_HTML };
 	private final static String CONTENT_TYPE_HEADER_NAME = "Content-Type";
 
 	public String get(final String url)

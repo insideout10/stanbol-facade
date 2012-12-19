@@ -1,5 +1,6 @@
 package io.insideout.stanbol.facade.services;
 
+import io.insideout.stanbol.facade.exceptions.ContentTypeNotSupportedException;
 import io.insideout.stanbol.facade.exceptions.InvalidTaskRequestException;
 import io.insideout.stanbol.facade.exceptions.UnsupportedMimeTypeException;
 import io.insideout.stanbol.facade.models.ContentItemBag;
@@ -65,11 +66,15 @@ public class TaskService implements TaskServiceInterface {
 	@Reference
 	private Serializer serializer;
 
+	@Reference
+	private UrlGrabberService urlGrabberService;
+
 	@Override
 	public ContentItem create(final TaskRequest taskRequest)
 			throws IOException, EnhancementException,
 			InvalidTaskRequestException, IllegalStateException,
-			UnsupportedMimeTypeException, SAXException, TikaException {
+			UnsupportedMimeTypeException, SAXException, TikaException,
+			ContentTypeNotSupportedException {
 
 		logger.trace("A task request has been received.");
 
@@ -98,162 +103,164 @@ public class TaskService implements TaskServiceInterface {
 	}
 
 	private ContentSource getContentSource(final TaskRequest taskRequest)
-			throws InvalidTaskRequestException, ClientProtocolException,
-			IOException, UnsupportedMimeTypeException, IllegalStateException,
-			SAXException, TikaException {
+			throws ContentTypeNotSupportedException, IOException,
+			InvalidTaskRequestException {
 
 		if (null != taskRequest.getContent())
 			return new StringSource(taskRequest.getContent());
 
-		if (null != taskRequest.getUrl()) {
-			final DefaultHttpClient httpClient = new DefaultHttpClient();
-			final URI uri = URI.create(taskRequest.getUrl());
-			final HttpGet httpGet = new HttpGet(uri);
-			final HttpResponse response = httpClient.execute(httpGet);
-
-			final ContentSource contentSource;
-
-			try {
-				final HttpEntity entity = response.getEntity();
-				final Header contentTypeHeader = entity.getContentType();
-				if (null == contentTypeHeader)
-					throw new UnsupportedMimeTypeException("none");
-
-				final String mimeType = contentTypeHeader.getValue();
-
-				if (mimeType.startsWith(MIME_TYPE_TEXT_HTML)) {
-
-					final Parser parser = new Parser();
-					final StringBuffer content = new StringBuffer();
-					parser.setContentHandler(new ContentHandler() {
-
-						private final LinkedList<Boolean> captures = new LinkedList<Boolean>();
-
-						private final String[] DONT_CAPTURE_ELEMENTS = {
-								"script", "iframe", "script", "object", "embed" };
-
-						@Override
-						public void startPrefixMapping(String prefix, String uri)
-								throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void startElement(String uri, String localName,
-								String qName, Attributes atts)
-								throws SAXException {
-
-							logger.trace(
-									"Received a start element [ uri :: {} ][ localName :: {} ][ qName :: {} ].",
-									new Object[] { uri, localName, qName });
-
-							if ("title".equals(qName) || "body".equals(qName))
-								captures.add(true);
-
-							if (Arrays.asList(DONT_CAPTURE_ELEMENTS).contains(
-									qName))
-								captures.add(false);
-						}
-
-						@Override
-						public void startDocument() throws SAXException {
-							captures.add(false);
-						}
-
-						@Override
-						public void skippedEntity(String name)
-								throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void setDocumentLocator(Locator locator) {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void processingInstruction(String target,
-								String data) throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void ignorableWhitespace(char[] ch, int start,
-								int length) throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void endPrefixMapping(String prefix)
-								throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void endElement(String uri, String localName,
-								String qName) throws SAXException {
-
-							logger.trace(
-									"Received an end element [ uri :: {} ][ localName :: {} ][ qName :: {} ].",
-									new Object[] { uri, localName, qName });
-
-							if ("title".equals(qName))
-								content.append("\n");
-
-							if ("title".equals(qName)
-									|| "body".equals(qName)
-									|| Arrays.asList(DONT_CAPTURE_ELEMENTS)
-											.contains(qName))
-								captures.pollLast();
-
-						}
-
-						@Override
-						public void endDocument() throws SAXException {
-							// TODO Auto-generated method stub
-
-						}
-
-						@Override
-						public void characters(char[] ch, int start, int length)
-								throws SAXException {
-
-							if (captures.peekLast())
-								content.append(ch, start, length);
-						}
-					});
-
-					parser.parse(new InputSource(entity.getContent()));
-
-					logger.trace(
-							"The following content has been extracted from the remote URL: {}",
-							content.toString());
-
-					contentSource = new StringSource(content.toString());
-
-				} else if (mimeType.startsWith(MIME_TYPE_TEXT_PLAIN)) {
-					contentSource = new StringSource(IOUtils.toString(entity
-							.getContent()));
-				} else {
-					throw new UnsupportedMimeTypeException(mimeType);
-				}
-				// do something useful with the response body
-				// and ensure it is fully consumed
-				EntityUtils.consume(entity);
-			} finally {
-				httpGet.releaseConnection();
-			}
-
-			return contentSource;
-		}
+		if (null != taskRequest.getUrl())
+			return new StringSource(urlGrabberService.get(taskRequest.getUrl()));
 
 		throw new InvalidTaskRequestException();
+	}
+
+	private ContentSource getContentFromTextPlain(final TaskRequest taskRequest)
+			throws UnsupportedMimeTypeException, ClientProtocolException,
+			IOException, IllegalStateException, SAXException {
+		final DefaultHttpClient httpClient = new DefaultHttpClient();
+		final URI uri = URI.create(taskRequest.getUrl());
+		final HttpGet httpGet = new HttpGet(uri);
+		final HttpResponse response = httpClient.execute(httpGet);
+
+		final ContentSource contentSource;
+
+		try {
+			final HttpEntity entity = response.getEntity();
+			final Header contentTypeHeader = entity.getContentType();
+			if (null == contentTypeHeader)
+				throw new UnsupportedMimeTypeException("none");
+
+			final String mimeType = contentTypeHeader.getValue();
+
+			if (mimeType.startsWith(MIME_TYPE_TEXT_HTML)) {
+
+				final Parser parser = new Parser();
+				final StringBuffer content = new StringBuffer();
+				parser.setContentHandler(new ContentHandler() {
+
+					private final LinkedList<Boolean> captures = new LinkedList<Boolean>();
+
+					private final String[] DONT_CAPTURE_ELEMENTS = { "script",
+							"iframe", "script", "object", "embed" };
+
+					@Override
+					public void startPrefixMapping(String prefix, String uri)
+							throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void startElement(String uri, String localName,
+							String qName, Attributes atts) throws SAXException {
+
+						logger.trace(
+								"Received a start element [ uri :: {} ][ localName :: {} ][ qName :: {} ].",
+								new Object[] { uri, localName, qName });
+
+						if ("title".equals(qName) || "body".equals(qName))
+							captures.add(true);
+
+						if (Arrays.asList(DONT_CAPTURE_ELEMENTS)
+								.contains(qName))
+							captures.add(false);
+					}
+
+					@Override
+					public void startDocument() throws SAXException {
+						captures.add(false);
+					}
+
+					@Override
+					public void skippedEntity(String name) throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void setDocumentLocator(Locator locator) {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void processingInstruction(String target, String data)
+							throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void ignorableWhitespace(char[] ch, int start,
+							int length) throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void endPrefixMapping(String prefix)
+							throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void endElement(String uri, String localName,
+							String qName) throws SAXException {
+
+						logger.trace(
+								"Received an end element [ uri :: {} ][ localName :: {} ][ qName :: {} ].",
+								new Object[] { uri, localName, qName });
+
+						if ("title".equals(qName))
+							content.append("\n");
+
+						if ("title".equals(qName)
+								|| "body".equals(qName)
+								|| Arrays.asList(DONT_CAPTURE_ELEMENTS)
+										.contains(qName))
+							captures.pollLast();
+
+					}
+
+					@Override
+					public void endDocument() throws SAXException {
+						// TODO Auto-generated method stub
+
+					}
+
+					@Override
+					public void characters(char[] ch, int start, int length)
+							throws SAXException {
+
+						if (captures.peekLast())
+							content.append(ch, start, length);
+					}
+				});
+
+				parser.parse(new InputSource(entity.getContent()));
+
+				logger.trace(
+						"The following content has been extracted from the remote URL: {}",
+						content.toString());
+
+				contentSource = new StringSource(content.toString());
+
+			} else if (mimeType.startsWith(MIME_TYPE_TEXT_PLAIN)) {
+				contentSource = new StringSource(IOUtils.toString(entity
+						.getContent()));
+			} else {
+				throw new UnsupportedMimeTypeException(mimeType);
+			}
+			// do something useful with the response body
+			// and ensure it is fully consumed
+			EntityUtils.consume(entity);
+		} finally {
+			httpGet.releaseConnection();
+		}
+
+		return contentSource;
 	}
 
 	@Override
