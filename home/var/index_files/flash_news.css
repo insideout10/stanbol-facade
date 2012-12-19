@@ -1,0 +1,827 @@
+/*  ============ Le classi sono state spostate in boxes-1.x.css ===========
+
+
+
+#flash-news {
+
+	width: 200px;
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/sfondo_flash.gif);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	margin-bottom: 5px;	
+
+}
+
+
+
+#flash-news h3 {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1em;
+
+	font-weight: bold;
+
+	color: #A71B1A;
+
+	padding-left: 5px;
+
+	border-right-width: 1px;
+
+	border-left-width: 1px;
+
+	border-right-style: solid;
+
+	border-left-style: solid;
+
+	border-right-color: #DBDBDB;
+
+	border-left-color: #DBDBDB;
+
+}
+
+
+
+#flash-news h3 strong {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1.3em;
+
+	font-weight: bold;
+
+	color: #666666;
+
+}
+
+
+
+#flash-news .ultime {
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/sep-flash.gif);
+
+	background-repeat: repeat-x;
+
+	background-position: left bottom;
+
+}
+
+
+
+#flash-news .visti-flash .text-sx {
+
+	float: left;
+
+	width: 100px;
+
+}
+
+
+
+#flash-news .visti-flash .text-dx {
+
+	float: right;
+
+	width: 20px;
+
+	padding-top: 3px;
+
+
+
+}
+
+
+
+#flash-news h2 {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1em;
+
+	font-weight: bold;
+
+	color: #A71B1A;
+
+	padding-left: 5px;
+
+}
+
+
+
+#flash-news h2 img {
+
+float:right;
+
+}
+
+
+
+#flash-news h2 strong{
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1em;
+
+	font-weight: bold;
+
+	color: #666666;
+
+}
+
+
+
+#flash-news .content {
+
+height:170px;
+
+	border-right-width: 1px;
+
+	border-left-width: 1px;
+
+	border-right-style: solid;
+
+	border-left-style: solid;
+
+	border-right-color: #DBDBDB;
+
+	border-left-color: #DBDBDB;
+
+	width:198px;
+
+}
+
+
+
+#flash-news .sfondo-flash {
+
+}
+
+
+
+#flash-news .nota-flash {
+
+	font-size: 0.9em;
+
+	width:169px;
+
+	margin-bottom:10px;
+
+}
+
+
+
+#flash-news .nota-flash a {
+
+	font-size: 0.9em;
+
+}
+
+
+
+#flash-news .time-flash {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 0.9em;
+
+	color: #A71B1A;
+
+	font-weight: bold;
+
+}
+
+
+
+#flash-news .luogo-flash {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 0.9em;
+
+	color: #2E66D0;
+
+	font-weight: bold;
+
+}
+
+
+
+#flash-news .testo-flash {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 0.9em;
+
+	color: #666666;
+
+	font-weight: normal;
+
+}
+
+
+
+#box-news {
+
+	background-color: #DCDCDC;
+
+	border: 1px solid #EBEBEB;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/sfondo_letti.gif);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	width: 300px;
+
+	height:205px;
+
+	margin-bottom: 10px;
+
+	margin-top: 5px;
+
+}
+
+
+
+#box-news .rigashopping {
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/puntini_box.gif);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	height: 2px;
+
+	margin-bottom: 5px;
+
+	margin-right: 5px;
+
+	margin-left: 5px;
+
+}
+
+
+
+#box-news .rigashopping2 {
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/puntini_box_mobile.gif);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	height: 2px;
+
+	width: 295px;
+
+}
+
+
+
+#box-news .tit {
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/puntini1.gif);
+
+	background-repeat: no-repeat;
+
+	background-position: left center;
+
+	float: left;
+
+	width: 285px;
+
+	padding-left: 5px;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/shopping_logo.gif);
+
+	height: 25px;
+
+	margin-left: 3px;
+
+	padding-right: 5px;
+
+}
+
+
+
+#box-news .red {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1.2em;
+
+	color: #B01216;
+
+	width: 270px;
+
+	padding-left: 5px;
+
+	text-align: left;
+
+	height: 25px;
+
+	font-weight: bold;
+
+}
+
+
+
+#box-news .testo {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1.6em;
+
+	font-weight: bold;
+
+	color: #566173;
+
+}
+
+
+
+#box-news .tit ul li {
+
+	display: inline;
+
+}
+
+
+
+#box-news ul li {
+
+	float: left;
+
+	display: block;
+
+}
+
+
+
+#box-news ul li img {
+
+	text-align: center;
+
+}
+
+
+
+#box-news ul li a {
+
+	text-indent: -5000px;
+
+	display: block;
+
+	width: 90px;
+
+	height: 20px;
+
+	background-attachment: scroll;
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/news_3_back.gif);
+
+	background-repeat: no-repeat;
+
+	background-position: left 0px;
+
+}
+
+
+
+#box-news ul li a.tab-giorno {
+
+	background-position: 22px top;
+
+}
+
+
+
+#box-news ul li a.tab-giorno:hover,
+
+#box-news ul li.ui-tabs-selected a.tab-giorno {
+
+	background-position: 22px -21px;
+
+}
+
+
+
+#box-news ul li a.tab-settimana {
+
+	background-position: -75px top;
+
+}
+
+
+
+#box-news ul li a.tab-settimana:hover,
+
+#box-news ul li.ui-tabs-selected a.tab-settimana {
+
+	background-position: -75px -21px;
+
+}
+
+
+
+#box-news ul li a.tab-mese {
+
+	background-position: -162px top;
+
+}
+
+
+
+#box-news ul li a.tab-mese:hover,
+
+#box-news ul li.ui-tabs-selected a.tab-mese {
+
+	background-position: -162px -21px;
+
+}
+
+
+
+#nota-flash {
+
+	width: 278px;
+
+	padding-bottom: 15px;
+
+}
+
+
+
+#nota-flash .time-flash {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 1.2em;
+
+	color: #CB1814;
+
+	text-decoration: none;
+
+	width: 15px;
+
+	font-weight: bold;
+
+	height: 18px;
+
+	float: left;
+
+}
+
+
+
+#nota-flash .testo-flash {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 1.2em;
+
+	color: #555A5B;
+
+	text-decoration: none;
+
+	line-height: 1.2em;
+
+}
+
+
+
+.holder2 {
+
+	float: left;
+
+	margin-left: 2px;
+
+	margin-left: 3px;
+
+}
+
+
+
+.scroll-pane2 {
+
+	width: 290px;
+
+	overflow: auto;
+
+	float: left;
+
+	height: 160px;
+
+}
+
+
+
+.winXP2 .jScrollPaneTrack {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_track.gif) repeat-y;
+
+}
+
+
+
+.winXP2 .jScrollPaneDrag {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_middle.gif) no-repeat 0 50%;
+
+}
+
+
+
+.winXP2 .jScrollPaneDragTop {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_top.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP2 .jScrollPaneDragBottom {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_bottom.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP2 a.jScrollArrowUp {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_up.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP2 a.jScrollArrowUp:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP2 a.jScrollArrowDown {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_down.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP2 a.jScrollArrowDown:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP2 a.jScrollActiveArrowButton, .winXP a.jScrollActiveArrowButton:hover {
+
+	background-position: 0 -40px;
+
+}
+
+
+
+.holder3 {
+
+	float: left;
+
+	margin-left: 2px;
+
+	margin-left: 3px;
+
+}
+
+
+
+.scroll-pane3 {
+
+	width: 290px;
+
+	overflow: auto;
+
+	float: left;
+
+	height: 160px;
+
+}
+
+
+
+.winXP3 .jScrollPaneTrack {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_track.gif) repeat-y;
+
+}
+
+
+
+.winXP3 .jScrollPaneDrag {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_middle.gif) no-repeat 0 50%;
+
+}
+
+
+
+.winXP3 .jScrollPaneDragTop {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_top.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP3 .jScrollPaneDragBottom {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_bottom.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP2 a.jScrollArrowUp {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_up.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP3 a.jScrollArrowUp:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP3 a.jScrollArrowDown {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_down.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP3 a.jScrollArrowDown:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP3 a.jScrollActiveArrowButton,
+
+.winXP a.jScrollActiveArrowButton:hover {
+
+	background-position: 0 -40px;
+
+}
+
+
+
+.holder4 {
+
+	float: left;
+
+	margin-left: 2px;
+
+	margin-left: 3px;
+
+}
+
+
+
+.scroll-pane4 {
+
+	width: 290px;
+
+	overflow: auto;
+
+	float: left;
+
+	height: 160px;
+
+}
+
+
+
+.winXP4 .jScrollPaneTrack {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_track.gif) repeat-y;
+
+}
+
+
+
+.winXP4 .jScrollPaneDrag {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_middle.gif) no-repeat 0 50%;
+
+}
+
+
+
+.winXP4 .jScrollPaneDragTop {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_top.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP4 .jScrollPaneDragBottom {
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_drag_bottom.gif) no-repeat;
+
+	height: 4px;
+
+}
+
+
+
+.winXP42 a.jScrollArrowUp {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_up.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP4 a.jScrollArrowUp:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP4 a.jScrollArrowDown {
+
+	height: 17px;
+
+	background: url(http://images.corriereobjects.it/images/static/common/windows_arrow_down.gif) no-repeat 0 0;
+
+}
+
+
+
+.winXP4 a.jScrollArrowDown:hover {
+
+	background-position: 0 -20px;
+
+}
+
+
+
+.winXP4 a.jScrollActiveArrowButton, .winXP a.jScrollActiveArrowButton:hover {
+
+	background-position: 0 -40px;
+
+} */

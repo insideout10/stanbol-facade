@@ -1,0 +1,58 @@
+ul.linkbar {
+	font-size: 1.1em;
+}
+
+#forum-blog-sx dt a,
+#forum-blog-dx dt a {
+	font-size: 1.04em;
+}
+
+#testata-home ul li,
+#testata-sezione li {
+	font-size: 1.3em;
+}
+
+#flash-news .nota-flash {
+	font-size: 0.95em;
+}
+
+#footer p.copyright,
+#footer ul.links,
+#footer .websites p {
+	font-size: 1.1em;
+}
+
+#forum-blog-sx dd, #forum-blog-dx dd {
+	height: 108px;	
+}
+
+#altri-titoli li a {
+	font-size: 1em;
+}
+
+.commento .testoComm,
+.commento .autoreComm,
+.commento .titoloComm,
+.commento .data {
+	font-size: 1.1em;
+}
+
+.commento .testoComm {
+	color: #595f5f;
+}
+
+.articleSalute p {
+	font-size: 1.1em;
+}
+
+.articleSalute h3 {
+	font-size: 1.3em;
+}
+
+.homearticle-salute {
+	font-size: 1em;
+}
+
+.homearticle-salute a {
+	color: #555;
+}

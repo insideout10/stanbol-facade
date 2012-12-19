@@ -1,0 +1,3 @@
+Category="Category=ATTUALITA";
+SubCategory="SubCategory=Politica";
+OAS_taxonomy = Category+"&"+SubCategory;

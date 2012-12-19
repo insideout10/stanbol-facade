@@ -1,0 +1,134 @@
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+	
+*/
+@font-face {
+    font-family: 'BreraCondensedSemiBold';
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.eot');
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.woff') format('woff'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.ttf') format('truetype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnsb-webfont.svg#BreraCondensedSemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#menu_hp_cor {
+    margin-bottom: 0 !important;
+	overflow:hidden;
+}
+#header_menu_meth .wide-pushbar {
+    margin: 0 auto 15px !important;
+	padding:0;
+}
+#menu_hp_cor a.sel_link {
+	height:23px;
+    padding: 4px 9px !important;
+}
+#menu_hp_cor a:hover {
+	text-decoration:underline;
+}
+#menu_hp_cor a.sel_link {
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0; /* firefox */
+	-webkit-border-radius: 5px 5px 0 0; /* safari, chrome */	
+}
+#menu_hp_cor a.sel_link_single {
+	border-radius: 5px !important;
+	-moz-border-radius: 5px !important; /* firefox */
+	-webkit-border-radius: 5px !important; /* safari, chrome */	
+}
+#header_menu_meth #menu_hp_cor a.sel_link:hover {
+	color:#ffffff !important;
+}
+#menu_hp_cor a.sel_link div.top_sx {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/new/sec_lev_corner_sx.png?v=201112140445) no-repeat 0 0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:5px;
+	height:5px;
+}
+#menu_hp_cor a.sel_link div.top_dx {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/new/sec_lev_corner_dx.png?v=201112140445) no-repeat 0 0;
+	position:absolute;
+	top:0;
+	right:0;
+	width:5px;
+	height:5px;	
+}
+#menu_separatore {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/new/menu_separatore.gif?v=201112140445) no-repeat -3px 0;
+	position:absolute;
+	width:991px;
+	height:22px;
+	top:60px;
+	left:0;
+}
+#menu_separatore a {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/new/menu_open.gif?v=201112140445) no-repeat 6px 6px;
+    float: right;
+    height: 20px;
+    margin-right: 3px;
+    width: 25px;
+}
+#menu_separatore a.close {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/new/menu_close.gif?v=201112140445) no-repeat 10px 0;
+}
+#footer {
+    padding:0 !important;
+}
+#menu_footer .cont_m_footer {
+    margin: -450px 0 0;
+}
+#header_menu_meth .bg_menu_selected img {
+    margin-top: -4px;
+    vertical-align: -6px;
+}
+
+	
+	
+
+	
+	
+		#menu_hp_cor a:hover,
+		#header_menu_meth  .top_header #testata-dinamica-new li.sezione-sottosezione strong a {
+			color: #dc4b4b !important;
+		}
+		#header_menu_meth .bg_menu_selected,
+		#menu_hp_cor a.sel_link {
+			background-color:#dc4b4b !important;
+			color:#ffffff !important;
+		}
+		#header_menu_meth .bg_menu_selected .sub_menu_last,
+		#header_menu_meth .bg_menu_selected .sub_menu_back {
+			background-color:#691316;
+		}
+		#header_menu_meth .bg_menu_selected .sub_menu {
+			background-color:#9f2929;
+		}													
+	
+

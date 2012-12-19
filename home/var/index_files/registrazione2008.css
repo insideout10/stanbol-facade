@@ -1,0 +1,536 @@
+#main-registrazione {
+    text-align: left !important;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+/*box benvenuti*/ #reg-benvenuti {
+    width: 944px; /*height:70px*/;
+    background-color: #DCEEF8;
+    border: 2px solid #CAE6F4;
+}
+#reg-benvenuti h2 {
+    font-family: georgia;
+    font-weight: bold;
+    color: #6893BD;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+    margin-top: 10px;
+    line-height: 12px;
+}
+#reg-benvenuti p {
+    padding: 10px;
+    color: #63676A;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Georgia;
+    display: block;
+}
+
+/*box form*/ #cont-reg-form { /*width:944px;height:400px;*/
+}
+#reg-form {
+    font-size: 11px;
+    font-family: verdana;
+    width: 748px;
+    height: auto;
+    padding-left: 200px;
+}
+#reg-form ul {
+    clear: left;
+}
+#reg-form li {
+    float: left;
+    list-style-type: none;
+    width: 180px;
+    text-align: left;
+    height: 25px;
+    padding: 20px 0px 0px 10px;
+}
+#reg-form .testo-tit {
+    text-align: right;
+    color: #63676A;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 14px
+}
+#reg-form .testo-sub_tit {
+    font-size: 11px;
+    font-family: arial;
+    width: 280px;
+}
+#reg-form .testo-allinea {
+    padding-left: 3px;
+}
+
+/*modifica*/ #cont-reg-form-mod {
+    margin: 20px 0;
+}
+#reg-form-mod {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#reg-form-mod table tr td {
+    line-height: 30px;
+}
+#reg-form-mod table tr td.align-sx {
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+/*iscrizione newsletter*/ .testo-input {
+    font-size: 10px;
+    font-family: georgia;
+    vertical-align: middle;
+    color: #666;
+}
+.sub-tit {
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase; /*color:#000*/
+}
+#campi-obbl {
+    font-size: 11px;
+    font-family: arial;
+    padding: 0px 0px 10px 0px
+}
+#reg-iscr {
+    width: 944px;
+    height: auto;
+    border: 1px solid #000;
+    background-color: #E0DFCA;
+    clear: left;
+    padding-bottom: 10px
+}
+#reg-iscr h2 {
+    color: #5385C4;
+    font-size: 16px;
+    font-family: georgia;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px
+}
+#reg-iscr p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: georgia;
+    font-weight: bold;
+}
+#reg-iscr ul li {
+    padding-left: 10px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Time new roman'
+}
+#iscrizione-newsletter {
+    width: 435px; /*height:135px;*/
+    float: left;
+    margin: 20px 0 0 0;
+}
+#iscrizione-newsletter .not {
+    margin-left: 15px; /*margin-top:20px;*/
+}
+#iscrizione-newsletter span {
+    font-size: 16px;
+    color: #5385C4;
+    font-weight: bold;
+}
+#iscrizione-newsletter p {
+    padding-left: 35px;
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+/*errore*/ #registrazione-err {
+    background: #ffffcd;
+    border: 2px solid #cae8f2;
+    border-top: none;
+    width: 934px;
+    text-align: left;
+    padding: 5px;
+}
+#registrazione-err h3 {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+#registrazione-err p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*disclaimer*/ #reg-disclaimer {
+    width: 944px;
+    border: 1px solid #DDDDDF;
+    background-color: #F5F5F7;
+    clear: left;
+    margin-top: 10px;
+	padding-bottom: 10px;
+}
+#reg-disclaimer h2 {
+    color: #5385C4;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px
+}
+#reg-disclaimer h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    font-family: arial;
+    font-weight: bold;
+    color: #000;
+    line-height: 14px
+}
+#reg-disclaimer p {
+    padding-left: 10px;
+    font-size: 11px;
+    font-family: arial;
+    color: #000;
+    line-height: 12px;
+    padding-top: 10px;
+}
+#reg-disclaimer textarea {
+    width: 920px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#reg-disclaimer input {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#reg-disclaimer .accetto {
+    font-size: 14px;
+    font-family: arial
+}
+#reg-disclaimer a.link-informativa {
+	background:url("/images/static/common/bg-bt-informativa.gif") no-repeat scroll 0 0 transparent;
+	color:#EEEEEE;
+	display:block;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	text-transform:uppercase;
+	width:100px;
+}
+#reg-disclaimer-1 {
+    width: 944px;
+    height: 300px;
+    border: 1px solid #DDDDDF;
+    background-color: #F5F5F7;
+    clear: left;
+    margin-top: 10px
+}
+#reg-disclaimer-1 h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    font-family: arial;
+    color: #000;
+    font-weight: bold;
+    line-height: 14px
+}
+#reg-disclaimer-1 textarea {
+    width: 920px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#reg-disclaimer-1 p {
+    padding-left: 10px;
+    font-size: 10px;
+    font-family: arial;
+    color: #000;
+    line-height: 12px;
+    padding-top: 10px;
+}
+#reg-disclaimer-1 input {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#reg-disclaimer-1 .accetto {
+    font-size: 14px;
+    font-family: arial
+}
+
+/*iscriviti*/ #reg-invia {
+    width: 944px;
+    height: 80px;
+    background-color: #DCEEF8;
+    border: 2px solid #CAE6F4;
+    margin-top: 10px;
+}
+#reg-invia img {
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px
+}
+#reg-invia input {
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px
+}
+
+ul.newsletter-reg {
+    margin: 10px 0;
+    padding-left: 25px;
+}
+
+ul.newsletter-reg li {
+    display: block;
+    float: left;
+}
+
+ul.newsletter-reg li.nl-reg-radio {
+    width: 12px; /*margin-bottom:10px*/
+}
+
+/*conferma*/ 
+#main-registrazione {
+    margin: 11px auto 0 auto;
+    width: 961px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    min-height: 450px;
+    height: auto !important;
+    height: 450px;
+	float: none !important;
+}
+#registrazione-box-alto {
+    border: 2px solid #cce7f0;
+    padding: 5px 10px 20px 10px;
+    background: #dbedf9;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#registrazione-box-alto h3 {
+    padding-bottom: 10px;
+    color: #5e92cb;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+#registrazione-box-alto p {
+    margin: 0 0 20px 0;
+    color: #63676A;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Georgia;
+}
+#registrazione-box-alto ul.registrazione-lista {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+#registrazione-box-alto ul.registrazione-lista li {
+    line-height: 25px;
+}
+#registrazione-box-alto a {
+    color: #5e92cb;
+    text-decoration: underline;
+}
+#registrazione-box-alto ul.registrazione-form {
+    text-align: right;
+    width: 250px;
+    padding: 6px 0 0 250px;
+}
+#registrazione-box-alto ul.registrazione-form li {
+    height: 40px;
+    color: #63676a;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+#registrazione-box-alto ul.registrazione-bottoni {
+    text-align: left;
+    width: 150px;
+    padding-left: 10px;
+}
+#registrazione-box-alto ul.registrazione-bottoni li {
+    height: 40px;
+    width: 290px;
+}
+#registrazione-box-alto ul.registrazione-bottoni li img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#registrazione-box-alto ul.registrazione-bottoni li p.gestisci-profilo {
+    font-size: 11px;
+    color: #666;
+    line-height: inherit;
+    float: right;
+    width: 200px;
+    font-family: Arial;
+    font-weight: normal;
+}
+#resistrazione-form {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.registrazione-back {
+    padding: 20px 0 0 350px;
+    color: #6392c8;
+    text-decoration: underline;
+}
+#pwd-dimenticata a, #registrati-ora a {
+    font-size: 14px;
+    color: #6091c9;
+    text-decoration: none;
+    padding: 0 0 10px 0;
+}
+#pwd-dimenticata a:hover, #registrati-ora a:hover {
+    text-decoration: underline;
+}
+#pwd-dimenticata a span, #registrati-ora a span {
+    color: red;
+}
+
+/*  -------------------------------  */ #blocco-registrazione {
+    margin: 20px 0;
+}
+#blocco-registrazione .hide-registrazione {
+    display: none;
+}
+#blocco-registrazione #blocco01 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5c5c;
+    width: 300px;
+}
+#blocco-registrazione #blocco02 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5c5c;
+    width: 315px;
+}
+#blocco-registrazione #blocco03 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5c5c;
+    width: 330px;
+}
+#blocco-registrazione #blocco01 ol, #blocco-registrazione #blocco02 ol, #blocco-registrazione #blocco03 ol {
+    list-style-type: none;
+    list-style-position: outside;
+}
+#blocco-registrazione #blocco01 ol li, #blocco-registrazione #blocco02 ol li, #blocco-registrazione #blocco03 ol li {
+    height: 40px;
+    float: left;
+}
+
+label {
+    width: 125px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+.radioutente1, .radioutente2, .radioutente3, .radioutente4 {
+    width: 65px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/*.reg-prof {
+ width:81px;
+ }*/ .cornice-errore-rosso {
+    outline: 2px solid #f00;
+    -moz-outline-radius: 2px !important;
+    border: 2px solid red;
+}
+
+/*Password Retrive 2008*/ .theform fieldset ol li label {
+    width: 7.6em;
+    display: -moz-inline-box;
+    display: inline-block;
+    font-size: 1.4em;
+    margin-left: 1em;
+}
+.theform fieldset legend {
+    font-size: 1.8em;
+    font-family: Georgia, Palatino, Times, serif;
+    color: #606060;
+    padding-left: .8em;
+}
+.theform .descr {
+    clear: both;
+    background-color: #DBEDF7;
+    border: 0.2em solid #CDE6F3;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: .3em;
+    height: auto;
+}
+.theform .descr h1 {
+    font-size: 2em;
+    font-family: Georgia, Palatino, Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #6091c9;
+}
+.theform p {
+    margin-top: .5em;
+    /*width: 50em;  (fieldset width *2)/1.2 */
+}
+.theform .descr p .nota {
+    color: #656565;
+    font-weight: bold;
+}
+.theform .descr p {
+    font-size: 1.2em;
+    line-height: 1.3;
+    color: #565a5b;
+}
+.theform .white {
+    background-color: #FFFFFF;
+}
+
+/********************
+ login
+ ********************/ .theform #block-login {
+    margin-bottom: 1.5em;
+}
+.theform #block-login p {
+    margin-bottom: .5em;
+}
+.theform .descr ol {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    clear: none;
+    width: 47em;
+    float: left;
+}
+.theform .descr .single {
+    width: 23em;
+}
+.theform .descr ol li label {
+    margin-left: 0;
+    width: 4.7em;
+}
+.theform .descr #submit-login {
+    display: inline;
+    float: left;
+    background: url("grad.jpg");
+    margin-top: .2em;
+    padding: .5em .8em;
+}

@@ -1,0 +1,3065 @@
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+*/
+
+
+
+/* ====================== BOX ITALIA OGGI ======================  */
+/* boxes-4.3.css */
+h4.italiaoggi {
+	display:block;
+	margin-top: 25px;
+	color: #bb1612;
+	font-family: Georgia, Palatino, serif;
+	font-size: 1.39em;
+	padding: 10px 0 4px 0;
+	font-weight: bold;
+	line-height: 1;
+	border: none;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523) repeat-x left bottom;
+}
+
+h4.italiaoggi strong {
+	color: #4D5562;
+	font-family: Georgia,Serif;
+	font-size: 1.43em;
+	font-weight: normal;
+}
+
+p.italiaoggi {
+	position: relative;
+	top: -23px;
+	background: transparent none;
+	margin-bottom: -21px;
+	font-family: Georgia, Palatino, serif;
+	font-size: 1.1em;
+	text-align: right;
+	padding: 10px 10px 0 0;
+	color: #565A5B;
+}
+
+ul.italiaoggi {
+	margin-bottom: 15px;
+	background: transparent none;
+	font-family: Georgia, Palatino, serif;
+	padding: 10px 0 0 0;
+	color: #565A5B;
+	border: 0;
+}
+
+ul.italiaoggi a {
+	color: #565A5B;
+	text-decoration: none;
+}
+
+ul.italiaoggi a.black:hover,
+ul.italiaoggi a.red:hover {
+	text-decoration: underline;
+}
+
+ul.italiaoggi li {
+	list-style: none;
+	background: transparent none;
+	/* background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523) repeat-x left bottom;*/
+}
+
+ul.italiaoggi li:last-child { /* Funziona in FF 1.5 e 2, Opera 9, Konqueror: vedi la libreria animazioni javascript per una patch per IE e Safari */
+background: transparent none;
+}
+
+ul.italiaoggi li h5 {
+	font-size:1.8em;
+	letter-spacing:-0.03em;
+	line-height:1;
+	word-spacing:-0.04em;
+}
+
+ul.italiaoggi li h5 a:hover {
+	text-decoration: underline;
+}
+
+ul.italiaoggi li .img {
+	margin: 5px 0 7px 0;
+}
+
+ul.italiaoggi li h6 {
+	font-size:1.5em;
+	letter-spacing:0;
+	padding:5px 0pt 0pt;
+	word-spacing:0;
+	line-height:1.1em;
+	color: #2668AD;
+	background: transparent url(http://images2.corriereobjects.it/Media/Icone/home_link/ico_QuadratinoBlu.gif?v=20121204212953) no-repeat left 12px;
+	text-indent: 18px;
+}
+
+ul.italiaoggi li h6 a {
+	color: #2668AD;
+}
+
+ul.italiaoggi li h6 a:hover {
+	text-decoration: underline;
+}
+
+ul.italiaoggi li p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding: 0pt 0pt 5px;
+	margin:0;
+}
+
+/* article.css (line 297) */
+.italiaoggi .section {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:75%;
+	color: #828282;
+}
+
+/* ====================== / BOX ITALIA OGGI ======================  */
+
+/* ================== BOX BLOG FORUM TERZA COLONNA ===============  */
+
+
+h4.blogforum {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523) repeat-x scroll left bottom;
+	border:medium none;
+	color:#BB1612;
+	display:block;
+	font-family:Georgia,Palatino,serif;
+	font-size:1.4em;
+	font-weight:bold;
+	line-height:1;
+	padding:10px 0 4px;
+}
+
+h4.blogforum strong {
+	color:#4D5562;
+	font-family:Georgia,Serif;
+	font-size:1.3em;
+	font-weight:normal;
+}
+
+ul.blogforum {
+	background:transparent none repeat scroll 0 0;
+	border:0 none;
+	color:#565A5B;
+	font-family:Georgia,Palatino,serif;
+	margin-bottom:15px;
+	padding: 10px 0 0 0;
+}
+
+ul.blogforum li h6 {
+	background:transparent url(http://images2.corriereobjects.it/Media/Icone/home_link/ico_QuadratinoBlu.gif?v=20121204212953) no-repeat scroll left 12px;
+	color:#2668AD;
+	font-size:1.4em;
+	letter-spacing:0;
+	line-height:1.1em;
+	padding:5px 0 0 0;
+	text-indent:18px;
+	word-spacing:0;
+}
+
+ul.blogforum li p {
+	font-family:georgia;
+	font-size:1em;
+	padding: 7px 0 0 0;
+	color: #828282;
+	margin-bottom: 7px;
+}
+
+ul.blogforum li h6 a:hover {
+	text-decoration:underline;
+}
+
+ul.blogforum li h6 a {
+	color:#2668AD;
+}
+
+/* ================== BOX BLOG FORUM TERZA COLONNA ===============  */
+
+
+
+
+/* ====================== BOX NOTIZIE CORRELATE ======================  */
+
+.notizie-correlate {
+	background: #EEEEEE none;
+	border: 1px solid #cccccc;
+	color: #2668AD;
+	font-family: Georgia, Palatino, serif;
+	padding: 10px;
+	line-height: 0.8;
+	margin-bottom: 1em;
+}
+
+
+
+.notizie-correlate a {
+	text-decoration: none;
+	color: #2668AD;
+}
+
+
+
+.notizie-correlate li h5 {
+	font-size: 0.60em;
+	color: #A53038;
+	padding: 0 0 10px 0;
+}
+
+
+
+.notizie-correlate li {
+	list-style: none;
+	padding: 0;
+}
+
+
+
+.notizie-correlate li h6 {
+	font-size: 0.70em;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/piu.gif?v=20070921143640) no-repeat left 5px;
+	text-indent: 12px;
+	line-height: 1.4em;
+}
+
+
+
+/* bacheca openx */
+div.bacheca-pub-home {
+	width:280px;
+	margin:auto;
+	border:1px solid #C0C0C0;
+	z-index:1;
+	padding: 0 10px 10px 10px;
+	font-family: verdana;
+	line-height: 1.3em;
+	margin-top:10px;
+	color: #000000;
+}
+
+div.bacheca-pub-home  p {
+	margin-top:5px;
+}
+
+div.bacheca-pub-viaggi div a.title {
+	margin:5px 0 3px 0;
+	color:#852C5E;
+	display:block;
+	font-family:georgia;
+	font-weight: bold;
+	font-size:12px;
+}
+
+div.bacheca-pub-home a {
+	color:#565656;
+	text-decoration:none;
+}
+
+
+div.bacheca-pub-home div{
+	display: block;
+	min-height: 55px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 9px 10px 9px 10px;
+	/*height:70px;*/
+}
+
+div.bacheca-pub-home div a.img img{
+	float: left;
+	border: 1px solid #999999;
+	margin:3px 10px 3px 0;
+	width:80px;
+	height:60px;
+}
+
+
+h6.bacheca-pub-home{
+	padding: 0 10px 0 10px;
+	color: #B7B7B7 !important;
+	font-family: verdana;
+	font-size: 9px !important;
+	font-weight: normal;
+	margin-top:-7px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #ffffff;
+	width: 50px;
+}
+
+
+
+div.boxpub {
+	border:1px solid #C0C0C0;
+	z-index:1;
+	padding: 8px 5px 8px 5px;
+	margin-top: 10px;
+}
+div.boxpub a {
+    color: #565656;
+    text-decoration: none;
+}
+div.boxpub div a.img img {
+    border: 1px solid #999999;
+    float: left;
+    height: 60px;
+    margin: 3px 10px 3px 0;
+    width: 80px;
+}
+div.boxpub div a.title {
+    display: block;
+    font-family: georgia;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0 3px;
+}
+div.boxpub div a.title {
+    display: block;
+    font-family: georgia;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0 3px;
+}
+div.boxpub div {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px 0;
+	overflow:auto;
+}
+div.boxpub div p img {
+    display:inline;
+}
+
+h6.boxpub{
+	padding: 0 10px 0 10px;
+	color: #B7B7B7;
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: normal;
+	margin-top:-7px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #ffffff;
+	width: 50px;
+}
+
+ul.bacheca-pub {
+	border:1px solid #C0C0C0;
+	z-index:1;
+	padding: 0 10px 10px 10px;
+	font-family: verdana;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin-top:10px;
+	color: #000000;
+}
+
+ul.bacheca-pub li a {
+	color: #000000;
+}
+
+ul.bacheca-pub li{
+	display: block;
+	min-height: 55px;
+	height: auto !important;
+	height: 55px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 6px 10px 8px 10px;
+}
+
+ul.bacheca-pub li .img {
+	float: left;
+	border: 1px solid #999999;
+	margin:expression(this.width > 260? "0px 0px 0px -5px": "0 20px 0 0" );
+}
+
+ul.bacheca-pub li .img2 {
+	float: left;
+	border: 1px solid #999999;
+	margin: 0px 0px 0px -5px;
+}
+
+h6.bacheca-pub{
+	padding: 0 10px 0 10px;
+	color: #B7B7B7 !important;
+	font-family: verdana;
+	font-size: 9px !important;
+	font-weight: normal;
+	margin-top:-7px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #ffffff;
+	width: 50px;
+}
+
+/* bacheca libri */
+ul.bacheca-pub-libri {
+	border:1px solid #C0C0C0;
+	z-index:1;
+	padding: 5px 10px 10px 10px;
+	font-family: arial;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin-top:10px;
+	color: #7E7E7E;
+}
+
+ul.bacheca-pub-libri li a {
+	color: #7E7E7E;
+}
+
+ul.bacheca-pub-libri li strong {
+	color: #000000;
+	display: block;
+	margin:0 0 -5px 0;
+	padding:0;
+}
+
+ul.bacheca-pub-libri li{
+	display: block;
+	min-height: 85px;
+	height: auto !important;
+	height: 85px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 5px 0 3px 0;
+}
+
+ul.bacheca-pub-libri li .img {
+	float: right;
+	border: 1px solid #999999;
+}
+
+h6.bacheca-pub-libri{
+	padding: 0 10px 0 10px;
+	color: #B7B7B7;
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: normal;
+	margin-top:-7px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #ffffff;
+	width: 50px;
+}
+
+/* / bacheca libri */
+/* Bacheca Motori */
+ul.bacheca-pub-motori {
+	border:1px solid #C0C0C0;
+	z-index:1;
+	padding: 0 10px 10px 10px;
+	font-family: verdana;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin-top:10px;
+	color: #000000;
+}
+
+ul.bacheca-pub-motori li a {
+	color: #000000;
+	padding-top:10px;
+	width:130px;
+}
+
+ul.bacheca-pub-motori li{
+	display: block;
+	min-height: 71px;
+	height: auto !important;
+	height: 71px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 6px 0 8px 10px;
+}
+ul.bacheca-pub-motori li.last{
+	border-bottom:none;
+}
+
+ul.bacheca-pub-motori li .img {
+	float: left;
+	border: 1px solid #999999;
+	margin: 0 20px 0 0;
+}
+
+h6.bacheca-pub-motori{
+	padding: 0 10px 0 10px;
+	color: #B7B7B7;
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: normal;
+	margin-top:-7px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #ffffff;
+	width: 50px;
+}
+/**/
+
+.boxmkt-80, .boxmkt-160-oriz, .boxmkt-160-vert, .boxmkt-240{
+	background: #F5F5F7 none;
+	padding: 7px;
+	color: #566172;
+	font-size: 1.1em;
+	font-family: arial;
+	line-height: 1.2em;
+	display: block;
+	margin: 10px 0 0 0;
+	border: 2px solid #DDDDDD
+}
+
+.boxmkt-80 a, .boxmkt-160-oriz a, .boxmkt-160-vert a, .boxmkt-240 a{
+	color: #566172;
+	text-decoration: none;
+}
+
+.boxmkt-80 a.red, .boxmkt-160-oriz a.red, .boxmkt-160-vert a.red, .boxmkt-240 a.red{
+	color: #AA1511;
+	text-decoration: none;
+}
+
+.boxmkt-80 a:hover, .boxmkt-160-oriz a:hover, .boxmkt-160-vert a:hover, .boxmkt-240 a:hover{
+	text-decoration: underline;
+}
+
+.boxmkt-80 h5, .boxmkt-160-oriz h5, .boxmkt-160-vert h5, .boxmkt-240 h5 {
+	font-family: georgia;
+	color: #AD1514;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.3em;
+	padding-bottom: 8px;
+}
+
+.boxmkt-80 h5.long {
+	font-family: georgia;
+	color: #AD1514;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding-bottom: 8px;
+}
+
+.boxmkt-80 h5.long strong{
+	color: #AD1514;
+	font-family: georgia;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding-bottom: 8px;
+}
+.boxmkt-80 h5 strong, .boxmkt-160-oriz h5 strong, .boxmkt-160-vert h5 strong, .boxmkt-240 h5 strong {
+	color: #556273;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+
+
+.boxmkt-80 h6, .boxmkt-160-oriz h6, .boxmkt-160-vert h6, .boxmkt-240 h6 {
+	font-family: georgia;
+	color: #566172;
+}
+
+.boxmkt-80 p a:hover, .boxmkt-160-oriz p a:hover, .boxmkt-160-vert p a:hover, .boxmkt-240 p a:hover {
+	text-decoration: none;
+}
+
+.boxmkt-80 img, .boxmkt-160-vert img {
+	float: right;
+	margin-left: 10px;
+}
+
+.boxmkt-80 img.tit{
+	float: left;
+	margin:0;
+}
+
+.boxmkt-80 {
+	min-height: 67px;
+	height: auto !important;
+	height: 67px;
+}
+
+.boxmkt-80 h6 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.boxmkt-160-oriz {
+	font-size: 1.1em;
+	font-family: arial;
+	min-height: 67px;
+	line-height: 1.2em;
+}
+
+.boxmkt-160-oriz h6 {
+	font-size: 1.6em;
+	padding-bottom: 5px;
+	line-height: 1.2em;
+}
+
+.boxmkt-160-oriz p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.boxmkt-160-vert h6 {
+	font-size: 1.6em;
+	padding-bottom: 5px;
+	line-height: 1.2em;
+	margin: 15px 0 2px 0;
+}
+
+.boxmkt-160-vert p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	line-height: 1.42em;
+}
+
+.boxmkt-240 h6 {
+	font-size: 2em;
+	padding-bottom: 5px;
+	line-height: 1.2em;
+	margin: 5px 0 0 0;
+}
+
+.boxmkt-240 p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	line-height: 1.42em;
+}
+
+
+/* speciale vodafone */
+.boxmkt-80-vodafone {
+	background: #F5F5F7 none;
+	padding: 3px 0 0 3px;
+	color: #566172;
+	font-size: 1.1em;
+	font-family: arial;
+	line-height: 1.2em;
+	display: block;
+	margin: 10px 0 0 0;
+	border: 2px solid #DDDDDD;
+	min-height: 87px;
+	height: auto !important;
+	height: 87px;
+}
+
+.boxmkt-80-vodafone a{
+	color: #566172;
+	text-decoration: none;
+}
+
+.boxmkt-80-vodafone p a{
+	font-weight: normal;
+}
+
+.boxmkt-80-vodafone a:hover{
+	text-decoration: underline;
+}
+
+.boxmkt-80-vodafone h5 {
+	font-family: georgia;
+	color: #AD1514;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.3em;
+	padding-bottom: 8px;
+	margin-left:17px;
+}
+
+.boxmkt-80-vodafone h5 strong {
+	color: #556273;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.boxmkt-80-vodafone img {
+	float: right;
+	margin-left: 2px;
+}
+
+.boxmkt-80-vodafone h6 {
+	font-family: georgia;
+	color: #566172;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-align:right;
+	letter-spacing:-1px;
+}
+
+.boxmkt-80-vodafone p {
+	font-weight: normal !important;
+	text-align:right;
+}
+
+.boxmkt-80-vodafone p a:hover {
+	text-decoration: none;
+}
+
+/* speciale cavit */
+.boxmkt-cavit {
+	background: #ffffff url(http://images2.corriereobjects.it/images/static/common/cavit_sfondo.gif?v=20080228112244) repeat-y right top;
+	padding: 4px;
+	color: #494949;
+	font-size: 1.1em;
+	font-family: verdana;
+	line-height: 1.2em;
+	display: block;
+	margin: 10px 0 0 0;
+	border: 1px solid #9C9C9C;
+	min-height: 67px;
+	height: auto !important;
+	height: 67px;
+}
+
+.boxmkt-cavit a {
+	color: #494949;
+	text-decoration: none;
+}
+
+.boxmkt-cavit h4 {
+	font-family: verdana;
+	color: #566172;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+	padding-top: 3px;
+}
+
+.boxmkt-cavit h5 {
+	font-family: verdana;
+	color: #566172;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+.boxmkt-cavit h6 a:hover {
+	text-decoration: none;
+}
+
+.boxmkt-cavit h6, .boxmkt-cavit p {
+	font-family: verdana;
+}
+
+.boxmkt-cavit img {
+	float: left;
+	margin-right: 5px;
+}
+
+/* dietaclub */
+.boxmkt-dieta {
+	display: block;
+	margin: 0 0 2px 0;
+	border: 2px solid #D4D800;
+	color: #666666;
+	font-size: 1.1em;
+	font-family: arial;
+	line-height: 1.2em;
+}
+
+.boxmkt-dieta h5{
+	background: #006C6E none;
+	color: #ffffff;
+	padding: 3px 0 3px 0;
+	text-align: center;
+	font-size: 1em;
+	font-family: arial;
+}
+
+.boxmkt-dieta p{
+	padding: 3px 0 3px 0;
+	text-align: center;
+	color: #666666;
+	font-size: 1em;
+	font-family: arial;
+}
+
+.boxmkt-dieta p span.dieta {
+	font-weight: bold;
+	color: #006C6D;
+}
+
+.boxmkt-dieta p span.club {
+	font-weight: bold;
+	color: #D3D800;
+}
+
+.boxmkt-dieta form{
+	background:#EEEEEE none;
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
+.boxmkt-dieta input.valori{
+	border:1px solid #DDDDDD;
+	height:16px;
+	width:55px;
+	margin: 0 3px 0 1px;
+}
+
+.boxmkt-dieta .do {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/bt_fai-il-test.gif?v=20080714163759) no-repeat;
+	border:medium none;
+	height:22px;
+	text-indent:-5000px;
+	width:85px;
+	margin: 0;
+}
+
+/* box archivio storico */
+
+.box-archivio-storico {
+	background: #F5F5F7 url(http://images2.corriereobjects.it/images/static/common/logo_corriere_small_box.gif?v=20080715165945) no-repeat right 12px!important;
+	padding-left:10px;
+}
+
+.box-archivio-storico form {
+	border-top: 1px solid #fff;
+	padding-top: 7px;
+}
+
+.box-archivio-storico form input{
+	border: 1px solid #ddd;
+	margin:0 8px 0 0;
+	width:210px;
+}
+
+.box-archivio-storico .bt-cerca{
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/dizionari/cerca_new.png?v=20100803101624) no-repeat left top;
+	border: none;
+	height:19px;
+	text-indent:-5000px;
+	width:53px;
+	display: block;
+}
+
+/* box mkt 90 gestione openx*/
+
+
+.boxmkt-90 {
+	background: #F5F5F7 none;
+	padding: 7px;
+	color: #566172;
+	font-size: 1.1em;
+	font-family: arial;
+	line-height: 1.2em;
+	display: block;
+	margin: 10px 0 0 0;
+	border: 2px solid #DDDDDD;
+/*	height: 72px;*/
+	overflow: hidden;
+}
+
+.boxmkt-90 a {
+	color: #566172;
+	text-decoration: none;
+}
+
+.boxmkt-90 a.red {
+	color: #AA1511;
+	text-decoration: none;
+}
+
+.boxmkt-90 a:hover{
+	text-decoration: underline;
+}
+
+.boxmkt-90 h5 {
+	font-family: georgia;
+	color: #AD1514;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.3em;
+	padding-bottom: 8px;
+}
+
+.boxmkt-90 h5.long {
+	font-family: georgia;
+	color: #AD1514;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding-bottom: 8px;
+}
+
+.boxmkt-90 h5.long strong{
+	color: #AD1514;
+	font-family: georgia;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding-bottom: 8px;
+}
+.boxmkt-90 h5 strong {
+	color: #556273;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.boxmkt-90 h6 {
+	font-family: georgia;
+	color: #566172;
+}
+
+.boxmkt-90 p a:hover {
+	text-decoration: none;
+}
+
+.boxmkt-90 img {
+	float: right;
+	margin-left: 10px;
+}
+
+.boxmkt-90 img.tit{
+	float: left;
+	margin:0;
+}
+
+.boxmkt-90 h6 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+/* grafica nuove bacheche marketing */
+
+div.bacheca-mkt  {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/bg_bacheca-mkt2.png?v=20091019150438) no-repeat left 7px;
+	width:300px;
+	padding-top:4px;
+}
+
+.boxmkt-80,
+.boxmkt-90 {
+	background:transparent none ;
+	border:0;
+	margin:1px;
+	border-top: 2px solid #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color: #566172;
+}
+
+.boxmkt-80 a,
+.boxmkt-90 a{
+	color: #566172;
+}
+
+.boxmkt-80 h5,
+.boxmkt-90 h5 {
+	color:#6191c9;
+	font-family:georgia;
+	font-size:11px;
+	font-weight:bold;
+	line-height:14px;
+	padding-bottom:2px;
+}
+
+.boxmkt-80 h5 a ,
+.boxmkt-90 h5 a {
+	color:#6191c9;
+}
+
+.boxmkt-80 h5 strong,
+.boxmkt-90 h5 strong {
+	color:#6191c9;
+	font-family:georgia;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+
+.boxmkt-80 .titleArchivio {
+	color:#6191c9;
+	font-family:georgia;
+	font-size:11px;
+	font-weight:bold;
+	line-height:14px;
+	padding-bottom:2px;
+}
+
+.boxmkt-80 .titleArchivio a {
+	color:#6191c9;
+}
+
+.boxmkt-80 .titleArchivio strong {
+	color:#6191c9;
+	font-family:georgia;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+.boxmkt-80 h6,
+.boxmkt-90 h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding-bottom:10px;
+	color: #566172;
+}
+
+.boxmkt-80 h6 a,
+.boxmkt-90 h6 a {
+	color: #566172;
+}
+
+/*TRAFFICO*/
+#my_traffic_container {
+	color:#000000;
+	font-size:11px;
+	margin:10px 0 0 0;
+}
+#my_traffic_container a {
+	text-decoration:none;
+	color:#000000;
+}
+
+#my_traffic_container .jcarousel-container-horizontal {
+  padding:0;
+  width:250px;
+  background:#e8e8e8 none repeat scroll 0 0;
+  font-size:11px;
+  padding:0 25px 5px;
+}
+
+#my_traffic_container .jcarousel-clip-horizontal {
+  height:42px;
+  width:250px;
+  padding-top:10px;
+}
+
+#my_traffic_container .jcarousel-item {
+	width:250px;
+	height: 40px;
+}
+
+#my_traffic_container .jcarousel-next-horizontal {
+    position: absolute;
+	top: 20px;
+    left: 284px;
+	bottom: 0;
+    width: 9px;
+    height: 7px;
+    cursor: pointer;
+    background: transparent url(http://images2.corriereobjects.it/images/static/common/traffic_next.gif?v=20091214120007) no-repeat 0 0;
+}
+
+#my_traffic_container .jcarousel-next-horizontal:hover {
+    background-position: 0 0;
+}
+
+#my_traffic_container .jcarousel-next-horizontal:active {
+    background-position: 0 0;
+}
+
+#my_traffic_container .jcarousel-next-disabled-horizontal,
+#my_traffic_container .jcarousel-next-disabled-horizontal:hover,
+#my_traffic_container .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background: none;
+}
+
+#my_traffic_container .jcarousel-prev-horizontal {
+    position: absolute;
+	top: 20px;
+    bottom: 0;
+    left: 6px;
+    width: 9px;
+    height: 7px;
+    cursor: pointer;
+    background: transparent url(http://images2.corriereobjects.it/images/static/common/traffic_prev.gif?v=20091214120007) no-repeat 0 0;
+}
+
+#my_traffic_container .jcarousel-prev-horizontal:hover {
+    background-position: 0 0;
+}
+
+#my_traffic_container .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+
+#my_traffic_container .jcarousel-prev-disabled-horizontal,
+#my_traffic_container .jcarousel-prev-disabled-horizontal:hover,
+#my_traffic_container .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background: none;
+}
+
+.homearticle-box.rightcol-box {
+font-size: 1.3em; margin-bottom: 15px
+}
+
+.homearticle-box.rightcol-box .section {
+padding: 0px 10px;
+border: 0;
+}
+
+.homearticle-box.rightcol-box .hour,
+.homearticle-box.rightcol-box .desc-text {
+padding: 5px 10px;
+}
+
+/* box il mulino */
+#box-ilmulino {display: none;}
+
+.homearticle-box.rightcol-box .mulino {
+display: block;
+width: 85px;
+height: 20px;
+background: transparent url(http://images2.corriereobjects.it/images/static/common/ilmulino_box_tit.gif?v=20100216124622) no-repeat 0 0;
+text-indent: -5000px;
+float: right;
+margin-top: -20px;
+}
+.homearticle-box.rightcol-box .section, .homearticle-box.rightcol-box .hour {
+display: block !important;
+}
+
+.homearticle-box.rightcol-box {
+	font-size: 1.3em; margin-bottom: 15px
+}
+
+.homearticle-box.rightcol-box .subtitle {
+	text-transform: uppercase;
+}
+
+.homearticle-box.rightcol-box .section {
+	padding: 0px 10px;
+	border: 0;
+}
+
+.homearticle-box.rightcol-box .hour,
+.homearticle-box.rightcol-box .desc-text {
+	padding: 5px 10px;
+}
+
+.homearticle-box.rightcol-box .mulino {
+	display: block;
+	width: 85px;
+	height: 20px;
+	background: transparent url(http://images.corriereobjects.it/images/static/common/ilmulino_box_tit.gif) no-repeat 0 1px;
+	text-indent: -5000px;
+	float: right;
+	margin-top: -20px;
+}
+
+#box-ilmulino .section a {
+	color: #2F5EB1;
+}
+
+/*box bacheca viaggi*/
+
+
+
+.box-viaggi a {
+color:#566172;
+text-decoration:none;
+}
+.box-viaggi a.red {
+color:#AA1511;
+text-decoration:none;
+}
+.box-viaggi a:hover {
+text-decoration:underline;
+}
+.box-viaggi h5 {
+color:#AD1514;
+font-family:georgia;
+font-size:1.2em;
+font-weight:bold;
+line-height:1.3em;
+padding-bottom:8px;
+}
+.box-viaggi h5.long {
+color:#AD1514;
+font-family:georgia;
+font-size:1.2em;
+font-weight:bold;
+line-height:1.2em;
+padding-bottom:8px;
+}
+.box-viaggi h5.long strong {
+color:#AD1514;
+font-family:georgia;
+font-size:1.2em;
+font-weight:bold;
+line-height:1.2em;
+padding-bottom:8px;
+}
+.box-viaggi h5 strong {
+color:#556273;
+font-size:1.5em;
+font-weight:normal;
+}
+.box-viaggi h6 {
+color:#566172;
+font-family:georgia;
+}
+.box-viaggi p a:hover {
+text-decoration:none;
+}
+.box-viaggi img {
+float:right;
+margin-left:10px;
+}
+.box-viaggi img.tit {
+float:left;
+margin:0;
+}
+.box-viaggi h6 {
+font-size:1.1em;
+font-weight:bold;
+padding-bottom:5px;
+}
+
+.box-viaggi h6 a.autore {
+
+font-weight:normal;
+height:1px;
+margin-left:3px;
+
+}
+div.bacheca-viaggi {
+
+padding-top:4px;
+width:300px;
+margin-bottom:10px;
+}
+div.bacheca-viaggi div.ombra {
+background:url(http://images2.corriereobjects.it/images/static/common/viaggi/bachecacorriere/ombra_viaggi.gif?v=20100608095911) repeat-y;
+padding-left:2px;
+
+}
+.box-viaggi {
+
+display:block;
+background:#f1f1f1;
+border-right:0 none;
+border-width:1px 0 0;
+color:#566172;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:normal;
+line-height:1.2em;
+margin:0px;
+overflow:hidden;
+padding:4px;
+background:url(http://images2.corriereobjects.it/images/static/common/viaggi/bachecacorriere/punti_orizzontali_viaggi.gif?v=20100608095911) repeat-x scroll left top transparent;
+}
+
+.box-viaggi a {
+color:#566172;
+}
+.box-viaggi h5 {
+color:#87A800;
+font-family:georgia;
+font-size:11px;
+font-weight:bold;
+line-height:14px;
+padding-bottom:2px;
+}
+.box-viaggi h5 a {
+color:#87A800;
+}
+.box-viaggi h5 strong{
+color:#87A800;
+font-family:georgia;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+}
+.box-viaggi h6 {
+color:#566172;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:bold;
+}
+.box-viaggi h6 a {
+color:#566172;
+}
+.box-viaggi h6 a.title {
+color:#566172;
+border-right:1px solid #566172;
+padding-right:3px;
+}
+.box-viaggi  a.fotogallery {
+color:#566172;
+font-weight:bold;
+}
+.box-viaggi  span.caporali {
+color:#87A800;
+font-weight:bold;
+padding-left:3px;
+}
+div.bacheca-viaggi  #bacheca_top {
+background:url(http://images2.corriereobjects.it/images/static/common/viaggi/bachecacorriere/viaggi-top.gif?v=20100608122020)  no-repeat scroll left transparent;
+height:32px;
+font-size:13pt;
+font-style:italic;
+padding-left:26px;
+}
+div.bacheca-viaggi  #bacheca_bottom {
+background:url(http://images2.corriereobjects.it/images/static/common/viaggi/bachecacorriere/viaggi_bottom2.gif?v=20100726155341)  no-repeat scroll left transparent;
+height:47px;
+}
+
+
+div.bacheca-viaggi #bacheca_bottom #bottom_1a {
+color:#87A800;
+font-weight:bold;
+margin-right:3px;
+}
+div.bacheca-viaggi #bacheca_bottom #bottom_2a {
+color:#ccc;
+font-weight:bold;
+margin-right:3px;
+}
+div.bacheca-viaggi #bacheca_bottom #bottom_3a {
+color:#87A800;
+font-weight:bold;
+}
+div.bacheca-viaggi #bacheca_bottom a#bottom_link {
+display:block;
+padding-left:75px;
+padding-top:16px;
+}
+div.bacheca-viaggi #bacheca_bottom a {
+font-size:11px;
+}
+
+div.bacheca-viaggi  #bacheca_top #first_title {
+float:left;
+margin-top:5px;
+color:#87A800;
+font-weight:bold;
+}
+
+div.bacheca-viaggi  #bacheca_top #second_title {
+float:left;
+margin-top:4px;
+margin-left:4px;
+}
+div.bacheca-viaggi  #bacheca_top #first_title_mondiali {
+float:left;
+margin-top:5px;
+color:#0D7D4A;
+font-weight:bold;
+}
+
+div.bacheca-viaggi  #bacheca_top #second_title_mondiali {
+color:#000;
+float:left;
+margin-top:4px;
+margin-left:4px;
+font-weight:bold;
+}
+
+.vincitori-diari {
+	position: absolute;
+	z-index: 3000;
+	background:url(http://images2.corriereobjects.it/images/static/common/viaggi/bachecacorriere/vincitori/baloon.png?v=20101006110541)  no-repeat;
+	padding-top:8px;
+	width:200px;
+	height:35px;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+}
+.vincitori-diari h3,.vincitori-diari div { margin: 0;font-family: Arial, Helvetica, sans-serif; }
+
+div#testata_vincitori {
+background:url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523)  repeat-x scroll left top transparent;
+
+}
+div#vincitori-diari  ul  {
+display:table;
+min-height:280px;
+padding-bottom:5px;
+padding-top:5px;
+}
+div#vincitori-diari  ul li {
+float:left;
+padding:2px;
+}
+div#vincitori-diari  ul li a {
+display:block;
+}
+
+
+
+/* ======================  BOX VIAGGI HOME COR  ======================= */
+#box-viaggi-home-cor {
+	background-color:#e9e2d2;
+	width:300px;
+	margin-bottom:10px;
+}
+#box-viaggi-home-cor ul {
+	padding-left: 11px;
+	height:35px;
+}
+#box-viaggi-home-cor .ui-tabs-container {
+background-color:#e9e2d2!important;
+}
+#box-viaggi-home-cor ul li {
+	float: left;
+	display: block;
+}
+
+#box-viaggi-home-cor ul li a {
+font-weight:bold;
+	font-size:11px;
+	padding:10px 0 0 0px;
+	display: block;
+	height: 15px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_viaggi_home_cor.png?v=20090624132339) scroll no-repeat left -36px;
+}
+
+#box-viaggi-home-cor ul li a.tab-auto {
+	width: 93px;
+	background-position: left -37px;
+	text-align:center;
+}
+
+#box-viaggi-home-cor ul li a.tab-auto:hover,
+#box-viaggi-home-cor ul li.ui-tabs-selected a.tab-auto {
+	background-position: left top;
+	color:#FFFFFF !important;
+}
+
+
+#box-viaggi-home-cor ul li a.tab-casa {
+	width: 93px;
+	background-position: -94px -37px;
+	text-align:center;
+}
+
+#box-viaggi-home-cor ul li a.tab-casa:hover,
+#box-viaggi-home-cor ul li.ui-tabs-selected a.tab-casa {
+	background-position: -93px top;
+	color:#FFFFFF !important;
+}
+
+#box-viaggi-home-cor ul li a.tab-lavoro {
+	width: 93px;
+	background-position: -188px -37px;
+	text-align:center;
+}
+
+#box-viaggi-home-cor ul li a.tab-lavoro:hover,
+#box-viaggi-home-cor ul li.ui-tabs-selected a.tab-lavoro {
+	width: 93px;
+	background-position: -187px top;
+	color:#FFFFFF !important;
+}
+
+
+#box-viaggi-home-cor div {
+	clear: left;
+	height: 126px;
+	font-size: 1.2em;
+	line-height: 1.2;
+	padding: 0px 0 0 5px;
+}
+
+#box-viaggi-home-cor p {
+	background-color:#000000;
+	clear:both;
+	color:#ffffff;
+	font-family:georgia;
+	font-size:1.1em;
+	margin:-32px 0 0 0px;
+	opacity:0.7;
+	padding:7px 5px 6px 5px;
+	position:absolute;
+	text-align:left;
+	width:269px;
+  filter:alpha(opacity=70); /* per IE/WIN */
+  text-indent:-5000px;
+  height:19px;
+
+}
+#box-viaggi-home-cor h4 {
+	clear:both;
+	color:#ffffff;
+	font-family:georgia;
+	font-size:15px;
+	margin:-32px 0 0 1px;
+	padding:7px 5px 6px 5px;
+	position:absolute;
+	text-align:left;
+	width:268px;
+	font-weight:bold;
+}
+#box-viaggi-home-cor h4 a {
+color:#ffffff;
+}
+#box-viaggi-home-cor .head {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/testa_viaggi_box_home.png?v=20091125160417) no-repeat scroll 0px 0px;
+	display:block;
+	float:left;
+	height:38px;
+	text-indent:-5000px;
+	width:296px;
+}
+
+#box-viaggi-home-cor .gsfhead {
+	font-family:georgia;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 0 0 10px;
+	text-indent:0;
+	text-transform:uppercase;
+	height:30px;
+	background:none;
+}
+
+#box-viaggi-home-cor .gsfhead h5{
+	color:#C93535;
+	font-family:georgia;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:inline;
+	margin-left:3px;
+}
+/*  con singola immagine */
+#box-viaggi-home-cor-single {
+	background-color:#e9e2d2;
+	width:300px;
+	margin-bottom:10px;
+}
+#box-viaggi-home-cor-single ul {
+	padding-left: 10px;
+	height:35px;
+}
+#box-viaggi-home-cor-single .ui-tabs-container {
+background-color:#e9e2d2!important;
+}
+#box-viaggi-home-cor-single ul li {
+	float: left;
+	display: block;
+	width:279px;
+}
+
+#box-viaggi-home-cor-single ul li a {
+font-weight:bold;
+	font-size:11px;
+	padding:10px 0 0 0px;
+	display: block;
+	height: 15px;
+	background: none;
+}
+
+#box-viaggi-home-cor-single ul li a {
+	width: auto;
+	height:20px;
+	background:#fff;
+	color:#000;
+	text-align:center;
+}
+
+#box-viaggi-home-cor-single ul li a:hover{
+	background:#a71515;
+	color:#fff;
+
+}
+#box-viaggi-home-cor-single div{
+	clear:left;
+	font-size:1.2em;
+	height:126px;
+	line-height:1.2;
+	padding:0 0 0 5px;
+}
+#box-viaggi-home-cor-single p {
+	background-color:#000000;
+	clear:both;
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:1.1em;
+	height:19px;
+	margin:-32px 0 0 0;
+	opacity:0.7;
+	padding:7px 5px 6px;
+	position:absolute;
+	text-align:left;
+	text-indent:-5000px;
+	width:269px;
+}
+#box-viaggi-home-cor-single h4 {
+	clear:both;
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:15px;
+	font-weight:bold;
+	margin:-32px 0 0 1px;
+	padding:7px 5px 6px;
+	position:absolute;
+	text-align:left;
+	width:268px;
+}
+#box-viaggi-home-cor-single h4 a {
+	color:#FFFFFF;
+}
+#box-viaggi-home-cor-single .head {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/testa_viaggi_box_home.png?v=20091125160417) no-repeat scroll 0px 0px;
+	display:block;
+	float:left;
+	height:38px;
+	text-indent:-5000px;
+	width:296px;
+}
+#box-viaggi-home-cor-single .gsfhead {
+	background:none repeat scroll 0 0 transparent;
+	font-family:georgia;
+	font-size:12px;
+	font-weight:bold;
+	height:30px;
+	padding:10px 0 0 10px;
+	text-indent:0;
+	text-transform:uppercase;
+}
+#box-viaggi-home-cor-single .gsfhead h5 {
+	color:#C93535;
+	display:inline;
+	font-family:georgia;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:3px;
+	text-transform:uppercase;
+}
+
+/* ======================  BOX INFORMAZIONE LOCALE HOME  ======================= */
+#box-informazione-locale2 .show-default-box {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	font-size: 10px;
+	color:#969696;
+	text-decoration: underline;
+}
+
+#box-informazione-locale2 {
+	background: #f1f1f1 none;
+	width: 300px;
+	padding-bottom: 5px;
+}
+
+#box-informazione-locale2 a.link-comune {
+	color: #969696;
+	font-size: 11px;
+	text-decoration: underline;
+	display: block;
+	clear: both;
+	padding-top: 7px;
+	text-align: right;
+}
+
+#box-informazione-locale2 .container {
+	padding: 5px 10px;
+	border: 0;
+	position: relative;
+}
+
+#box-informazione-locale2 .box-info {
+	display: none;
+}
+
+#box-informazione-locale2 h5 {
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523) repeat-x left bottom;
+	color:#42586f;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:12px;
+	font-weight: bold;
+	height:24px;
+	line-height:24px;
+	margin-bottom:2px;
+	padding-bottom:2px;
+}
+
+#box-informazione-locale2 h5 span {
+	color:#cc0000;
+	font-size:18px;
+	font-weight: normal;
+}
+
+#box-informazione-locale2 h6 {
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	background:transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=20070904105523) repeat-x left bottom;
+	padding:2px 0;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+#box-informazione-locale2 h6 a {
+	color:#666666;
+}
+
+#box-informazione-locale2 h3.box-heading {
+	background: #cccccc none;
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding: 2px 4px;
+	text-transform: uppercase;
+}
+
+#box-informazione-locale2 p  {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	clear: left;
+	line-height: 14px;
+}
+
+#box-informazione-locale2 p strong {
+	display: block;
+	float: left;
+	padding-top: 3px;
+}
+
+#box-informazione-locale2 p img.ico-meteo  {
+	display: block;
+	float: left;
+	height: 20px;
+	margin: 0 5px 0 4px;
+}
+
+#box-informazione-locale2 p img.ico-aria  {
+	display: block;
+	float: left;
+	width: 30px;
+	margin: 0 5px 0 4px;
+}
+
+#box-informazione-locale2 p span {
+	display: block;
+	float: left;
+	padding-top: 3px;
+}
+
+#box-informazione-locale2 p span em.max {
+	color: #de0000;
+	font-weight: bold;
+	font-style:normal;
+}
+
+#box-informazione-locale2 p span em.min {
+	color: #7d9fcc;
+	font-weight: bold;
+	font-style:normal;
+}
+
+#box-informazione-locale2 .hidden {
+	display: none;
+}
+
+#box-informazione-locale2 form.switch {
+	height: 25px;
+	margin-top:5px;
+}
+
+#box-informazione-locale2 form.switch .input-autocomplete {
+	float: left;
+	width: 200px;
+	margin-right: 5px;
+}
+
+#box-informazione-locale2 form.switch a.gotoloc {
+	float: left;
+	display: block;
+	width: 59px;
+	height: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #eee;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bt-vai.gif?v=20100426115110) no-repeat 0 0;
+	text-align: center;
+}
+
+#box-informazione-locale2 .elenco-citta {
+	border-top: 1px solid #dcd9d9;
+	margin-top: 5px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+#box-informazione-locale2 .elenco-citta li {
+	float: left;
+	width: 70px;
+	padding: 2px 0;
+}
+
+#box-informazione-locale2 .elenco-citta li a {
+	font-weight:normal;
+	color: #666666;
+	font-size: 12px;
+}
+
+/* ======================  BOX DIZIONARI COMPACT  ======================= */
+
+#box-dizionari-compact .riga-dots {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/puntini_box_mobile.gif?v=20100803101921) repeat-x left top;
+	height: 2px;
+	margin: 5px 5px 0px 5px;
+	line-height: 1px;
+	font-size:1px;
+	clear: both;
+}
+
+
+#box-dizionari-compact .riga-2 {
+
+	height: 2px;
+	margin: 0;
+	line-height: 1px;
+	font-size:1px;
+	clear: both;
+}
+
+
+
+#box-dizionari-compact {
+	background:url(http://images2.corriereobjects.it/images/static/common/dizionari/bg_box_diz_new.png?v=20100802123949) repeat-x scroll left bottom #F5F5F7;
+	height:138px;
+	margin-top:10px;
+	border:1px solid #cfebfb;
+	padding:0 10px 0px 8px;
+}
+#box-dizionari-compact .ui-tabs-container {
+	background:url(http://images2.corriereobjects.it/images/static/common/dizionari/bg_box_diz_new.png?v=20100802123949) repeat-x scroll 0 52px transparent;
+}
+#box-dizionari-compact .tit {
+	color:#566173;
+	display:block;
+	float:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight:normal;
+	margin:0 0 5px 3px;
+	padding:5px 5px 0 0;
+	text-align:left;
+	text-transform:none;
+}
+#box-dizionari-compact .tit span {
+	font-size:18px;
+	font-style:italic;
+}
+
+#box-dizionari-compact ul {
+	padding-top:2px;
+	float: left;
+	height:45px;
+}
+#box-dizionari-compact ul li {
+	float: left;
+	display: block;
+}
+#box-dizionari-compact ul li img {
+	text-align: center;
+}
+#box-dizionari-compact ul li a {
+	text-indent: -5000px;
+	display: block;
+	width: 43px;
+	height: 43px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(http://images2.corriereobjects.it/images/static/common/dizionario_ico_new.png?v=20100802125509);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+}
+
+#box-dizionari-compact ul li a.tab-ita {
+width: 40px;
+	background-position: -3px 4px;
+}
+#box-dizionari-compact ul li a.tab-ita:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-ita {
+	background-position: -3px -41px;
+}
+#box-dizionari-compact ul li a.tab-sin {
+width:67px;
+	background-position: -49px 4px;
+}
+#box-dizionari-compact ul li a.tab-sin:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-sin {
+	background-position: -49px -41px;
+}
+#box-dizionari-compact ul li a.tab-eng {
+	background-position: -118px 4px;
+}
+#box-dizionari-compact ul li a.tab-eng:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-eng {
+	background-position: -118px -41px;
+}
+#box-dizionari-compact ul li a.tab-spa {
+	background-position: -160px 4px;
+}
+#box-dizionari-compact ul li a.tab-spa:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-spa {
+	background-position: -160px -41px;
+}
+#box-dizionari-compact ul li a.tab-fra {
+	background-position: -203px 4px;
+}
+#box-dizionari-compact ul li a.tab-fra:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-fra {
+	background-position: -203px -41px;
+}
+#box-dizionari-compact ul li a.tab-ted {
+	background-position: -244px 4px;
+}
+#box-dizionari-compact ul li a.tab-ted:hover,
+#box-dizionari-compact ul li.ui-tabs-selected a.tab-ted {
+	background-position: -244px -41px;
+}
+
+#lingua {
+	padding: 0 8px 0 5px;
+}
+#lingua .cerca {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #566172;
+	font-weight: bold;
+}
+#lingua .cerca input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	background-color: transparent;
+	background-image: url(http://images2.corriereobjects.it/images/static/common/back-input.gif?v=20071010105350);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin: 2px 0 3px 0;
+}
+
+#lingua .cerca input.img-search {
+	margin: 2px 0 0 5px;
+	vertical-align:top;
+}
+
+#lingua .cerca input.text {
+	width: 202px;
+	border: 1px solid #cfebfb;
+}
+
+#lingua .testo-radio {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #333333;
+}
+#lingua .type {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 8px;
+}
+
+#lingua .type-txt {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 6px;
+}
+
+#lingua .type input {
+	margin: 0;
+	vertical-align: middle;
+	background: transparent;
+}
+
+/* ======================  BOX DIZIONARIO DELLA SALUTE  ======================= */
+
+
+#box-dizionario-salute-hp {
+	background: #F5F5F7 url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/bg-box-diz-salute-hp.png?v=20100114150420) repeat-x scroll left bottom;
+	margin-top: 10px;
+	padding: 18px 12px;
+}
+
+#box-dizionario-salute {
+	background: #e9f3f8 url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/bg-box-diz-salute.png?v=20100114150420) repeat-x scroll left bottom;
+	margin: 0px;
+	padding: 12px 10px;
+	border: 1px solid #aacbde;
+	text-align: left !important;
+}
+
+#form-dizionario-salute {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/man-diz-salute.png?v=20100113163045) no-repeat scroll left center;
+	padding-left: 38px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+#form-dizionario-salute.sez-cuore {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/man-diz-salute-cuore.png?v=20100115125817) no-repeat scroll left center;
+}
+#form-dizionario-salute.sez-stomaco {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/man-diz-salute-stomaco.png?v=20100115125817) no-repeat scroll left center;
+}
+#form-dizionario-salute.sez-ossa {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/man-diz-salute-ossa.png?v=20100115125817) no-repeat scroll left center;
+}
+
+
+#form-dizionario-salute .text-input,
+#form-dizionario-salute select {
+	display: block;
+	clear: left;
+	font-family: verdana, helvetica;
+	font-size: 10px;
+	border: 1px solid #cfcfcf;
+}
+
+#form-dizionario-salute select {
+	width: 208px;
+	padding: 2px;
+}
+
+#form-dizionario-salute .text-input {
+	outline: none;
+	padding: 2px;
+	width: 202px;
+	margin-bottom: 10px;
+}
+
+
+.btn-diz-salute {
+	background: #F5F5F7 url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/btn-diz-salute-hp.gif?v=20100114150440) no-repeat scroll left top;
+	border: 0;
+	text-indent: -5000px;
+	width: 23px;
+	height: 19px;
+	outline: none;
+	padding: 0;
+	float: right;
+	display: block;
+	clear: right;
+}
+
+#box-dizionario-salute .btn-diz-salute {
+	background: #F5F5F7 url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/btn-diz-salute.gif?v=20100114150439) no-repeat scroll left top;
+}
+
+#box-dizionario-salute-hp .boxtitle {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/tit-diz-salute.gif?v=20100113162355) no-repeat scroll left top;
+	text-indent: -5000px;
+	height: 15px;
+	margin-bottom: 17px;
+	display: block;
+}
+
+#box-dizionario-salute .boxtitle {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/tit-diz-salute2.gif?v=20100114150451) no-repeat scroll left top;
+	text-indent: -5000px;
+	height: 29px;
+	margin-bottom: 17px;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+}
+
+#box-dizionario-salute .boxtitle-sez {
+	height: 47px;
+}
+
+#box-dizionario-salute #form-dizionario-salute {
+	padding-bottom: 0;
+}
+
+#box-dizionario-salute #form-dizionario-salute select {
+	width: 110px;
+	border: 0;
+	color: #0a8eb8;
+}
+#box-dizionario-salute #form-dizionario-salute .text-input {
+	width: 107px;
+	border: 0;
+	margin-bottom: 5px;
+	color: #0a8eb8;
+}
+
+#box-dizionario-salut .btn-diz-salute {
+	background: #F5F5F7 url(http://images2.corriereobjects.it/images/static/common/dizionario-salute/btn-diz-salute.gif?v=20100114150439) no-repeat scroll left top;
+}
+
+/* ======================  TOPSTORIES GAZZETTA  ======================= */
+
+ul.gol {
+	position: relative;
+	border: 1px solid #FEDDE8;
+	background: #FFF9FB url(http://images2.corriereobjects.it/images/static/common/grad_topstories.jpg?v=20070924154127) repeat-x left top;
+	font-family: Georgia, Palatino, serif;
+	padding: 0 10px 10px 10px;
+	margin: 10px 0 10px 0;
+}
+
+ul.gol a {
+	text-decoration: none;
+}
+
+ul.gol li {
+	padding-bottom: 5px;
+}
+
+ul.gol li.gol-first {
+	height: 20px;
+}
+
+ul.gol li p {
+	position: absolute;
+	right: 30px;
+	top: 8px;
+	color: #FC589D;
+	text-align: right;
+}
+
+ul.gol>li p {
+	right: 10px;
+}
+
+ul.gol li p a {
+	color: #A68894;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+ul.gol li h5 {
+	border-top: 1px solid #FBD5E2;
+	color: #3C2D30;
+	margin-bottom: 5px;
+	padding-top: 4px;
+}
+
+ul.gol li h5 a {
+	color: #3C2D30;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+ul.gol li h6 {
+	font-size: 110%;
+	color: #817D7E;
+}
+
+ul.gol li h6 a {
+	color: #817D7E;
+}
+
+ul.gol li img {
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+
+ul.gol>li img {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+
+
+/* ======================  BOX OBS  ======================= */
+#news_nouvelobs,
+#news_spiegel,
+#news_politiken,
+#news_nrc {
+  border:1px solid #D8D8D8;
+  margin-bottom:8px;
+  margin-top:10px;
+  width:276px;
+  padding:4px 4px 4px 18px;
+  color:#000000;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  list-style-position:outside;
+  display:none;
+}
+#news_nouvelobs li,
+#news_spiegel li,
+#news_politiken li,
+#news_nrc li {
+  color:#D30910;
+  font-size:10px;
+  line-height:14px;
+  list-style-type:disc;
+  margin-top:3px;
+}
+#news_nouvelobs li.title,
+#news_spiegel li.title,
+#news_politiken li.title,
+#news_nrc li.title {
+  text-indent:-5000px;
+  list-style:none outside none;
+  padding-bottom:4px;
+}
+#news_nrc li.title {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/nrc_handelsblad.gif?v=20100317114045) no-repeat 0 0;
+}
+#news_politiken li.title {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/politiken.gif?v=20100408182525) no-repeat 0 0;
+}
+#news_spiegel li.title {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/spiegel.gif?v=20100423105234) no-repeat 0 0;
+}
+#news_nouvelobs li.title {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/nouvelobs.gif?v=20110314130628) no-repeat 0 0;
+	height:25px;
+}
+#news_nouvelobs li a,
+#news_spiegel li a,
+#news_politiken li a,
+#news_nrc li a {
+  color:#000000;
+  text-decoration:none;
+  font-size: 11px;
+}
+
+
+/* ======================  BOX ANNUNCI  ======================= */
+#box-annunci{
+	position: relative;
+	margin: 10px 0;
+}
+#box-annunci a.logo-annunci{
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo_annunci.png?v=20110311121801) no-repeat;
+	display:block;
+	width:123px;
+	height: 36px;
+	padding-bottom: 10px;
+}
+#box-annunci em{
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+}
+#box-annunci a span{
+	text-indent: -5000px;
+	display:block;
+}
+#box-annunci ul {
+	padding: 0 0 25px 0;
+}
+#box-annunci ul li {
+	float: left;
+	display: block;
+}
+#box-annunci ul li a {
+	text-indent: -5000px;
+	display: block;
+	height: 25px;
+}
+#box-annunci .ui-tabs-container{
+	background-color: #fff;
+	padding-right: 0;
+}
+#box-annunci ul li a.tab-annunci {
+	width: 75px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_annunci_unactive.gif?v=20110503143645) no-repeat;
+}
+
+#box-annunci ul li a.tab-annunci:hover,
+#box-annunci ul li.ui-tabs-selected a.tab-annunci {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_annunci_active.gif?v=20110503143645) no-repeat;
+}
+
+#box-annunci ul li a.tab-auto {
+	width: 75px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_auto_unactive.gif?v=20110503143645) no-repeat;
+}
+
+#box-annunci ul li a.tab-auto:hover,
+#box-annunci ul li.ui-tabs-selected a.tab-auto {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_auto_active.gif?v=20110503143645) no-repeat;
+}
+
+#box-annunci ul li a.tab-casa {
+	width: 75px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_trovocasa_unactive.gif?v=20110503143645) no-repeat;
+}
+
+#box-annunci ul li a.tab-casa:hover,
+#box-annunci ul li.ui-tabs-selected a.tab-casa {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_trovocasa_active.gif?v=20110503143648) no-repeat;
+}
+
+#box-annunci ul li a.tab-lavoro {
+	width: 75px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_trovolavoro_unactive.gif?v=20110503143648) no-repeat;
+}
+
+#box-annunci ul li a.tab-lavoro:hover,
+#box-annunci ul li.ui-tabs-selected a.tab-lavoro {
+	width: 75px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/tab_trovolavoro_active.gif?v=20110503143648) no-repeat;
+}
+#box-annunci .annunci-section{
+	background-color:#f6f6f6;
+	padding: 8px;
+	margin-bottom: 4px;
+	clear:both;
+	min-height: 77px;
+}
+#box-annunci .annunci-section p span{
+	display: inline;
+	text-indent: 0;
+}
+#box-annunci .annunci-section div{
+	width: 155px;
+	margin-right: 8px;
+}
+
+#box-annunci .annunci-section div h4 a{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #6091c9;
+	font-weight:bold;
+	font-size: 11px;
+	line-height: 13px;
+	text-transform:uppercase;
+}
+#box-annunci .annunci-section div h4 a:hover{
+	text-decoration: underline;
+}
+#box-annunci .annunci-section div p{
+	color: #566172;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#box-annunci .annunci-section div p:hover{
+	text-decoration: underline;
+}
+#box-annunci .annunci-section div strong{
+	font-weight: bold;
+	display: block;
+	line-height: 12px;
+}
+
+#box-annunci .annunci-section a.annunci-pubblicati,
+#box-annunci #section-3 .annunci-section a.annunci-pubblicati{
+	color:#333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+#box-annunci .annunci-section a.annunci-pubblicati strong,
+#box-annunci #section-3 .annunci-section a.annunci-pubblicati strong{
+	display: block;
+	font-size:16px;
+	margin: 0;
+	padding: 0;
+}
+
+#box-annunci .cosa_cerchi{
+	border: 1px solid #b4b4b4;
+	width: 213px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#box-annunci .invio_form_annunci{
+	display:block;
+	cursor:pointer;
+    vertical-align: -4px;
+	margin: 4px 0 0 228px;
+}
+#box-annunci #section-1 .invio_form_annunci{
+	margin: 0 0 5px 228px;
+	padding-top: 6px;
+}
+#box-annunci #section-4 .invio_form_annunci{
+	margin-top: 9px;
+}
+#box-annunci .annunci-section .car-selection,
+#box-annunci .annunci-section .car-selection select{
+	width: 140px;
+}
+#box-annunci .annunci-section .car-selection label{
+	text-align:left;
+	color: #566172;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#box-annunci .annunci-section p{
+	color: #566172;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+	padding: 4px 0 2px;
+}
+#box-annunci ul.le-piu-cercate{
+	padding:0;
+	display: block;
+	margin-right: 17px;
+}
+#box-annunci ul.le-piu-cercate li{
+	float: none;
+}
+#box-annunci ul.le-piu-cercate li a{
+	text-indent: 0;
+	color: #566172;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+	font-weight:bold;
+	line-height: 16px;
+	display:inline;
+}
+#box-annunci ul.le-piu-cercate li a:hover{
+	text-decoration: underline;
+}
+#box-annunci .annunci-section label{
+	text-align: right;
+	color: #566172;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+	width: 58px;
+	margin: 2px 0;
+}
+#box-annunci #section-1 .annunci-section label{
+	width: 44px;
+}
+#box-annunci #section-3 .annunci-section select,
+#box-annunci #section-4 .annunci-section select{
+	width: 217px;
+	margin: 2px 0;
+}
+#box-annunci #section-3 .annunci-section strong{
+	width: 100px;
+	padding: 0 11px 0 0;
+    vertical-align: 4px;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+	margin: 2px 0;
+}
+#box-annunci #parolachiave_annunci{
+	margin-top: 3px;
+	float: none;
+}
+#box-annunci #cosacerchi_annunci{
+	width: 218px;
+	margin-top: 5px;
+}
+/*box annunci sezioni varie*/
+#box-annunci .annunci-sotto-section a.annunci-pubblicati{
+	color:#333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+#box-annunci .annunci-sotto-section a.annunci-pubblicati strong{
+	display: block;
+	font-size:16px;
+	margin: 0;
+	padding: 0;
+}
+#box-annunci .annunci-sotto-section #cosacerchi_annunci{
+	width: 213px;
+	margin: 0 0 12px;
+}
+#box-annunci .annunci-sotto-section .invio_form_annunci{
+	cursor:pointer;
+	margin: 0 0 0 221px;
+}
+/*box annunci sport*/
+#box-annunci-sport{
+	/*background-color: #eafedd;*/
+	border: solid 1px #d2d2d2;
+}
+#box-annunci-sport form{
+	background-color: #e6635d;
+	padding: 3px 3px 5px;
+}
+#box-annunci-sport .annunci-section div{
+	width: 150px;
+	margin-right: 14px;
+}
+#box-annunci-sport .annunci-section{
+	background-color: transparent;
+	border-top: 1px solid #d2d2d2;
+	padding: 7px 0 0;
+	margin: 11px 8px 8px;
+	clear:both;
+}
+#box-annunci-sport .annunci-sotto-section{
+	border: none;
+	margin-top: 0;
+}
+#box-annunci-sport .annunci-sotto-section .invio_form_annunci{
+	margin: 0 0 0 257px;
+}
+#box-annunci-sport .annunci-sotto-section #cosacerchi_annunci{
+	width: 250px;
+}
+/*box annunci economia*/
+#box-annunci-economia{
+	background-color: #e8f3f3;
+	border: solid 1px #1f8e8d;
+}
+#box-annunci-economia .annunci-section div{
+	width: 150px;
+	margin-right: 4px;
+	height: 90px;
+}
+#box-annunci-economia .annunci-sotto-section .invio_form_annunci{
+	float: none;
+}
+#box-annunci-economia .annunci-section{
+	background-color: transparent;
+	border-top: 1px solid #b9dcdc;
+	padding: 7px 0 0;
+	margin: 11px 8px 8px;
+	clear:both;
+	height: 88px;
+}
+#box-annunci-economia .annunci-sotto-section{
+	border: none;
+	margin-top: 0;
+	height: 77px;
+}
+#box-annunci-economia .annunci-sotto-section form{
+	padding-left: 5px;
+}
+#box-annunci-economia .annunci-section div h4 a{
+	color: #0f6e6d;
+	text-transform: uppercase;
+}
+#box-annunci-economia .annunci-section div p{
+	color: #797979;
+	width:150px;
+	height:75px;
+	overflow:hidden;
+}
+#box-annunci-economia .annunci-section a img{
+	max-width: 130px;
+	max-height: 90px;
+}
+/*box annunci motori*/
+#box-annunci-motori-alto{
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/box_annunci-motori-a-tre.gif?v=20110525124936) no-repeat;
+	padding: 5px 0 4px;
+}
+#box-annunci-motori-basso{
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/box_annunci-motori-b-tre.gif?v=20110525124936) no-repeat;
+
+	padding: 5px 0 4px;
+}
+#box-annunci-motori{
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/box_annunci-motori-tre.gif?v=20110525124936) repeat-y;
+	padding: 0 10px;
+}
+#box-annunci-motori .annunci-sotto-section .invio_form_annunci {
+    margin: 0 0 0 220px;
+}
+#box-annunci-motori #cosacerchi_annunci{
+	margin-top: 1px;
+	width: 210px;
+}
+#box-annunci-motori .annunci-section{
+	background: none;
+	margin-bottom:0;
+	border-top: 1px solid #b5cbd9;
+	padding: 8px 0;
+	min-height: 0;
+}
+#box-annunci-motori .annunci-section form{
+	margin-bottom: 13px;
+}
+#box-annunci-motori .annunci-section div{
+	margin-right: 6px;
+}
+#box-annunci-motori .annunci-sotto-section{
+	border-top: none;
+	height: 67px;
+}
+#box-annunci-motori .annunci-sotto-section a.annunci-pubblicati{
+	top: 22px;
+}
+
+/* nuovo tab ebay box annunci */
+#box-annunci ul.ul-cat {
+	padding: 10px 0 0;
+	display: none;
+}
+#box-annunci ul.ul-cat li {
+	float: none;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#box-annunci ul.ul-cat li span {
+	font-size: 15px;
+	font-weight: bold;
+}
+#box-annunci ul.ul-cat li span a {
+	text-indent: 0;
+	height: auto;
+}
+#box-annunci ul.ul-cat li .txt-cat {
+	display: block;
+	float: left;
+}
+#box-annunci ul.ul-cat li .txt-cat a {
+	color: #003e89;
+}
+#box-annunci ul.ul-cat li .num-cat {
+	display: block;
+	float: right;
+}
+#box-annunci ul.ul-cat li .num-cat a {
+	color: #353535;
+}
+#box-annunci .logo-ebay-section {
+    background-color: #F6F6F6;
+    clear: both;
+    margin-bottom: 4px;
+    padding: 8px;
+}
+#box-annunci .logo-ebay-section ul .txt-collaborazione {
+	padding: 10px 8px 0 60px;
+}
+/* ======================  BOX CORRIERE STORE  ======================= */
+
+.box-corriere-store {
+	background:url(http://images2.corriereobjects.it/images/static/common/collection/box_corriere-store-bg.jpg?v=20110310103051) no-repeat;
+	width:301px;
+	height:215px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.box-corriere-store ul {
+	background:none;
+	border-bottom:0 none;
+	color:#566373;
+	line-height:13px;
+	padding:0 0 0 8px;
+}
+
+.box-corriere-store ul li {
+	background:none;
+	display:block;
+	float:left;
+	font-family:verdana;
+	font-size:10px;
+	height:110px;
+	min-width:86px;
+	padding:10px 7px 3px 4px;
+	text-align:center;
+	width:80px;
+}
+.box-corriere-store ul li img {
+	margin:auto auto 5px;
+	text-align:center;
+}
+.box-corriere-store ul li strong{
+	display:block;
+	font-family:georgia;
+	font-size:11px;
+	font-weight:bold;
+	overflow:hidden;
+	width:86px;
+	cursor:pointer;
+}
+.box-corriere-store h5 {
+	font-family:arial;
+	font-size:11px;
+	margin-bottom:5px;
+	padding:0 5px;
+}
+.box-corriere-store h5 .arancione a {
+	color:#FD7306;
+	font-weight:bold;
+	padding-left:30px;
+	text-decoration:none;
+}
+.box-corriere-store h5 .grigio a {
+	color:#586172;
+	font-weight:bold;
+	padding-left:3px;
+	text-decoration:none;
+
+}
+.box-corriere-store h5 img {
+	margin:0 !important;
+}
+
+/* ======================  NUOVI BOX FANBOX E RADIO  ======================= */
+
+#box_radios_new {
+	background:url(http://images2.corriereobjects.it/images/static/common/bg_radios.gif?v=20110606192559) no-repeat scroll 0 0 transparent;
+    height: 52px;
+    margin: 0 auto 5px;
+    padding-left: 100px;
+    width: 199px;
+}
+#fanbox4  {
+	background:url(http://images2.corriereobjects.it/images/static/common/fanbox/fanb_bg.gif?v=20110720165548) no-repeat scroll 0 0 transparent;
+    margin: 20px auto 5px;
+	padding-left:2px;
+    width: 297px;
+}
+.fixpos {
+	position:relative;
+	top:-265px;
+}
+#box_radios_new li,
+#fanbox4 li {
+	float:left;
+	height: 34px;
+	padding:0px 0 0;
+	position:relative;
+	text-align:center;
+}
+
+#fanbox4 li {
+	margin-left: 5px;
+}
+
+#box_radios_new li{
+	margin-left: 1px;
+}
+
+#fanbox4 a {
+	color:#000000;
+	display:block;
+	font-weight:bold;
+    height: 32px;
+	text-decoration:none;
+	text-indent:-5000px;
+	width:37px;
+}
+#fanbox4 a#edicola,
+#fanbox4 a#corriere {
+	width:36px;
+}
+
+#box_radios_new a {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    height: 32px;
+	margin-top:18px;
+    padding-left: 18px;
+    text-decoration: none;
+    text-indent: -5000px;
+    width: 30px;
+}
+#box_radios_new li em,
+#fanbox4 li em {
+    color: #464646;
+    display: none;
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    height: 25px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: center;
+    top: -11px;
+    z-index: 2;
+}
+#fanbox4 li em {
+	background:url(http://images2.corriereobjects.it/images/static/common/fanbox/nuvoletta_4.png?v=20110606122524) no-repeat scroll 0 0 transparent;
+    left: -10px;
+    width: 60px;
+	top:-20px;
+}
+#box_radios_new li em {
+	background:url(http://images2.corriereobjects.it/images/static/common/nuvoletta_4_big.png?v=20110606145814) no-repeat scroll 0 0 transparent;
+    left: -17px;
+    width: 100px;
+}
+
+/* ======================  CORRIERE TV 3 TABS  ======================= */
+
+#ctv3a {		
+	margin-bottom:10px;
+	position: relative;
+	overflow: hidden;
+}
+#ctv3a .box_Popup_Live300 .box_Player {
+    height: 200px;
+    width: 294px;
+    overflow: hidden;
+    text-indent: -3px;
+	background-color:#fff;
+}
+#ctv3a .box_Popup_Live300 {
+    position: relative;
+    width: 294px;
+}
+#ctv3a #ctv3a-tabs {
+	background: none repeat scroll 0 0 #ffffff;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+#ctv3a #ctv3a-tabs li {
+	float: left;
+	width: 98px;
+	height: 30px;
+	margin-right: 0;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-tabs_01.gif?v=20111205103624) no-repeat scroll 0 0;	
+}
+
+#ctv3a #ctv3a-tabs li.active {
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-tabs_01_active.gif?v=20111205103624) no-repeat scroll 0 0;	
+}
+#ctv3a #ctv3a-tabs li.active a {
+	color:#3e3e3e;
+}
+
+#ctv3a #ctv3a-foto {
+	margin-left: 0;
+}
+#ctv3a #ctv3a-live a.h24,
+#ctv3a #ctv3a-live1 a.h24,
+#ctv3a #ctv3a-live2 a.h24,
+#ctv3a #ctv3a-live3 a.h24 {
+	text-indent: -35px;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-h24live.gif?v=20111205103627) no-repeat 45px 6px;	
+}
+#ctv3a #ctv3a-live a.ntv,
+#ctv3a #ctv3a-live1 a.ntv,
+#ctv3a #ctv3a-live2 a.ntv,
+#ctv3a #ctv3a-live3 a.ntv {
+	text-indent: -5000px;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-nightlive.png?v=20111205103627) no-repeat center 0;	
+}
+#ctv3a #ctv3a-live a.on,
+#ctv3a #ctv3a-live1 a.on,
+#ctv3a #ctv3a-live2 a.on,
+#ctv3a #ctv3a-live3 a.on {
+	color: #ff0000;
+}
+#ctv3a #ctv3a-live a.off,
+#ctv3a #ctv3a-live1 a.off,
+#ctv3a #ctv3a-live2 a.off,
+#ctv3a #ctv3a-live3 a.off {
+	cursor: arrow;
+    color: #a4a6a8;
+}
+
+#ctv3a #ctv3a-tabs li a {
+	display: block;
+	height: 20px;
+	padding-top: 8px;
+	letter-spacing: -0.005em;
+	text-align: center;
+	font-size: 12px;
+	color: #393e44;
+}
+
+#ctv3a .ctv3a-container {
+	padding: 2px 3px 0 2px;
+	background: #c4c5c7 none;
+}
+
+#ctv3a .ctv3a-container img {
+	width: 294px;
+}
+#ctv3a #ctv3a_cap_play,
+#ctv3a .ctv3a-caption {
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-tabs_01_bt.gif?v=20111205103624) no-repeat left bottom;
+    border-top: 0;
+    color: #5b5b5b;
+    font-family: Georgia,Palatino,serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 -3px;
+    padding: 12px 10px 12px;
+}
+#ctv3a #ctv3a_cap_play a,
+#ctv3a .ctv3a-caption a {
+    color: #5b5b5b;
+}
+#ctv3a #ctv3a_cap_play em,
+#ctv3a .ctv3a-caption em {
+	display: block;
+	font-size: 12px;
+}
+#ctv3a #ctv3a_cap_play strong,
+#ctv3a .ctv3a-caption strong {
+	color: #cc2026;
+}
+#ctv3a #ctv3a_cap_play p,
+#ctv3a .ctv3a-caption p {
+    line-height: 20px;
+}
+#ctv3a #ctv3a_cap_play p.play,
+#ctv3a .ctv3a-caption p.play {
+	position: relative;
+	overflow: hidden;
+	height: 45px;
+	padding-right: 40px;
+}
+
+#ctv3a #ctv3a-video {
+	margin: 0 3px !important;
+}
+
+#ctv3a .ctv3a-caption p.play a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-play.gif?v=20111205103627) no-repeat right -33px;	
+}
+
+#ctv3a .ctv3a-caption p.play a:hover {
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-play.gif?v=20111205103627) no-repeat right 0;	
+}
+
+#ctv3a .ctv3a-caption p.play a.player_ctv_n,
+#ctv3a #ctv3a_cap_play p.play a.player_ctv_n {
+	position: absolute;
+	right: 0;
+	top: 3px;
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-play.png?v=20111205103624) no-repeat right -33px;	
+}
+
+#ctv3a .ctv3a-caption p.play a.player_ctv_n:hover,
+#ctv3a #ctv3a_cap_play p.play a.player_ctv_n:hover {
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-play.png?v=20111205103624) no-repeat right 0;	
+}
+
+#ctv3a #ctv3a-listen {
+	overflow: hidden;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 22px;
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-gradient.gif?v=20111205103627) repeat-x 0 0;	
+}
+
+#ctv3a #ctv3a-listen p {
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #dcdcdc;
+}
+
+#ctv3a #ctv3a-listen a {
+	float: left;
+	width: 47px;
+	height: 37px;
+	line-height: 37px;
+	margin-left: 15px;
+}
+
+#ctv3a #ctv3a-listen a:hover {
+	background: transparent url(http://images2.corriereobjects.it/images/ctv3a-radiobg.gif?v=20111205103627) no-repeat 0 0;	
+}
+
+#ctv3a-listen a img {
+	margin: 7px 0 0 12px;
+}
+
+#ctv3a .ctv3a-container {
+	display: none;
+	overflow: hidden;
+	background: none repeat scroll 0 0 #cacaca;
+    padding: 3px 3px 0 3px;
+	width:294px;
+}
+
+#ctv3a object {
+	float: none;
+}
+
+#ctv3a #ctv3a-livebanner {
+	padding-left: 1px;
+	text-align: center;
+	background: #393E44 none;
+}
+
+.tipsy {
+	position: absolute;
+	z-index: 100000;
+	padding: 5px;
+	font-size: 10px;
+}
+.tipsy-inner {
+	padding: 5px 8px 4px 8px;
+	background-color: #fff;
+	color: #000;
+	max-width: 200px;
+	text-align: center;
+}
+.tipsy-inner {
+	border-radius: 3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.tipsy-arrow {
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: url(http://images2.corriereobjects.it/images/tipsy.gif?v=20110322111032) no-repeat top left;	
+}
+.tipsy-s .tipsy-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -4px;
+	background-position: bottom left;
+}
+
+/* //end CTV 3a colonna  (3 tabs) */
+
+
+

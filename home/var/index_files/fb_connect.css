@@ -1,0 +1,1070 @@
+
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+	
+*/
+
+/* CSS Document */
+#email_ok,
+#registrazione-fb-err,
+#registrazione-social-err,
+#registrazione-fb-err-reg {
+    display: block;
+    float: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+#registrazione-social-err {
+    margin-left: 0px;
+}
+#ajax_container #registrazione-social-err {
+	display:none !important;
+}
+#registrazione-fb-err {
+    margin-left: 122px;
+}
+#loginFormBeanIframe #registrazione-fb-err {
+	margin-bottom:0;
+    margin-left:10px;
+}
+#email_ok,
+#email_error #registrazione-fb-err {
+    margin-left:0;
+}
+#registrazione-fb-err-reg {
+    margin-left:20px !important;
+}
+#registrazione-social-err h6,
+#registrazione-fb-err h6 {
+	color:#CC0000;
+	font-size:13px;
+}
+#registrazione-fb-err-reg h6 {
+	color:#CC0000 !important;
+	font-size:13px !important;
+	margin: 0 10px 10px 0 !important;
+}
+#email_ok h6 {
+	color:#505050;
+	font-size:13px;
+}
+#fb_form_cambia ul.cont_list {
+    float: left;
+    width: 298px;
+}
+#fb_form_cambia #genereG {
+	display:none;
+}
+#fb_connect_big .block_bottom,
+#fb_connect_cor .block_bottom {
+	display:block;
+	margin-bottom:15px;
+}
+#fb_connect_big .accetto_btn,
+#fb_connect_cor .accetto_btn,
+#fb_connect_cor #fb_form_connetti .accetto {
+	float:right;
+    margin: 12px 30px 20px 0;
+}
+#fb_connect_big .opacity_wait_05,
+#fb_connect_cor .opacity_wait_05 {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/ajax-loader_sm.gif?v=201207191343) no-repeat scroll 0 12px;	
+    opacity: 0.4;
+    padding-left: 35px;	
+}
+#fb_connect_big .opacity_wait_05 img,
+#fb_connect_cor .opacity_wait_05 img {
+    opacity: 0.4;
+}
+#fb_connect_cor .fb_form_connetti .jqTransformSelectWrapper ul {
+	height:150px !important;
+	overflow:auto !important;
+}
+#fb_connect_big .block_bottom,
+#fb_connect_cor #fb_form_connetti .block_bottom {
+	display:block;
+	margin-bottom:15px;
+	margin-top:10px;
+}
+#fb_connect_cor .rowElem {
+	float:left;
+} 
+#fb_connect_big .rowElem {
+    float: left;
+    margin: 0 0 15px 20px;
+    height: 45px;
+    width: 278px;
+}
+#fb_connect_big .extra_line_resp {
+    float: left;
+    margin: 0 0 28px 20px;
+    width: 378px;
+}
+#fb_connect_big .extra_line_resp a {
+    color: #3D69B6;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: underline;
+}
+#fb_connect_big .extra_line_resp .registrazione-lista {
+	line-height:20px;
+}
+#fb_connect_big .registrazione-back {
+    clear: left;
+    color: #3D69B6;
+    float: left;
+    padding: 0 0 10px 20px;
+    text-decoration: underline;
+}
+#fb_connect_big .email_cambia {
+	padding-left:20px;
+}
+#fb_connect_big .extra_bottom {
+    margin-bottom: 28px;
+}
+#fb_connect_big .box_disconnetti {
+    font-size: 12px;
+    height: 130px;
+    line-height: 16px;
+    padding-top: 36px;
+}
+#fb_connect_big .box_disconnetti .disc_body {
+	font-size:14px;
+    line-height: 18px;	
+	margin:10px 0;
+	position:relative;
+}
+#fb_connect_big .box_disconnetti .disc_body a {
+    position: absolute;
+    right: 40px;
+    top: 4px;
+}
+#fb_connect_big .box_disconnetti img {
+	display:inline;
+}
+#fb_connect_big .box_disconnetti a {
+	display:block;
+	margin-top:7px;
+}
+#fb_connect_big .single_line {
+    height: 22px;
+    padding-top: 23px;
+}
+#fb_connect_cor .input_margin {
+    margin: 0 0 22px 8px;
+}
+#fb_connect_cor .input_margin a {
+    margin: 5px 0 0 11px;
+}
+#loginFormBean_form .register_form_fb .input_margin,
+#fb_connect_cor #fb_form_iscriviti .radio_margin,
+#fb_connect_cor #fb_form_iscriviti .input_margin,
+#fb_connect_cor #fb_form_connetti .input_margin,
+#fb_connect_cor #fb_form_email .input_margin {
+    float: none;
+    margin: 0 0 22px;
+    padding-left: 122px;
+}
+#fb_connect_big .rowElem .input_text_sm,
+#fb_connect_big .rowElem .input_text_med,
+#fb_connect_big .select_text,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_sm,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_med,
+#fb_connect_cor #fb_form_iscriviti .select_text,
+#fb_connect_cor #fb_form_connetti .select_text,
+#fb_connect_cor #fb_form_connetti .input_text {
+	margin-top:5px;
+}
+#fb_connect_big .select_text {
+	position:relative;
+}
+#fb_connect_cor #fb_form_connetti {
+	line-height:18px;
+}
+#fb_connect_big .rowElem .input_text,
+#fb_connect_cor .rowElem .input_text {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_text.gif?v=201207191343) no-repeat left top;
+    height: 21px;
+    padding: 0;
+    width: 241px;
+}
+#fb_connect_big .rowElem .input_text {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_text_reg.gif?v=201207191343) no-repeat left top;
+}
+#fb_connect_big .rowElem .input_text {
+	margin-top:5px;
+}
+.container_socialn .rowElem .input_text_sm,
+#fb_connect_big .rowElem .input_text_sm,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_sm {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_text_sm.gif?v=201207191343) no-repeat left top;
+	float:left;
+    height: 21px;
+    padding: 0;
+    width: 70px;
+}
+.container_socialn .rowElem .input_text_sm input,
+#fb_connect_big .rowElem .input_text_sm input,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_sm input {
+    width:53px;
+}
+.container_socialn .rowElem .input_text_med,
+#fb_connect_big .rowElem .input_text_med,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_med {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_text_med.gif?v=201207191343) no-repeat left top;
+	float:left;
+    height: 21px;
+    padding: 0;
+    width:91px;
+}
+.container_socialn .rowElem .input_text_med input,
+#fb_connect_big .rowElem .input_text_med input,
+#fb_connect_cor #fb_form_iscriviti .rowElem .input_text_med input {
+    width:73px;
+}
+.container_socialn .rowElem .radio_bt,
+#fb_connect_big .rowElem .radio_bt,
+#fb_connect_cor #fb_form_iscriviti .rowElem .radio_bt {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_radio_off.gif?v=201207191343) no-repeat right top;
+	cursor:pointer;
+    display: inline;
+    height: 14px;
+	margin:0 2px 0 40px;
+    margin-right: 2px;
+    padding:0;
+    vertical-align: -1px;
+    width: 14px;
+}
+.container_socialn .rowElem .radio_bt img,
+#fb_connect_big .rowElem .radio_bt img,
+#fb_connect_cor #fb_form_iscriviti .rowElem .radio_bt img {
+	height:14px;
+	height:14px;
+	display:inline;
+}
+.container_socialn .rowElem .red_spacer,
+#fb_connect_big .rowElem .red_spacer {
+	margin:0 2px 0 30px;
+}
+.container_socialn .rowElem .radio_bt_on,
+#fb_connect_big .rowElem .radio_bt_on,
+#fb_connect_cor #fb_form_iscriviti .rowElem .radio_bt_on {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_radio_on.gif?v=201207191343) no-repeat right top !important;
+}
+.container_socialn .display_none,
+#fb_connect_cor .display_none,
+#fb_connect_big .display_none,
+#fb_connect_big .rowElem .radio_bt input,
+#fb_connect_cor #fb_form_iscriviti .rowElem .radio_bt input {
+	display:none;
+}
+.container_socialn .radio_margin,
+#fb_connect_big .radio_margin,
+#fb_connect_cor #fb_form_iscriviti .radio_margin {
+	clear:both;
+}
+.container_socialn .inp_margin,
+#fb_connect_big .inp_margin,
+#fb_connect_cor #fb_form_iscriviti .inp_margin {
+	margin:0 5px;
+}
+#fb_connect_cor #fb_pwd_email .rowElem {
+    margin: 10px 0 17px 42px;
+}
+#fb_connect_cor #fb_pwd_email .rowElem .input_text {
+	float:left;
+    margin-right: 13px;
+    margin-top: 9px;	
+}
+#fb_connect_big .rowElem input,
+#fb_connect_cor .rowElem input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    margin: 2px 0 0 10px;
+	outline:none;
+	width:220px;
+}
+#fb_connect_big .rowElem input.display_on_blur,
+#fb_connect_cor .rowElem input.display_on_blur {
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+#fb_connect_big .rowElem input.example,
+#fb_connect_cor .rowElem input.example {
+    color: #8B8B8B;
+}
+#fb_connect_cor {
+    color: #464646;
+	float:left;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    padding: 8px 0 8px 0;
+	position:relative;
+    width: 556px;
+}
+#loginFormBean_form #fb_connect_cor {
+    padding: 0;
+    width: auto;
+}
+#fb_connect_cor div.top_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/top_popup.png?v=201207191343) no-repeat scroll 0 0;
+	height:8px;
+    width: 556px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#fb_connect_cor div.bg_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/bg_popup.png?v=201207191343) repeat-y scroll 0 0;
+    padding:9px 0 6px 13px;
+    width: 543px;	
+}
+#fb_connect_cor div.bottom_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/bottom_popup.png?v=201207191343) no-repeat scroll 0 0;
+	height:8px;
+    width: 556px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#fb_connect_big {
+    background-color: #FFFFFF;
+    color: #464646;
+	float:left;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    padding: 14px 0 11px 20px;
+	position:relative;
+    width:923px;
+}
+#fb_connect_big .container_button,
+#fb_connect_cor .container_button {
+	text-align:center;
+}
+#fbConnectBox {
+	position:absolute !important;
+	z-index:2147483647 !important;
+}
+#fbConnectBox .simplemodal-wrap {
+	height:auto;
+}
+#fbConnectBox .modalCloseImg {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/close.gif?v=201207191343) no-repeat left top;
+	cursor:pointer;
+    display: block;
+    height: 26px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    width: 25px;
+    z-index: 999999;
+} 
+#fb_connect_big h5,
+#fb_connect_cor h5 {
+	color:#505050;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:normal;
+    margin: 0 10px 10px 0;
+	text-align:center;
+}
+#fb_connect_big h5 {
+    margin: 0 0 8px 41px;
+    text-align: left;	
+}
+#fb_connect_big h6 {
+    color: #464646;
+    font-family: "BreraRegular";
+    font-size: 12px;
+    margin: 0 10px 10px 41px;	
+}
+#fb_connect_big h5.small,
+#fb_connect_cor h5.small {
+	font-size:20px;
+}
+#fb_connect_big h5 img,
+#fb_connect_cor h5 img {
+	display:inline;
+	vertical-align:-2px;
+}
+#fb_connect_big .box_cont,
+#fb_connect_cor .box_cont {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_bg_sm.gif?v=201207191343) scroll repeat-y 0 0;
+	float:left;
+    margin-top: 10px;
+    padding: 14px 15px 22px 22px;
+    position: relative;
+    width: 493px;
+}
+#fb_connect_cor #box_cont_con {
+	line-height: 24px;
+    padding: 50px 0 45px 12px;
+    width: 518px;
+}
+#fb_connect_cor #box_cont_con .upper_first {
+	text-transform:capitalize;
+}
+#fb_connect_big .box_cont {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_bg.gif?v=201207191343) scroll repeat-y 0 0;
+	margin-bottom:20px;
+    width: 903px;
+}
+#fb_connect_big .box_cont .top_fb,
+#fb_connect_cor .box_cont .top_fb {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_top_sm.gif?v=201207191343) no-repeat scroll 0 0;
+	display:block;
+	height:4px;
+	width:530px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#fb_connect_big .box_cont .top_fb {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_top.gif?v=201207191343) no-repeat scroll 0 0;
+    width: 923px;
+}
+#fb_connect_big .box_cont .bottom_fb,
+#fb_connect_cor .box_cont .bottom_fb {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_bottom_sm.gif?v=201207191343) no-repeat scroll 0 0;
+	display:block;
+	height:8px;
+	width:530px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#fb_connect_big .box_cont .bottom_fb {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/box_cont_bottom.gif?v=201207191343) no-repeat scroll 0 0;
+    width: 923px;
+}
+#fb_connect_big .box_cont .entra,
+#fb_connect_cor .box_cont .entra {
+    margin: 15px auto 0;
+    text-align: center;
+}
+#fb_connect_cor .box_cont .facebook,
+#fb_connect_cor .box_cont .twitter,
+#fb_connect_cor .box_cont .google,
+#fb_connect_cor .box_cont .linkedin {
+    display: block;
+    height: 41px;
+    margin: 0 auto 10px;
+    vertical-align: middle;
+    width: 142px;
+}
+#fb_connect_cor .box_cont .iscriviti {
+	vertical-align:middle;
+	text-align:center;
+}
+#fb_connect_cor .box_cont img {
+	display:inline;
+}
+#fb_connect_cor .box_cont img.logo_SN_twitter,
+#fb_connect_cor .box_cont img.logo_SN_linkedin {
+	vertical-align:-3px;
+}
+#fb_connect_cor .box_cont img.logo_SN_google {
+	vertical-align:-6px;
+}
+#fb_connect_cor .box_cont img.logo_SN_facebook {
+	vertical-align:0px;
+}
+#fb_connect_cor .box_cont .title_absolute {
+	position:absolute;
+	top:28px;
+	left:15px;
+}
+#fb_connect_cor .box_entra .rowElem a.small_bottom {
+    color: #3D69B6;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+#fb_connect_big #fb_newsletter,
+#fb_connect_cor #fb_newsletter {
+    color: #464646;
+    float: left;
+    font-family: "BreraRegular";
+    font-size: 12px;
+    line-height: 13px;
+    margin: 20px 0 10px;
+    padding: 0 0 0 20px;	
+}
+#fb_connect_big #fb_newsletter {
+    font-size: 14px;
+    line-height: 14px;
+	padding:0 0 0 40px;
+}
+#fb_connect_big #fb_newsletter h5,
+#fb_connect_cor #fb_newsletter h5 {
+    font-family: "BreraRegular";
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-bottom: 14px;
+    text-align: left;
+}
+#fb_connect_big #fb_newsletter h5 {
+    margin:0 0 14px 0;
+}
+#fb_connect_big #fb_newsletter h5 {
+    font-size:14px;
+}
+#fb_connect_big #fb_newsletter li,
+#fb_connect_cor #fb_newsletter li {
+    float: left;
+    margin-bottom:10px;
+}
+#fb_connect_big #fb_newsletter li strong,
+#fb_connect_cor #fb_newsletter li strong {
+    display: block;
+    margin-bottom: 2px;
+}
+#fb_connect_cor #fb_newsletter li div {
+    float: left;
+    width: 225px;
+}
+#fb_connect_big #fb_newsletter li div {
+    float: left;
+    width:260px;
+}
+#fb_disclaimer {
+    color: #464646;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    margin-top: 16px;
+    padding: 0 15px;
+	line-height:13px;
+}
+#fb_connect_big #fb_disclaimer {
+    padding:0 0 14px 40px;
+}
+#fb_disclaimer a {
+    color: #3d69b6;
+	text-decoration:underline;
+}
+#fb_disclaimer h5 {
+    font-family: "BreraRegular";
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 14px;
+    text-align: left;
+}
+#fb_connect_big #fb_disclaimer h5 {
+	margin:0 0 14px 0;
+}
+#fb_disclaimer li {
+    float: left;
+    margin-bottom: 6px;
+}
+#fb_connect_big #fb_newsletter li .input,
+#fb_connect_cor #fb_newsletter li .input,
+#fb_disclaimer li .input {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_check_off.gif?v=201207191343) no-repeat scroll 0 0;
+	float:left;
+	margin-right:7px;
+	height:13px;
+	width:13px;
+}
+#fb_connect_big #fb_newsletter li .input_on,
+#fb_connect_cor #fb_newsletter li .input_on,
+#fb_disclaimer li .input_on {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_check_on.gif?v=201207191343) no-repeat scroll 0 0 !important;
+}
+#fb_connect_big #fb_newsletter li input,
+#fb_connect_cor #fb_newsletter li input,
+#fb_disclaimer li input {
+	display:none;
+}
+#fb_disclaimer li div {
+    float: left;
+    width: 460px;
+}
+#fb_connect_big #fb_disclaimer li div {
+    width:860px;
+}
+#fb_connect_big .select_text select,
+#fb_connect_cor .select_text select {
+	width:225px;
+}
+
+#fb_connect_big .jqTransformSelectWrapper,
+#fb_connect_cor .jqTransformSelectWrapper {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/form_select.gif?v=201207191343) no-repeat scroll 0 0;
+	width: 45px;
+	position:relative;
+	height: 22px;
+	float:left;
+}
+#fb_connect_big .jqTransformSelectWrapper div span,
+#fb_connect_cor .jqTransformSelectWrapper div span {
+    color: #000000;
+    font-family: "BreraRegular";
+    font-size: 14px;
+	float: none;
+	position: absolute;
+	white-space: nowrap;
+	height: 21px;
+	line-height: 15px;
+    padding: 3px 0 0 10px;
+	overflow: hidden;
+	cursor:pointer;
+}
+#fb_connect_big .jqTransformSelectWrapper  a.jqTransformSelectOpen,
+#fb_connect_cor .jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	position: absolute;
+	right: 0px;
+	width: 21px;
+	height: 21px;
+	margin:0;
+}
+#fb_connect_big .jqTransformSelectWrapper ul,
+#fb_connect_cor .jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 230px !important;
+	top: 21px;
+	left: 5px;
+	list-style: none;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	overflow: auto;
+	z-index:10;
+}
+#fb_connect_big .jqTransformSelectWrapper ul a,
+#fb_connect_cor .jqTransformSelectWrapper ul a {
+	display: block;
+    padding: 2px 2px 2px 6px;
+	margin:0;
+	text-decoration: none;
+	color:#333;
+	background-color: #FFF;
+    color: #8B8B8B;
+    font-family: "BreraRegular";
+    font-size: 14px;
+}
+#fb_connect_big .jqTransformSelectWrapper ul a.selected,
+#fb_connect_cor .jqTransformSelectWrapper ul a.selected {
+	background: #EDEDED;
+	color: #333;
+}
+#fb_connect_big .jqTransformSelectWrapper ul a:hover,
+#fb_connect_big .jqTransformSelectWrapper ul a.selected:hover,
+#fb_connect_cor .jqTransformSelectWrapper ul a:hover,
+#fb_connect_cor .jqTransformSelectWrapper ul a.selected:hover {
+	background:#3582c4;
+	color: #fff;
+}
+#fb_connect_big .jqTransformHidden,
+#fb_connect_cor .jqTransformHidden
+{display: none;}
+#fb_form_iscriviti {
+	margin-top:15px;
+}
+#fb_connect_cor .control_captcha {
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin: 5px 0 4px;
+    padding: 7px 0 7px 10px;
+    width: 478px;
+}
+#fb_connect_cor .control_captcha #recaptcha_image,
+#fb_connect_cor .control_captcha #recaptcha_image img {
+	float:left;
+	width:230px !important;
+}
+#fb_connect_cor .control_captcha .options {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/bg_options.gif?v=201207191343) no-repeat scroll 0 0;
+	float:left;
+	width:80px;
+}
+#fb_connect_cor .control_captcha .options a {
+	display:block;
+	text-indent:-5000px;
+	height:15px;
+	width:53px;
+	margin-bottom:5px;
+}
+#fb_connect_cor .control_captcha .options a#rec_image {
+	display:none;
+}
+#fb_connect_cor .control_captcha .cont_input {
+    color: #464646;
+    float: left;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    margin-top: 6px;
+}
+#fb_connect_cor .control_captcha .cont_input .recaptcha_bg_input {
+	border:1px solid #c0c0c0;
+}
+#fb_connect_cor .control_captcha .cont_input .recaptcha_bg_input input {
+    margin: 0;
+    padding: 5px 10px;
+}
+#fb_connect_cor .control_captcha .cont_input .recaptcha_only_if_incorrect_sol {
+	color:#CC0000;
+}
+#fb_connect_cor .control_captcha .recaptcha_bg_input {
+    margin-top: 3px;
+}
+#fb_connect_cor .control_captcha .recaptcha_bg_input input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #8B8B8B;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    margin: 2px 0 0 10px;
+}
+#fb_connect_cor .box_nick_ok {
+	color: #CC2026;
+	visibility:hidden;
+}
+#simplemodal-overlay {
+    z-index: 2147483000 !important;
+}
+.simplemodal-container {
+	z-index: 2147483001 !important;
+}
+
+#fb_connect_cor .user_social {
+	float:left;
+	margin:0 10px 0 0;
+}
+#fb_connect_cor .link_sn_blu {
+    color: #3D69B6;
+	text-decoration:underline;
+}
+#fb_connect_cor .clearSN {
+	position:relative;
+}
+#fb_connect_cor #social_connect .clearSN .input_text {
+	margin-bottom:10px;
+}
+#fb_connect_cor .snMerginTop {
+	margin-top:10px;
+}
+#fb_connect_cor .display_block {
+	display:block !important;
+}
+#fb_connect_cor .img_spacer_sn {
+    margin: 10px 0 15px 0;
+}
+#fb_connect_cor .clearSN img.clearBT {
+    cursor: pointer;
+    left: 245px;
+    position: absolute;
+    top: 5px;
+}
+#fb_connect_cor .clearSN img.okBT {
+    left: 248px;
+    position: absolute;
+    top: -1px;
+}
+#fb_connect_cor .clearSN img.waitBT {
+    left:-25px;
+    position: absolute;
+    top: -1px;
+}
+#fb_connect_cor .clearSN .okText {
+    color: #6F9108;
+    font-size: 12px;
+    left: 280px;
+    line-height: 18px;
+    position: absolute;
+    top: 2px;
+    width:160px;
+}
+#fb_connect_cor .bt_avanti_box {
+    float: right;
+    margin: 15px 30px 9px 0;
+}
+#fb_connect_cor .text_sn_top {
+    margin-bottom: 4px;
+    float: left;
+}
+#fb_connect_cor .container_socialn {
+	width:380px;
+	float:left;
+}
+#fb_connect_cor .small_txt_sn {
+	font-size:12px;
+	font-style:normal;
+}
+#fb_connect_cor .rec_socialn_pwd {
+    color: #3D69B6;
+	display:block;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    margin: -5px 0 0 10px;
+	width:200px;
+}
+#fb_connect_cor .sexSN,
+#fb_connect_cor .dataNascitaSN,
+#fb_connect_cor .fixed_text {
+	display:block;
+	width:350px;
+}
+#fb_connect_big h5.size_20,
+#fb_connect_cor h5.size_20 {
+    font-size: 20px;
+    margin: 0 10px 5px 0;
+}
+#fb_connect_big .box_socialn,
+#fb_connect_cor .box_socialn {
+    min-height: 245px;
+    padding: 27px 15px 22px 32px !important;
+}
+#fb_connect_cor #social_connect .rowPos {
+    margin: 12px 0 10px !important
+}
+#fb_connect_cor #social_connect .rowSpacer {
+    margin: 5px 0 16px !important;
+}
+#fb_connect_cor .dataNascitaSN {
+    clear: both;
+    margin: 6px 0 8px;
+}
+#fb_connect_cor .sexSN {
+    margin: 13px 0 18px;
+}
+#fb_connect_cor .sexSN input {
+	display:none;
+}
+#ajax_container #fb_disclaimer {
+	display:none;
+}
+.rowElem .error_dyn {
+	color: #990000;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: left;
+    /*width: 234px;*/
+}
+#fb_disclaimer .error_dyn {
+	color: #990000;
+    display: block;
+    font-family: Arial;
+	font-size: 11px;
+    padding: 3px 0;
+	text-align:left;
+}
+
+/*NEW BOX LOGIN*/
+#login_connect_cor {
+    color: #464646;
+    float: left;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    padding: 6px 0 24px 0;
+    position: relative;
+    width: 551px;
+}
+#login_connect_cor div.top_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_top_cont.png?v=201207191343) no-repeat scroll 0 0;
+	height:6px;
+    width: 551px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#login_connect_cor div.bg_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_bg_cont.png?v=201207191343) repeat-y scroll 0 0;
+    padding:9px 0 6px 13px;
+    width: 537px;	
+}
+#login_connect_cor div.bottom_popup {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_bottom_cont.png?v=201207191343) no-repeat scroll 0 0;
+	height:24px;
+    width: 551px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#login_connect_cor .login_box_new {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_bg_box.png?v=201207191343) repeat-y scroll 0 0;
+	float:left;
+    font-family: "BreraRegular";	
+	position:relative;
+	padding-top:18px;
+	height:280px;
+    width: 263px;
+}
+#login_connect_cor .body_login {
+	height: 264px;
+    padding: 0 0 0 20px;
+    position: relative;
+}
+#login_connect_cor .help_link {
+	position:absolute;
+	right:20px;
+	top:0px;
+	color:#3d69b6;
+	font-size:11px;
+	text-decoration:underline;
+}
+#login_connect_cor .login_box_new .top_login {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_top_box.png?v=201207191343) no-repeat scroll 0 0;
+	height:6px;
+    width: 263px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#login_connect_cor .login_box_new .bottom_login {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_bottom_box.png?v=201207191343) no-repeat scroll 0 0;
+	height:10px;
+    width: 263px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#login_connect_cor div.bottom_popup a {
+	bottom: 10px;
+    color: #3D69B6;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 17px;
+    position: absolute;
+    right: 20px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_info.png?v=201207191343) no-repeat scroll 0 2px;	
+}
+#login_connect_cor .subscription_box {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_bottom_gr_box.png?v=201207191343) no-repeat scroll 0 0;
+	bottom: 0;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	font-weight:bold;
+    height: 59px;
+    left: 0;
+	letter-spacing:-0.05em;
+    padding: 39px 0 0 70px;
+    position: absolute;
+    width: 193px;
+}
+#login_connect_cor .list_button {
+	position:absolute;
+	bottom:13px;
+	left:68px;
+}
+#login_connect_cor .list_button a {
+	display:block;
+	margin-bottom:5px;
+}
+#login_connect_cor ul {
+	font-size: 13px;
+    line-height: 16px;
+    list-style-type: disc;
+    margin-left: 15px;
+}
+#login_connect_cor .subscription_box a {
+	color:#3d69b6;
+	font-size:13px;
+}
+#login_connect_cor h5 {
+	color:#505050;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:normal;
+    margin: 0 10px 10px 0;
+	text-align:center;
+}
+.login_title_sn {
+	display:block;
+	margin-bottom:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:-0.05em;
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .rowElem {
+    float: none;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .rowElem a.small_bottom {
+	color: #3D69B6;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 7px 0 0 5px;
+    text-decoration: underline;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .input_margin {
+    margin: 10px 0 20px 0;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .login_title_sn {
+    margin: 0 0 30px 0;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp #registrazione-fb-err {
+	left: 0;
+    line-height: 10px;
+    margin-left: 0;
+    position: absolute;
+    top: 21px;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .rowElem .input_text {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/fb/login_input.png?v=201207191343) no-repeat scroll 0 0;
+    height: 21px;
+    padding: 0;
+    width: 199px;
+}
+#loginFormBean_form #fb_connect_cor #box_login_hp .rowElem input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    font-family: "BreraRegular";
+    font-size: 14px;
+    margin: 2px 0 0 10px;
+    outline: medium none;
+    width: 180px;
+}
+#login_connect_cor iframe {
+	margin:0 0 0 32px;
+}
+.block_error_login {
+	display:block;
+	margin:29px;
+}
+.box_recupera_ut {
+	margin-bottom:150px !important;
+}
+.box_recupera_ut strong {
+	display: block;
+    margin: 80px 0 40px;
+}

@@ -1,0 +1,5 @@
+var adm_geo = "";
+var adm_brand = "Senato|Montecitorio";
+var adm_cont = "diritto, governo e politica;politica;partiti;|diritto, governo e politica;politica;capi di stato;|diritto, governo e politica;politica;parlamento;|diritto, governo e politica;politica;;";
+var adm_feel = "";
+var adm_prof = "guida universita";

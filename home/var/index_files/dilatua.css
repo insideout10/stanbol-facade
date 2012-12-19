@@ -1,0 +1,673 @@
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+	
+*/
+/* CSS Document */
+
+
+
+.dilatua {
+
+	font-family: Georgia, Palatino, serif;
+
+	font-size: 1.4em;
+
+	line-height: 1.5;
+
+	color: #464646;
+
+}
+
+
+
+.dilatua h1 {
+
+	font-size: 2.5em;
+
+	letter-spacing: -1px;
+
+	color: #231F20;
+
+	line-height: 1.3;
+
+}
+
+
+
+.dilatua h2 {
+
+	margin: 0.2em 0;
+
+	font-style: italic;
+
+	color: #535A5B;
+
+	font-size: 1.7em;
+
+	line-height: 1.4;
+
+}
+
+
+
+.dilatua h3 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 0.85em;
+
+	text-transform: uppercase;
+
+	color: #5B5B5B;
+
+}
+
+
+
+.dilatua p {
+
+	margin-bottom: 1em;
+
+}.dilatua table {
+
+	border: 1px solid #DDE4EE;
+
+}
+
+#scrivi {
+
+	BACKGROUND-POSITION: 0px 5px;
+
+	MARGIN-TOP: 10px;
+
+	DISPLAY: block;
+
+	PADDING-LEFT: 0px;
+
+	FONT-WEIGHT: bold;
+
+	FONT-SIZE: 10px;
+
+	BACKGROUND-IMAGE: url(http://images.corriereobjects.it/images/static/common/dilatua.gif?v=200709181433);
+
+	PADDING-TOP: 35px;
+
+	BACKGROUND-REPEAT: no-repeat;
+
+	FONT-FAMILY: verdana;
+
+	border-top-width: 1px;
+
+	border-top-style: solid;
+
+	border-top-color: #CCCCCC;
+
+}
+
+
+
+#scrivi A {
+
+	COLOR: #000000
+
+}
+
+#scrivi IMG {
+
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN-LEFT: 5px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+
+}
+
+
+
+#vediTutti {
+
+	PADDING-TOP: 5px;
+
+	TEXT-ALIGN: right;
+
+	margin-bottom: 10px;
+
+}
+
+#vediTutti A {
+
+	PADDING-TOP: 5px;
+
+	TEXT-ALIGN: right;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 1.1em;
+
+	font-weight: bold;
+
+	color: #666666;
+
+}
+
+.table_form {
+
+	BORDER-RIGHT: 0px; 
+
+	BORDER-TOP: 0px; 
+
+	MARGIN-TOP: 20px; 
+
+	FONT-SIZE: 1.2em; 
+
+	BORDER-LEFT: 0px; 
+
+	WIDTH: 620px; 
+
+	COLOR: #000000; 
+
+	LINE-HEIGHT: 1.6em; 
+
+	BORDER-BOTTOM: 0px; 
+
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+
+}
+
+#barraBottoni {
+
+	PADDING-RIGHT: 0px;
+
+	PADDING-LEFT: 0px;
+
+	MARGIN-BOTTOM: 20px;
+
+	PADDING-BOTTOM: 5px;
+
+	PADDING-TOP: 5px;
+
+	TEXT-ALIGN: center;
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/puntini1.gif?v=200709171817);
+
+	background-repeat: repeat-x;
+
+	background-position: left bottom;
+
+}
+
+.bottone {
+
+	DISPLAY: inline; MARGIN-RIGHT: 20px
+
+}
+
+.linkblu {
+
+	FONT-WEIGHT: bold;
+
+	COLOR: #000000;
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 1em;
+
+	text-decoration: underline;
+
+}
+
+.contenitore_esterno {
+
+	FONT-SIZE: 1em; WIDTH: 520px; FONT-FAMILY: verdana
+
+}
+
+.contenitori_dettagli {
+
+	FONT-SIZE: 1.2em;
+
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+
+	line-height: 1.3em;
+
+}
+
+.commento {
+
+	PADDING-RIGHT: 0px;
+
+	PADDING-LEFT: 0px;
+
+	PADDING-BOTTOM: 20px;
+
+	PADDING-TOP: 20px;
+
+	border-bottom-width: 1px;
+
+	border-bottom-style: solid;
+
+	border-bottom-color: #CCCCCC;
+
+	font-size: 1.2em;
+
+	line-height: 1.4;
+
+}
+
+.commento .titoloComm {
+
+	FONT-WEIGHT: bold; FONT-SIZE: 1em; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+
+}
+
+.commento .autoreComm {
+
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 0px; COLOR: #366291; PADDING-TOP: 5px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+
+}
+
+.commento .data {
+
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-STYLE: italic; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-ALIGN: right
+
+}
+
+.commento .testoComm {
+
+	FONT-SIZE: 1em; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+
+}
+
+#titolo {
+
+	FONT-WEIGHT: normal; 
+
+	FONT-SIZE: 1.5em; 
+
+	COLOR: #000000; 
+
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif}
+
+#barraAzz {
+
+	PADDING-RIGHT: 0px;
+
+	PADDING-LEFT: 0px;
+
+	FONT-SIZE: 1em;
+
+	PADDING-BOTTOM: 5px;
+
+	COLOR: #000000;
+
+	PADDING-TOP: 5px;
+
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+
+	BACKGROUND-COLOR: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/puntini1.gif?v=200709171817);
+
+	background-repeat: repeat-x;
+
+	background-position: left bottom;
+
+	font-weight: bold;
+
+}
+
+
+
+.catenaccio {
+
+	FONT-WEIGHT: normal! important; 
+
+	FONT-SIZE: 1.2em; 
+
+	MARGIN-BOTTOM: 20px; COLOR: #000000; 
+
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif}
+
+.spacer {
+
+	PADDING-BOTTOM: 10px
+
+}
+
+#box-dilatua-scrivi {
+
+	background-color: transparent;
+
+	background-image: url(http://images.corriereobjects.it/images/static/common/pix_dilatua_box.gif?v=200710151216);
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	height: 72px;
+
+	/*width: 558px;*/
+
+	width: 608px;
+
+	padding-top: 5px;
+
+	padding-right: 5px;
+
+	padding-bottom: 5px;
+
+	padding-left: 10px;
+
+	float:left;
+
+}
+
+div.box-dilatua-w {
+
+	width: 605px!important;
+
+}
+
+#box-dilatua-scrivi .scrivi-sx-dilatua {
+
+	/*width: 400px;*/
+
+	width: 370px;
+
+	float: left;
+
+}
+
+#box-dilatua-scrivi .scrivi-sx-dilatua span.grey-title{
+
+	font-size:11px;
+
+}
+
+#box-dilatua-scrivi .scrivi-dx-dilatua {
+
+	/*float:right;*/
+
+	float:left;
+
+	font-family:Arial;
+
+	font-size:10px;
+
+	line-height:14px;
+
+	padding-right:10px;
+
+	padding-top:14px;
+
+	text-align:right;
+
+	text-transform:uppercase;
+
+	width:145px;
+
+}
+
+#box-dilatua-scrivi .red {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 1.5em;
+
+	color: #A00501;
+
+}
+
+#box-dilatua-scrivi .grey {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 1.9em;
+
+	color: #4D5562;
+
+	font-weight: bold;
+	
+	background:none !important;
+
+}
+
+#box-dilatua-scrivi .grey-title a {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 0.8em;
+
+	color: #4D5562;
+
+	text-decoration: none;
+
+}
+
+#box-dilatua-article {
+
+	width: 620px;
+
+}
+
+#box-dilatua-article .img {
+
+	float: left;
+
+	width: 20px;
+
+	height: 25px;
+
+	padding-top: 5px;
+
+}
+
+#box-dilatua-article .data-dilatua {
+
+	float: right;
+
+	width: 585px;
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 0.8em;
+
+	color: #9B000B;
+
+}
+
+#box-dilatua-article  span.commento-heading{
+	color: #54595C;
+    display: block;
+    font-size: 1.5em;
+}
+#box-dilatua-article .data-dilatua span {
+
+
+
+	color: #4B4E8A;
+
+}
+
+#box-dilatua-article h1 {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	font-size: 1.5em;
+
+	color: #54595C;
+
+	margin-bottom: 5px;
+
+}
+
+#box-dilatua-article p {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 0.9em;
+
+	color: #54595C;
+
+	margin-bottom: 30px;
+
+	clear: both;
+
+}
+
+.all-message {
+
+	float: right;
+
+
+
+	width: 130px;
+
+}
+
+.all-message .testo a {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 0.8em;
+
+	color: #54595C;
+
+	font-weight: bold;
+
+	float: right;
+
+	width: 100px;
+
+	text-decoration: none;
+
+}
+
+.all-message .img {
+
+	float: left;
+
+	width: 20px;
+
+}
+
+#commenti-cont h3 {font-family:Georgia;color:#4d5561;font-weight:bold;font-size:27px;line-height:50px}
+
+#commenti-cont h3 span {font-family:Georgia;color:#cb2026;font-weight:normal;font-size:21px}
+
+#commenti-cont #titolo {padding:18px 13px;background:#e5f0f6}
+
+#commenti-cont #titolo h1 a.linkblu {font-family:Georgia;color:#666;font-weight:normal;font-size:36px;letter-spacing:-0.03em;line-height:40px}
+
+#commenti-cont #titolo div.catenaccio {padding:0;margin:10px 0 0 0}
+
+#commenti-cont #titolo div.catenaccio p a {padding:0;margin:10px 0 0 0;font-family:Georgia;color:#666;font-weight:normal!important;font-size:24px;font-style:italic}
+
+#login-commenti p {font-size:13px;font-family:Arial;line-height:18px;padding:10px 0}
+
+#accedi-modifica {font-size:18px;font-family:Arial;text-align:right}
+
+#accedi-modifica a {text-decoration:underline}
+
+a.dilatua-link:hover {text-decoration:underline;font-style:italic}
+
+a.dilatua-link {text-decoration:underline;font-style:italic}
+
+
+
+/*
+
+#num-commenti {
+
+	background:#fff url(http://images.corriereobjects.it/images/static/common/fumetto_dilatua.png?v=200903091444) no-repeat 0 1px;
+
+	width:37px;
+
+	height:32px;
+
+	padding:40px 0 0 10px;
+
+	font-size:20px;
+
+	color:#305eb3;
+
+	font-style:italic;
+
+	float:left;
+
+}
+
+*/
+
+
+
+#num-commenti {
+
+	background: url(http://images.corriereobjects.it/images/static/common/fumetto.gif?v=200903101138) no-repeat top center;
+
+	width:70px;
+
+	font-size:20px;
+
+	color:#305eb3;
+
+	font-style:italic;
+
+	float:right;
+
+	padding-top: 30px;
+
+	text-align: center;
+
+	line-height: 18px;
+
+}
+
+
+
+#num-commenti span {
+
+	font-style: normal;
+
+	font-size: 9px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Commenti Redazione - Start */
+div.commento_redazione_corriere {
+	margin-left: 117px;
+	padding-left:17px;
+	background:transparent url(http://images.corriereobjects.it/images/static/common/dilatua/commenti_redazione_bg.png?v=200903111720) repeat-y left top;
+}
+div.commento_redazione_corriere p {
+	color: #2f5eb1!important;
+	font-family:Georgia!important;
+}
+div.commento_redazione_corriere p span {
+	font-style:italic;
+}
+/* Commenti Redazione - Stop */

@@ -1,0 +1,2280 @@
+/*
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+	
+*/
+
+
+
+
+/* formichina */
+
+.formichina {
+	width: 943px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_orizzontale.gif?v=200709041055) scroll repeat-x left bottom;
+	padding-bottom: 1px;
+	margin:auto;
+}
+
+.formichina img {
+	display: inline;}
+
+	.formichina li {
+		display: inline;
+		font-size: 1.3em;
+		font-family: Georgia, Palatino, serif;
+	}
+
+	.formichina li a,
+	.formichina li em {
+		color: #333333;
+	}
+
+	.formichina span {
+		font-size: 0.7em;
+		font-family: Arial, Helvetica, sans;
+	}
+
+
+
+
+/* ==== Reset Reloaded by Eric Meyer ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: Georgia, Palatino, serif;
+}
+
+:focus {	/* remember to define focus styles! */
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {	/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a {
+	text-decoration: none;
+	color: #565656;
+}
+/* ==== /Reset Reloaded by Eric Meyer ==== */
+
+/* ==== http://positioniseverything.net/easyclearing.html ==== */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	#display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	#display: block;
+}
+
+
+/* ==== /http://positioniseverything.net/easyclearing.html ==== */
+
+/* ==============  BASE TYPOGRAPHY  ============== */
+/* BRERA */
+
+@font-face {
+    font-family: BreraCondensedRegular;
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.eot');
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.woff') format('woff'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.ttf') format('truetype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brecnrg-webfont.svg#BreraCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BreraRegular;
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.eot');
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.woff') format('woff'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.ttf') format('truetype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/brerarg-webfont.svg#BreraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BreraLight;
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.eot');
+    src: url('http://css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.woff') format('woff'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.ttf') format('truetype'),
+         url('http://css2.corriereobjects.it/includes2007/static/font/brera/breralt-webfont.svg#BreraLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-size: 62.5%; /* 1em = 10px */
+	font-family: Arial, Helvetica, sans-serif;
+	color: #787a7a;
+	background: white;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em,
+cite {
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+.red {
+	color: #cc2026 !important;
+}
+
+.blue {
+/* 	color: #1c4792;  */
+	color: #2f5fb1 !important;
+}
+
+input:focus {
+	outline: 2px solid #97BEE0;
+	-moz-outline-radius:2px !important;
+}
+
+a#skip_to_content {
+	display: block;
+	position: absolute;
+	top: -30px;
+}
+
+.spacer_bottom {
+	margin-bottom: 10px;
+}
+/* =============  /BASE TYPOGRAPHY  =============== */
+
+.data_hide {
+  /*display:none;*/
+}
+
+/* ===============  PINNING  ================ */
+#IE9info 
+{
+	display:none;											
+}
+#alertWrapper .msPinSite {
+	float:left;
+	margin-top:8px;
+}
+/* ===============  LAYOUT  ================ */
+.left {
+	float: left;
+	display: inline;
+}
+
+.right {
+	float: right;
+	display: inline;
+}
+
+img {
+	display: block;
+}
+
+#header {
+	clear: both;
+	width: 991px;
+	margin: auto;
+	background: #ffffff;
+	position: relative;
+}
+
+#inset {
+	width: 961px;
+	margin: 11px 0 0 30px;
+}
+
+#main {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll 630px 0px!important;
+	/*margin: 11px 0 0 30px;*/
+	width: 943px;
+	overflow: hidden visible;
+	margin: 11px auto 0;
+}
+#main_all {
+	width: 943px;
+	overflow: hidden visible;
+	margin: 11px auto 0;
+}
+#main_extra_large {
+	width: 1003px;
+	overflow: hidden visible;
+	margin: 0 auto;
+}
+
+#body_blog_tom .main-blog {
+	background:none !important;
+}
+
+#main-blank {
+	margin: auto;
+	margin-top: 11px;
+	width: 961px;
+}
+
+#col-sx {
+	width: 620px;
+	padding-right: 10px;
+}
+
+#col-dx {
+	width: 302px;
+}
+
+#col-dx object{
+	float:left;
+}
+
+#col-dx #foto_del_giorno {
+	float: none;
+}
+
+
+#col {
+	width: 920px;
+
+}
+
+#col930 {
+	width: 930px;
+}
+
+.margin_submenu {
+	margin-left:20px;
+}
+/* ===============  /LAYOUT  =============== */
+
+
+
+
+/* ===============  NAVBAR  ============== */
+.nav_1st {	/* contenitore menu primo livello */
+	text-align: center;
+	width: auto;
+	margin: 8px 0 0 0;
+	height: 19px;
+	overflow: visible;
+}
+
+.nav_1st li {  /* voci di primo livello */
+	float: left;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll top right;
+	font-size: 15px;
+	word-spacing: 0.1em;
+	font-family: Georgia, Palatino, serif;
+	padding: 0 0 0 1px;
+	margin-bottom: 3px;
+	overflow: visible;
+}
+.nav_1st li.first {
+	margin-left:17px;
+}
+.nav_1st a {
+	color: #464646;
+	text-decoration: none;
+	line-height: 17px;
+	padding: 0 2px 7px 2px;
+	overflow: visible;
+	font-size: 89% !important;
+}
+
+.nav_1st li a:hover,
+.nav_1st li.current a {
+	background-color: #e0e0e0;
+	border-top: 2px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+	}
+
+.nav_1st .current {
+	font-style: italic;
+	}
+.nav_1st #musica a {
+	border: medium none;
+
+/*    background: url("/images/static/common/spettacoli/bg_bt_ss.gif") no-repeat scroll 0 0 transparent;
+*/
+    padding-top: 2px;
+}
+.nav_1st #musica a:hover {
+	border:none !important;
+}
+.nav_2nd {	/* contenitore secondo livello	*/
+	background: #e8e8e8 url(http://images2.corriereobjects.it/images/static/common/bg_navbar.gif?v=200709071122) repeat-x scroll top left;
+	height: 19px;
+	padding-top: 8px;
+}
+
+.menu-new {background: transparent url(http://images2.corriereobjects.it/images/static/common/ico_nuovo.gif?v=200909231411) no-repeat 0 0; width: 35px; height:11px; text-indent:-5000px; float: left; margin: 0 0 0 3px;}
+.menu-new2 {background: transparent url(http://images2.corriereobjects.it/images/static/common/ico_nuovo.gif?v=200909231411) no-repeat 0 0; width: 35px; height:11px; text-indent:-5000px; float: left; margin: 0 0 0 3px;}
+#menu {
+	width:100%;
+	margin:0 0 10px 0;
+}
+
+*>.nav_2nd {
+	clear: both;
+}
+
+.nav_2nd li {	/* voci secondo livello */
+	float: left;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 0 2px;
+	font-family: Times;
+	font-weight: bold;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll right top;
+}
+
+.nav_2nd li a {
+	padding: 0 3px 1px 3px;
+	color: #464646;
+	line-height: 1.1;
+}
+
+.nav_2nd li a:hover, .nav_2nd li.current a {
+	background: #244B98;
+	color: white;
+	text-decoration: none;
+}
+#sottomenu_ecoCorrEco li.current a {
+	background: #41A09F !important;
+}
+.nav_2nd li#ecoCorrEco a {
+    background: #41A09F !important;
+	color:#ffffff;
+}
+.nav_2nd li#ecoCorrEco a:hover {
+	background: #244B98 !important;
+}
+.nav_2nd img{
+	display: inline;
+}
+
+
+
+#sublevels-menu-bar {
+	margin-bottom: 8px;
+}
+
+*>.nav-3rd-nuvoletta {clear: both;}
+.nav-3rd-nuvoletta {
+	display: none;
+	height: 31px;
+	margin:0;
+	padding:0;
+	/*background: transparent url(/libs/css/default_theme/assets/nuvoletta-sfondo-segmento.png) repeat-x scroll left top;*/
+}
+
+.menuvoletta-sx {
+	float: left;
+	width: 10px;
+	height: 31px;
+	margin: 0;
+	padding: 0;
+	background: transparent url(http://viaggi.corriere.it/libs/css/default_theme/assets/nuvoletta-sfondo-latosinistro.png) no-repeat right top;
+}
+.menuvoletta-dx {
+	float: left;
+	width: 10px;
+	height: 31px;
+	margin: 0;
+	padding: 0;
+	background: transparent url(http://viaggi.corriere.it/libs/css/default_theme/assets/nuvoletta-sfondo-latodestro.png) no-repeat left top;
+}
+.menuvoletta-listcontainer {
+	float: left;
+	height: 31px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	/*background: transparent url(/libs/css/default_theme/assets/nuvoletta-sfondo-pointered.png) no-repeat;
+	background-position: center top;*/
+	background: transparent url(http://viaggi.corriere.it/libs/css/default_theme/assets/nuvoletta-sfondo-segmento.png) repeat-x scroll left top;
+}
+.menuvoletta-listcontainer .pointerframe{
+	height: 15px;
+	width: auto;
+	float: left;
+	background: transparent url(http://viaggi.corriere.it/libs/css/default_theme/assets/nuvoletta-sfondo-pointered.png) no-repeat center top;
+}
+
+.nav-3rd-nuvoletta ul li {	/* items voci menu terzo livello */
+	display:inline-block;
+	float: left;
+	height: 1.1em;
+	margin: 0;
+	padding: 10px 0 6px;
+	/*background: transparent url(/libs/css/default_theme/assets/nuvoletta-sfondo-segmento.png) repeat-x scroll right top;*/
+	font-size: 11px;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+
+.nav-3rd-nuvoletta ul li span.sep3rd {
+	display: block;
+	float: left;
+	height: 11px;
+	margin: 1px;
+	color: #ccc;
+	font-size: 1.1em;
+}
+
+.nav-3rd-nuvoletta ul li a {
+	float:left;
+	height:1.2em;
+	line-height: 1.1;
+	padding: 1px 4px 1px;
+	color: #464646;
+	/*border-right: 1px solid #ccc;*/
+	text-decoration:none;
+}
+/*.nav-3rd-nuvoletta ul li.lastitem a {border-right: none;}*/
+
+.nav-3rd-nuvoletta ul li a:hover,
+.nav-3rd-nuvoletta ul li.current a {
+	background: #244B98;
+	color: white;
+	text-decoration: none;
+}
+.nav-3rd-nuvoletta ul li.current a {
+	font-weight: bold;
+}
+.nav-3rd-nuvoletta img{display: inline;}
+
+#submenu3-vacanze {margin-left: 112px;}
+#submenu3-vacanze .pointerframe{background-position: 28px top;}
+
+#submenu3-consigli_di_viaggio {margin-left: 176px;}
+#submenu3-consigli_di_viaggio .pointerframe{background-position:55px top;}
+
+#submenu3-diari-di-viaggio {margin-left: 425px;}
+#submenu3-diari-di-viaggio .pointerframe{background-position:85px top;}
+
+#submenu3-prenotazione {margin-left: 573px;}
+#submenu3-prenotazione .pointerframe{background-position:25px top;}
+
+#submenu3-servizi {margin-left: 370px;}
+#submenu3-servizi .pointerframe{background-position: 435px top;}
+
+
+/* ============== /NAVBAR ============== */
+
+
+
+/* ==============  HEADER / FOOTER  ============= */
+#leaderboard {
+	width: 991px;
+	margin:0 auto;
+	background:#EFEFEF none repeat scroll 0 0;
+}
+#motore_ricerca {
+	background: #3a3a3a url(http://images2.corriereobjects.it/images/static/common/bg_header_tool.gif?v=200708301547) repeat-x scroll left top;
+	height: 3em;
+}
+#sette_green_box {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo_sette_green.gif?v=201105171639) no-repeat scroll left top;
+	position:absolute;
+	top:30px;
+	right:0;
+	text-indent:-5000px;
+	width:166px;
+	height:62px;
+}
+#motore_ricerca * {
+	font-family: Arial, Helvetica, sans;
+}
+
+#trovocasalavoro {
+	margin-top: 5px;
+	padding: 0 0 0 4px;
+	float: left;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll right top;
+}
+
+#trovocasalavoro li {
+	display: inline;
+	float: left;
+	margin-right: 7px;
+}
+
+#trovocasalavoro li a {
+	display: block;
+	height: 19px;
+	text-indent: -5000px;
+}
+
+#trovocasalavoro li a.trovocasa {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123) no-repeat left -427px;
+	width: 86px;
+}
+
+
+#trovocasalavoro li a.trovolavoro {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123) no-repeat -286px -427px;
+	width: 100px;
+}
+
+#trovocasalavoro li a.automobili {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123) no-repeat -395px -427px;
+	width: 98px;
+}
+
+#trovocasalavoro li a.trovocasa:hover {
+	background-position: -90px -427px;
+}
+
+#trovocasalavoro li a.trovolavoro:hover {
+	background-position: -182px -427px;
+}
+
+#trovocasalavoro li a.automobili:hover {
+	background-position: -499px -427px;
+}
+
+#searchtool { /* FORM */
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll right top;
+	padding: 0 7px 0 8px;
+	margin-top: 4px;
+	text-align: right;
+	font-size: 1.1em;
+	color: #CCCCCC;
+}
+
+#searchtool input,
+#searchtool select {
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	margin-right: 0;
+	background: #eeeeee;
+	border-color: #4e4e4e rgb(192, 192, 192) rgb(192, 192, 192) rgb(78, 78, 78);
+}
+
+#searchtool .searchinput {
+	background: white url(http://images2.corriereobjects.it/images/static/common/bg_input.gif?v=200708301649) repeat-x scroll left bottom;
+	width: 105px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	float:left;
+}
+
+#searchtool .where {
+	background: transparent none;
+	border: 0;
+	margin: 0 3px -1px 0;
+	padding: 0;
+}
+
+#searchtool .search-google{
+	display: inline;
+	margin-bottom: -5px;
+}
+
+#searchtool .go {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123) no-repeat scroll -636px -22px;
+	border: medium none;
+	text-indent: -5000px;
+	height: 21px;
+	top: -3px;
+	width: 22px;
+	cursor: pointer;
+	vertical-align:baseline;
+}
+
+#searchtool .go:focus {
+	outline: 0;
+}
+#box-cerca-auto-risultati .hide-ck {
+  display:none;
+}
+#box-cerca-auto-risultati  {
+  padding:0 !important;
+  margin-bottom:20px;
+  background-color:#F5F5F7;
+}
+#box-cerca-auto-risultati .cerca {
+  font-weight:normal !important;
+  width:350px;
+  background:none !important;
+  margin-left:145px;
+  padding:0 !important;
+}
+#box-cerca-auto-risultati input {
+  margin-right:5px;
+  width:180px;
+}
+#box-cerca-auto-risultati img {
+  float:none !important;
+  display:inline;
+  vertical-align:middle;
+}
+/* login allineato a sinistra */
+#motore_ricerca ul.login {
+	padding: 3px 0 0 5px;
+}
+
+#motore_ricerca ul.login li {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	font-size: 1.1em;
+	color: #ccc;
+	padding: 5px 7px 4px 0;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll right top;
+}
+
+#motore_ricerca ul.login li strong {
+	font-weight: normal;
+}
+
+#motore_ricerca ul.login li.hide {
+	display:none;
+}
+
+#motore_ricerca ul.login li a {
+	color: #ccc;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#motore_ricerca ul.login li a.headLogout {
+	text-transform: none;
+	font-weight: normal;
+}
+
+#motore_ricerca ul.login li strong a {
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+}
+
+/* login allineato a destra */
+
+#motore_ricerca div.login {
+	text-align: right;
+	margin: 6px 0 0 0;
+	width:415px;
+	height: 20px;
+}
+
+#motore_ricerca div.login span {
+	display: inline;
+	margin-right: 5px;
+	font-size: 1.1em;
+	color: #ccc;
+	padding: 5px 7px 4px 0;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll right top;
+}
+
+#motore_ricerca div.login span strong {
+	font-weight: normal;
+}
+
+#motore_ricerca div.login span.hide {
+	display:none;
+}
+
+#motore_ricerca div.login span a {
+	color: #ccc;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#motore_ricerca div.login span a.headLogout {
+	text-transform: none;
+	font-weight: normal;
+}
+
+#motore_ricerca div.login span strong a {
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+}
+
+/* fine login */
+
+#motore_ricerca .bookmark li {
+	float: left;
+	margin-top: 7px;
+}
+
+#motore_ricerca .bookmark li a {
+	display: block;
+	width: 17px;
+	height: 16px;
+	margin-right: 7px;
+	background-image: url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123);
+	background-repeat: no-repeat;
+}
+
+.bookmark a.go-home {
+	background-position: -39px -1px;  /* CSS sprite */
+}
+
+.bookmark a.go-scrivi {
+	background-position: -610px -430px;  /* CSS sprite */
+}
+
+.bookmark a.make-bookmark {
+	background-position: -60px -1px;  /* CSS sprite */
+}
+
+.testata img.logo {
+	margin: 0 auto;
+}
+
+#testata-sezione {
+	height: 62px;
+	overflow: hidden;
+	padding-top: 1px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bg_header_thin.gif?v=200709141733) scroll repeat-x left top;
+	text-align: center;
+	font-family: Georgia, Palatino, serif;
+}
+
+#testata-sezione li {
+	display: block;
+	float: left;
+	font-size: 1.2em;
+	color: #252525;
+}
+
+#testata-sezione li.updatesx {
+	width: 229px;
+	padding-top: 36px;
+}
+
+#testata-sezione li.updatedx {
+	float: right;
+	padding-top: 36px;
+	width: 205px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/ico_meteo_fisso.gif?v=200802261108) no-repeat 130px 33px;
+}
+
+#testata-sezione li.logocorriere a {
+	width: 535px;
+	height: 62px;
+	display: block;
+	text-indent: -5000px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo.gif?v=200709251226) scroll no-repeat left 0px;
+}
+
+#testata-home {
+	height: 122px;
+	background: transparent	url(http://images2.corriereobjects.it/images/static/common/bg_header_mid3.gif?v=201102241333) repeat-x left top ;
+	text-align: center;
+	font-family: Georgia, Palatino, serif;
+	overflow: hidden;
+}
+
+/* nuovi link testata */
+#testata-home .link-testata {
+	color:#464646;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: auto;
+    margin-top: -5px;
+}
+
+#testata-home .link-testata span.separatore {
+	background: transparent none;
+	padding-left:8px;
+	margin-left: 6px;
+	border-left: 1px solid #999999;
+}
+
+#testata-home .link-testata span.hour {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin-right: -3px;
+}
+
+#testata-home .link-testata .ico-meteo {
+	margin: -2px -3px 0 3px;
+	display: inline;
+}
+
+#testata-home .link-testata .ico-traffico {
+	margin: 1px 0pt 0pt 3px;
+	display:inline
+}
+
+#testata-home .link-testata span.traffico {
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#testata-home .link-testata span.giorno {
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+#testata-home .link-testata .link-meteo {
+	font-size: 11px;
+}
+
+#testata-home .link-testata #autocomplete {
+	font-weight:normal;
+	text-transform:none;
+	font-size: 11px;
+}
+
+#testata-home .link-testata-local {
+	color:#464646;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9px;
+	float:left;
+	width:990px;
+}
+
+#testata-home .link-testata-local a {
+	color:#2f5eb1;
+}
+
+#testata-home .link-testata-local a.info {
+	color:#464646;
+}
+
+#testata-home .link-testata-local a.separatore {
+	border-right: 1px solid #999999;
+	padding-right: 3px;
+	margin-right: 1px;
+}
+
+/* fine link testata */
+
+#testata-home ul {
+	margin-left: 228px;
+}
+
+#testata-home ul li {
+	font-size: 12px;
+	color: #252525;
+	display: block;
+	float: left;
+	padding-left: 8px;
+	margin-left: 8px;
+	height: 13px;
+	}
+
+#testata-home .update {
+	padding-top: 1px;
+}
+
+#testata-home ul li.data {
+	background: url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) scroll repeat-y left top;
+}
+
+#testata-home ul li.data span.giorno,
+#testata-sezione span.giorno {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#testata-home ul li#tempo {  /*  METEO  */
+	background: url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) scroll repeat-y left top;
+	padding-top: 1px;
+}
+#testata-home ul li#traffico_hp {  /*  TRAFFICO  */
+	background: url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) scroll repeat-y left top;
+	padding-top: 1px;
+}
+
+#testata-home ul li#cambia-citta {  /*  cambiacitta  */
+	background: url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) scroll repeat-y left top;
+	padding-top: 1px;
+}
+
+li#cambia-citta a {  /*  cambiacitta  */
+	text-decoration: none;
+	color: #CC2026;
+	text-decoration: underline;
+}
+
+li#tempo a,
+li#traffico_hp a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#testata-sezione li#traffico_hp img,
+#testata-home ul li#traffico_hp img,
+#testata-sezione li#tempo img,
+#testata-home ul li#tempo img {
+	display: inline;
+	vertical-align: top;
+}
+#testata-home ul#option_menu_hp {
+	margin-left:30px;
+}
+
+#testata-casa {
+	height: 62px;
+	padding-top: 25px;
+	margin-bottom: 11px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bg_header_thin.gif?v=200709141733) repeat-x scroll left top;
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #a3a3a3;
+}
+
+#testata-casa li {
+	background-image: url(http://images2.corriereobjects.it/images/static/common/css_sprite-1.1.png?v=201109051123) scroll no-repeat right top;
+}
+
+#testata-dinamica-new{
+	height: 62px;
+	overflow: hidden;
+	padding-top: 0;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bg_header_thin.gif?v=200709141733) scroll repeat-x left top;
+	text-align: center;
+	font-family: Georgia, Palatino, serif;
+width:100%;
+float:left;
+}
+#testata-dinamica-new li{
+	display: block;
+	float: left;
+	font-size: 1.2em;
+	color: #252525;
+	}
+#testata-dinamica-new li.logocorriere{
+	float:left;
+	margin:13px 0pt 0pt 10px;
+	}
+#testata-dinamica-new li.logocorriere a{
+	display: block;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo_corriere_mid.png?v=200709221132) scroll no-repeat left top;
+	width: 321px;
+	height: 37px;
+	text-indent: -5000px;
+	}
+
+
+/* SEZIONE E SOTTOSEZIONE CENTRATE CON LOGO PICCOLO */
+
+#testata-dinamica-new li.logo-small a{
+	display: block;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo_corriere_small.gif?v=200805261457) scroll no-repeat 5px 18px;
+	width: 230px;
+	height: 57px;
+	text-indent: -5000px;
+	}
+#testata-dinamica-new li.sezione-sottosezione{
+	color:#A6A6A6;
+	float:left;
+	font-size:41px;
+	letter-spacing:-1px;
+	margin:8px 0pt 0pt -20px;
+	width:600px;
+	height:50px;
+}
+#testata-dinamica-new li.sezione-sottosezione-noscript h1,
+#testata-dinamica-new li.sezione-sottosezione-noscript h6  {
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    margin: 0 0 0 10px;
+}
+#testata-dinamica-new li.oncologia{
+	width:565px;
+}
+
+#testata-dinamica-new li.sezione-sottosezione a{
+	color:#A6A6A6;
+}
+
+#testata-dinamica-new li.sezione-sottosezione strong {
+	color:#737372;
+	font-weight: normal;
+}
+
+#testata-dinamica-new li.sezione-sottosezione strong a {
+	color:#737372;
+}
+
+#testata-dinamica-new li.logoaggiuntivo {
+	width: 150px;
+	height: 57px;
+}
+
+
+#testata-dinamica-new li.sponsor-corriereTV {
+	width: 325px;
+	height: 57px;
+	margin-left: -160px;
+}
+#logo_cucina {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/logo_cucina.png?v=201105181320) scroll no-repeat left top;
+    display: block;
+    height: 51px;
+    margin: auto;
+    text-indent: -5000px;
+    width: 170px;
+}
+
+/* ------------------------ CENTRATURA MENU --------------------------- */
+#sottomenu_cucinablog #ingredienti {
+	margin-left: 20px;
+	display: inline;
+}
+
+#cronache {
+	margin-left: 0;
+	display: inline;
+}
+
+#editorialiecommenti {
+	margin-left: 20px;
+	display: inline;
+}
+
+#trafficnews {
+	margin-left: 50px;
+	display: inline;
+}
+
+#ecoCorrEco {
+	margin-left: 20px;
+	display: inline;
+}
+
+#sportellocancro {
+	margin-left: 20px;
+	display: inline;
+}
+
+#animali_sub {
+	margin-left: 168px;
+	display: inline;
+}
+
+#trovolavoro {
+	margin-left: 250px;
+	display: inline;
+}
+
+#corrieretv_sub {
+	margin-left: 20px;
+	display: inline;
+}
+
+ul #flash_news{
+margin-left: 10px;
+}
+ul #anteprime{
+margin-left: 10px;
+}
+
+.nav_2nd li#cinese a {
+	display: block;
+	text-indent: -5000px;
+	width: 50px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/cinese_bk.png?v=200807040937) no-repeat scroll 5px top;
+}
+
+.nav_2nd li#cinese a:hover {
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/cinese_wh_blu.png?v=201006011709) no-repeat scroll 10px top;
+}
+
+.nav_2nd li#italia150 {
+	font-size: 13px;
+	font-family:georgia;
+	line-height: 10px;
+}
+.nav_2nd li#italia150_new a:hover,
+.nav_2nd li#italia150_new a {
+	background: none !important;
+}
+.nav_2nd li#italia150_new a {
+    padding: 0 0 1px;
+}
+.nav_2nd li#italia150_new {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height: 10px;
+}
+.nav_2nd li#italia150_new span {
+    font-style: italic;
+    padding: 7px 2px 4px;
+	position:relative;
+}
+.nav_2nd li#italia150_new span.mn_green {
+	background-color:#20a564;
+	color:#FFFFFF;
+}
+.nav_2nd li#italia150_new span.mn_white {
+	background-color:#ffffff;
+	color:#000000;
+}
+.nav_2nd li#italia150_new span.mn_red {
+	background-color:#da1713;
+	color:#FFFFFF;
+}
+/* ------------------------ FOOTER --------------------------- */
+#footer {
+	position: relative;
+	clear: both;
+	width: 971px;
+	height: 60px;
+	margin: 11px auto 0;
+	padding: 12px 0 0 20px;
+	font-size: 1.2em;
+	font-family: Georgia, Palatino, Times, serif;
+	background: #3a3a3a url(http://images2.corriereobjects.it/images/static/common/bg_footer.gif?v=201008061229) repeat-x scroll left top !important;
+}
+
+#footer select optgroup {
+	font-style: normal;
+	color: #fff;
+	background: #000 none;
+}
+
+#footer select optgroup option {
+	padding: 0 2px;
+	color: #000;
+	background: #fff none;
+}
+
+#footer ul.links li {
+	float: left;
+	padding-right: 10px;
+}
+
+#footer ul.links li strong {
+	color: #fff;
+}
+
+#footer ul.links li a {
+	font-style: italic;
+	font-weight: bold;
+	color: #e8e8e8;
+}
+
+#footer p {
+	padding-top: 10px;
+	color: #B8B8B8;
+}
+
+#footer p.copyright {
+	padding-top: 16px;
+	color: #B8B8B8;
+	font-size: 1.0em;
+}
+
+#footer p.copyright a,
+#footer .websites a {
+ 	color: #e8e8e8;
+}
+
+#footer .websites {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+}
+
+#footer .websites p {
+	color: #B8B8B8;
+}
+#footer {height: auto;padding-bottom: 10px;}
+#footer ul li p {font-size: 11px; padding-top: 3px; line-height:16px;}
+#footer ul.copyright {padding-top: 12px;}
+#websites_noj {
+	height: 30px;
+}
+
+#allwebsites_vai {
+	margin:0 0 -5px 5px;
+}
+
+#bottom_no_script{
+	height: 35px;
+	width: 150px;
+	overflow:auto;
+	margin: 0 0 -6px 0;
+	background-color: #FFFFFF;
+	line-height:16px;
+}
+#bottom_no_script span{
+	background-color: #000000;
+	color: #FFFFFF;
+	width:130px;
+	display:block;
+	margin:1px 0pt -15px;
+}
+#footer .websites #bottom_no_script a{
+	color: #000000;
+	text-decoration:none;
+}
+#footer .websites #bottom_no_script a:hover{
+	color: #000000;
+	text-decoration:underline;
+}
+
+/*------- nuovo footer --------*/
+
+#footer ul.nostri-siti li{
+	float: left;
+	padding-right:5px;
+	color:#FFFFFF;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#footer ul.nostri-siti li.right {
+	float: right;
+}
+
+#footer ul.nostri-siti li a {
+	color:#FFFFFF
+}
+
+#footer ul.copyright {
+	padding-right: 10px;
+	font-size:12px;
+	color:#B8B8B8;
+	padding-top:8px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#footer ul.copyright a {
+	color:#ffffff;
+}
+
+#footer ul.copyright li {
+	float: left;
+}
+
+#footer ul.copyright li.right {
+	float: right;
+}
+
+#footer ul.copyright img {
+	display: inline;
+}
+
+#footer ul.copyright li .hamburg-dec {
+	display: block;
+	font-size: 11px;
+	text-align: right;
+}
+
+/* ------------------------ FOOTER VECCHIOXNUOVO --------------------------- */
+#footer-container {
+	position: relative;
+	width: 971px;
+	height: 53px;
+	margin-top: 2em;
+	padding: 12px 0 0 20px;
+	font-size: 1.2em;
+	font-family: Georgia, Palatino, Times, serif;
+	background: #3a3a3a url(http://images2.corriereobjects.it/images/static/common/bg_footer.gif?v=201008061229) repeat-x scroll left top;
+}
+
+#footer-container select optgroup {
+	font-style: normal;
+	color: #fff;
+	background: #000 none;
+}
+
+#footer-container select optgroup option {
+	padding: 0 2px;
+	color: #000;
+	background: #fff none;
+}
+
+#footer-container ul.links li {
+	float: left;
+	padding-right: 10px;
+}
+
+#footer-container ul.links li strong {
+	color: #fff;
+}
+
+#footer-container ul.links li a {
+	font-style: italic;
+	font-weight: bold;
+	color: #e8e8e8;
+}
+
+#footer-container p {
+	padding-top: 10px;
+	color: #B8B8B8;
+}
+
+#footer-container p.copyright {
+	padding-top: 16px;
+	color: #B8B8B8;
+	font-size: 1.0em;
+}
+
+#footer-container p.copyright a,
+#footer-container .websites a {
+ 	color: #e8e8e8;
+}
+
+#footer-container .websites {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+
+#footer-container .websites p {
+	color: #B8B8B8;
+}
+
+/* ==============  /header-footer  ============= */
+
+
+/* ===============   BANNER   ================= */
+div.leaderboard {
+	width: 996px;
+	height: 0 auto;
+	margin: 0 auto;
+	margin-bottom: 2px;
+}
+
+.wide-pushbar {
+	width: 990px;
+	margin: 10px 0;
+	float:left;
+	text-align:center;
+}
+
+.wide-pushbar img {
+	display:inline;
+}
+
+#superbox {
+	width: 1002px;
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;
+	text-align: left;
+}
+
+#bannerone {
+	width: 730px;
+	margin: 0 auto;
+	border: 1px solid #ffffff;
+}
+
+#bigbox {
+	float: left;
+	width: 260px;
+	margin: 2px 0 0 0;
+}
+
+#boxtop,
+#boxmiddle,
+#boxbottom {
+	float: left;
+}
+
+#boxbottom select {
+	width: 60px;
+	font-size: 10px
+	font-family: Arial, Helvetica, sans;
+}
+
+#square-bottom {
+	float:left;
+	width: 300px;
+	text-align: left;
+}
+
+#wide-rectangle {
+	margin-top: 10px;
+	clear: left;
+}
+
+#col-sx .pushbar {
+	margin-bottom: 20px;
+	width: 620px;
+	overflow: hidden;
+}
+
+.pushbar-bare-img {
+	margin-bottom: 20px;
+}
+
+.adv-pushbar,
+.adv-pushbar-sx {
+	width: 620px;
+	height: 30px;
+	margin-bottom: 20px;
+/*	overflow: hidden;   */
+}
+
+#pushbar2 {
+	width: 302px;
+}
+#pushbar2 a {
+	padding-bottom: 5px;
+	display:block;
+}
+
+#pushbar {
+	margin-bottom: 20px;
+	width: 991px;
+	height: 30px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/punto_verticale.gif?v=200708301452) repeat-y scroll 660px 0;
+
+}
+
+.manchetteSX {
+	float: left;
+	height:76px;
+    width: 184px;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.manchetteDX {
+	height:76px;
+	width:182px;
+	float:left;
+	margin-top:5px;
+}
+
+.logo-HOME {
+	width:600px;
+	float:left;
+    padding-top: 0;
+}
+
+.head-default .logo-HOME {
+  float:none;
+  margin:0 auto;
+}
+
+#rectangle {
+    margin: 7px auto 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+object#FLASH_AD,
+object#FLASH_AD embed {
+	display: block;
+	margin-bottom: 20px;
+}
+
+#leaderboard object#FLASH_AD,
+#leaderboard object#FLASH_AD embed {
+	margin-bottom: 0;
+}
+
+
+/* ==============  INIZIO CONFERMA FORM  ============= */
+.conf_reg_ok{
+padding-top: 10px;
+}
+DIV.conf_reg_ok img{
+display:inline;
+}
+.titolo_gol{
+display:block;
+font-family:"Georgia";
+margin:0pt 0pt 0pt 10px;
+}
+#titolo_gol_1{
+color:#000033;
+font-size:26pt;
+}
+#titolo_gol_2{
+color:#5b5b5b;
+font-size:18pt;
+padding-top: 20px;
+}
+#titolo_gol_3{
+color:#5b5b5b;
+font-size:13px;
+font-weight:bold;
+}
+/* ==============  FINE CONFERMA FORM   ============= */
+
+/* ==============  PULSANTI 3A COLONNA EDIZIONE / ARCHIVIO   ============= */
+ul.hp_edi_arch li.hp_edizione_p a, ul.hp_edi_arch li.hp_edizione_p {
+display:block;
+float:left;
+width:143px;
+height:30px;
+text-indent: -5000px;
+}
+
+ul.hp_edi_arch li.hp_archivio_p {
+display:block;
+float:right;
+width:137px;
+height:30px;
+padding-right: 19px;
+text-indent: -5000px;
+}
+ul.hp_edi_arch li.hp_archivio_p a {
+display:block;
+width:137px;
+height:30px;
+}
+
+ul.hp_edi_arch{
+height: 33px;
+background: #FFFFFF url(http://images2.corriereobjects.it/images/static/common/edi-archivio.gif?v=201003041518) no-repeat;
+margin-bottom: 6px;
+}
+/* ==============  FINE PULSANTI 3A COLONNA EDIZIONE / ARCHIVIO   ============= */
+
+/* Paginazione Start */
+ul.ul-paging {}
+ul.ul-paging li {display:block;float:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:center;line-height:30px}
+ul.ul-paging li.meno-recenti-pag {text-align:left;width:57px}
+ul.ul-paging li.numero-pagine-pag {width:423px;font-style:italic}
+ul.ul-paging li.piu-recenti-pag {text-align:right}
+/* Paginazione Stop */
+
+div.special {
+	padding: 10px 5px;
+	margin: 10px 0; text-align:left;
+	border: 1px solid #dddddd;
+	background: #f2f2f2 url(http://images2.corriereobjects.it/images/gradient_special.jpg?v=200906101450) repeat-x top;
+}
+
+div.special img.banner {
+	margin-bottom: 10px;
+	width: 380px;
+	height: 57px;
+}
+
+div.special img.pic {
+	margin: 0 10px 10px 0;
+	width:190px; height:130px;
+	float:left;
+	display:inline;
+}
+
+div.special h1 {
+	font-size: 2em !important;
+	color: #5b5b5b;
+	display:inline;
+}
+
+div.special h2 {
+	font-size: 1.3em !important;
+	line-height: 22px !important;
+	padding-top: 0 !important;
+}
+
+div.special span.time {
+	color: #cc2026;
+}
+
+div.special a:hover {
+	text-decoration: underline !important;
+}
+
+#home-2col div.special h1,
+.home-2col-exid div.special h1,
+#home-2col-adv div.special h1 {
+	font-size: 26px !important;
+	line-height: 1.1em !important;
+	margin-bottom: 15px;
+}
+
+#home-2col div.special h2,
+.home-2col-exid div.special h2,
+#home-2col-adv div.special h2 {
+	font-size: 17px !important;
+	line-height: 1.2em !important;
+	margin-bottom: 10px;
+}
+
+#home-2col div.special img.banner,
+.home-2col-exid div.special img.banner,
+#home-2col-adv div.special img.banner {
+	width: 190px;
+	height: 44px;
+}
+
+/* Box slideshow con cycle di jquery */
+#slideshow_loading {
+	height: 150px;
+	position: relative;
+}
+
+#slideshow_loading img {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+	margin-left: -47px;
+}
+
+div.slide {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+div.slide img#slideloader {
+	display: none;
+	position: absolute;
+	bottom: -4px;
+	left: 5px;
+}
+
+div.slide div#slidebox {
+	margin: auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div.slide div#slidebox img {
+	display: none;
+	border: 1px solid black;
+}
+
+div.slide div#slidenav {
+	margin: 14px 0 0 40px;
+}
+
+div.slide div#slidenav a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #9f9f9f;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 42px;
+	height: 10px;
+	line-height: 10px;
+	border-right: 1px solid #9f9f9f;
+	text-align: center;
+}
+
+div.slide div#slidenav a.activeSlide {
+	color: #777777;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.slide a#slidecontrol {
+	position: absolute;
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: url(http://images2.corriereobjects.it/images/playstop_slideshow.gif?v=200908041458) no-repeat 0 0;
+	bottom: -4px;
+	left: 27px;
+}
+
+
+/*NASCONDO I BOX CERCA AUTO*/
+#box-trovolavoro-casa-auto {display:none;}
+
+div#cycle_container {
+	position: relative;
+}
+
+div#cycle_container .hide {
+	display: none;
+}
+#mirago-feed {
+	margin-top:10px;
+}
+
+ /*CORRIERETV*/
+body#premiumtv-body {
+	background: #c2c6ce;
+}
+#premiumtv {
+	margin:auto;
+  width:1117px;
+}
+
+
+
+li.locale {padding:5px !important; background-color:#fff !important; border:2px solid #93a0c3;}
+li.locale h4.top10 {padding:0px;background-position:left bottom;}
+li.locale h4.top10 strong{font-size:15px; font-weight:bold;}
+
+
+/* telethon */
+#example02wdgusrcontribution {
+	top:5px !important;
+}
+
+.thumb-list div {
+	text-align:center;
+}
+
+/*Player*/
+/*Player*/
+
+span.Embed-Player {
+  float:left;
+  margin: 0 10px 0 0;
+}
+
+.Embed-Player .Embed-Player {
+	margin:0;
+}
+div.testata_player_190,
+div.testata_player_300,
+div.testata_player_400,
+div.testata_player_600,
+div.testata_player_620,
+.Embed-Player div.testata_player {
+	background-color:#262525;
+	color:#FFFFFF;
+	line-height:17px;
+	padding:3px 6px 5px 8px;
+}
+div.testata_player_190 {
+	width:176px;
+}
+div.testata_player_300 {
+	width:286px;
+}
+div.testata_player_400 {
+	width:386px;
+}
+div.testata_player_620 {
+	width:606px;
+}
+
+.homearticle-box .Embed-Player {
+  float:left;
+  margin: 1px 10px 10px 0;
+}
+.player_artview_dx .Embed-Player {
+  float:right !important;
+  margin: 0 0 0 10px !important;
+}
+
+/* location switch autocomplete */
+.switch-loc, .switch-sign {
+	display: none;
+	position: absolute;
+	top: 133px;
+	right: 60px;
+	z-index: 9000;
+	width: 350px;
+	padding: 5px;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bg-switch.gif?v=201004261119) no-repeat 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.switch-loc p, .switch-sign p {
+	position: relative;
+	padding: 3px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #eee;
+}
+
+.switch-loc p a, .switch-sign p a {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	font-size: 10px;
+	color: #fff;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bt-chiudi.gif?v=201004261119) no-repeat right 2px;
+	font-weight: normal;
+	text-transform:capitalize;
+	padding-right: 12px;
+}
+
+
+.switch-loc form, .switch-sign form {
+	overflow: hidden;
+	height: 58px;
+}
+
+.switch-loc fieldset, .switch-sign fieldset {
+	margin-top: 13px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.switch-loc input, .switch-sign input {
+	float: left;
+	width: 250px;
+	margin: 0 10px 0 15px;
+	border: 1px solid #a5acb2;
+}
+
+.switch-loc .check, .switch-sign .check {
+	width: 14px;
+	border: 0;
+}
+
+.switch-loc a.gotoloc, .switch-sign a.goto_sign {
+	float: left;
+	display: block;
+	width: 59px;
+	height: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #eee;
+	background: transparent url(http://images2.corriereobjects.it/images/static/common/bt-vai.gif?v=201004261151) no-repeat 0 0;
+	text-align: center;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/*
+	if width will be 100% horizontal scrollbar will apear
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/*
+	it is very important, if line-height not setted or setted
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+/* fine location switch autocomplete */
+
+#col-dx #evid, #menu #evid, #footer #evid, #mirago-feed #evid, .box-pgialle #evid, #header #evid{
+	display:none;
+}
+
+.rss-button {
+	border-left: 1px solid #999999;
+	padding-left:7px
+}
+
+#trova_esplora .trova {
+margin:-4px -1px 0 0 !important;
+float:left;
+cursor:pointer;
+height: 20px;
+}
+#trova_esplora {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+padding-top:5px;
+float:left;
+}
+#trova_esplora span {
+cursor:pointer;
+}
+
+
+
+
+/*VESTE GRAFICA*/
+
+.edizione-grafica {
+	position:relative;
+}
+
+.foto-grafica {
+	position:relative;
+}
+
+.content-grafica {
+	position:absolute;
+	top:0px;
+}
+.content-grafica h1 {
+	font-size:1em;
+	letter-spacing:0;
+}
+
+.content-grafica h1 a{}
+.content-grafica h3 a{}
+.content-grafica p{}
+
+.content-grafica a:hover{
+	text-decoration: underline;
+}
+
+
+/* homepage img didas */
+#col-sx .dida-wrapper-left, .dida-wrapper-big {
+	position: relative;
+	float: left;
+	margin-bottom:6px;
+}
+
+#col-sx .dida-wrapper-big-r {
+	position: relative;
+	float: right !important;
+	margin-bottom:6px;
+}
+
+#col-sx .dida-wrapper-left img, .dida-wrapper-big img, .dida-wrapper-big-r img {
+	float: left;
+}
+
+#col-sx .dida-wrapper-right {
+	position: relative;
+	float: right;
+	margin-bottom:6px;
+}
+
+#col-sx .dida-wrapper-right img {
+	float: left;
+}
+
+#col-sx .dida-wrapper-c1 {
+	position: relative;
+	display: block;
+}
+
+#col-sx .dida-wrapper-c1 img {
+	float: none;
+	padding: 0;
+}
+
+#col-sx .dida-wrapper-big .dida-txt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans;
+	letter-spacing: 0;
+	color: #fff;
+	background: transparent url(/images/alpha50.png) repeat 0 0;
+}
+
+#col-sx .dida-wrapper-big-r .dida-txt {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans;
+	letter-spacing: 0;
+	color: #fff;
+	background: transparent url(/images/alpha50.png) repeat 0 0;
+}
+
+#col-sx .dida-wrapper-left .dida-txt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans;
+	letter-spacing: 0;
+	color: #fff;
+	background: transparent url(/images/alpha50.png) repeat 0 0;
+}
+
+#col-sx .dida-wrapper-right .dida-txt {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans;
+	letter-spacing: 0;
+	color: #fff;
+	background: transparent url(/images/alpha50.png) repeat 0 0;
+}
+
+#col-sx .dida-wrapper-c1 .dida-txt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans;
+	letter-spacing: 0;
+	color: #fff;
+	background: transparent url(/images/alpha50.png) repeat 0 0;
+}
+
+#col-sx .dida400 {
+	width: 393px;
+}
+
+#col-sx .dida190 {
+	width: 182px;
+}
+
+#col-sx .dida120 {
+	width: 112px;
+}
+
+img.img_testatina_cm {
+	/*display:none;*/
+}
+.wide-pushbar {
+    clear: both;
+}
+.wide-pushbar  {
+    float: none;
+    margin: 0 auto 10px !important;
+    padding: 0 0 4px;
+    text-align: center;
+    width: 965px;
+}
+.centra_adv {
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+}
+
+/* testata squadre */
+.testata-squadra {
+	display: none;
+    margin: 0 auto 15px auto;
+    width: 943px;
+    overflow: hidden;
+    background: #ad3939;
+}
+.testata-squadra span {
+    display: block;
+    float: left;
+    color: #fff;
+    padding: 10px 0 0 7px;
+}
+.testata-squadra ul {
+	float: left;
+    overflow: hidden;
+}
+.testata-squadra ul li {
+    float: left;
+    margin-right: 7px;
+}
+.testata-squadra-new {
+	display: none;
+    margin: 0 0 15px 14px;
+    width: 958px;
+    height: 50px;
+    float: left;
+    background: url("/images/static/common/squadra/bg-testata-interna.gif") 0 0 repeat-x #dd4b4b;
+}
+.testata-squadra-new span {
+    display: block;
+    float: left;
+    color: #fff;
+    padding: 10px 0 0 7px;
+}
+.testata-squadra-new ul {
+	width: 880px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 2px;
+}
+.testata-squadra-new ul li {
+    float: left;
+    margin-right: 2px;
+}
+
+/* PPN new */
+#ppn-hp-seznew {
+	display: none;
+}
+
+/* testatina player */
+
+.header-player {
+    background: none repeat scroll 0 0 #464646;
+    color: #FFFFFF;
+    font-family: "BreraCondensedRegular";
+    font-size: 16px;
+    line-height: 16px;
+    padding: 3px 0 3px 10px;
+    width: 290px;
+	overflow: hidden;
+}
+
+.header-player .label {
+    display: block;
+    float: left;
+}
+
+.header-player .tv {
+    background: url("/images/static/common/tv.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    text-indent: -5000px;
+    width: 22px;
+	margin-left: 3px;
+}
+
+.header-player .slogan {
+	padding-left: 12px;
+}
+
+.header-player-salute {
+	background: #01AAD5 none;
+}
+
+.header-player-motori {
+	background: #4795dd none;
+}
+
+.header-player-sport {
+	background: #339966 none;
+}
+
+.header-player-elezioni {
+    background: #464646 url("/images/static/common/bg-player-elezioni.png") no-repeat 0 0;
+}
+
+/* slide-hp */
+body.slide-nobg {
+	background: transparent none !important;
+}
+
+body.slide-bgdefault {
+	background: url(http://images2.corriereobjects.it/images/static/common/new/bg_page_cor.gif?v=201112140445) repeat-y scroll  center 0 #FFFFFF !important;
+}
+
+#slide-hp {
+	width: 991px;
+	position: absolute;
+	display: none;
+}
+
+#slide-hp-sx {
+	float: left;
+	z-index: 999;
+}
+
+#slide-hp-dx {
+	float: right;
+	z-index: 999;
+}
+
+.loading-hp-next {
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	display: none;
+}
+
+.main-slide {
+	position: relative;
+}
+
+#main_extra_large_nobg #slide-hp-sx {
+	left: 0;
+}
+
+#main_extra_large_nobg #slide-hp-dx {
+	right: 0;
+}

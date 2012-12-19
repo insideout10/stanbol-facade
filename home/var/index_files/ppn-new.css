@@ -1,0 +1,54 @@
+#mirago {
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-style: normal;
+    line-height: 14px;
+    padding: 0 0 15px;
+    text-align: left;
+    width: 608px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#mirago img {
+    border: 0;
+}
+#mirago div#h {
+    background-color: #eeeeee; 
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+#mirago div#h a {
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#mirago a.a {
+   text-decoration: none;
+   float: left;
+   width: 181px;
+}
+#mirago a.n1 {
+   margin-left: 5px;
+}
+#mirago a.n2 {
+   margin: 0 18px;
+}
+#mirago a.a div.i {
+    float: left;
+    margin-right: 5px;
+}
+#mirago a.a div.x {
+    font-size: 11px;
+    color: #000;
+    float: left;
+    width: 136px;
+}
+#mirago a.a div.x div.t {
+    font-weight: bold;
+}
+#mirago a.a div.x div.u {
+    font-size: 11px;
+    color: #0000ff;
+}
