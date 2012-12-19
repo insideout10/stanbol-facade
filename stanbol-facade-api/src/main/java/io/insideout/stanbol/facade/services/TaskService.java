@@ -67,7 +67,7 @@ public class TaskService implements TaskServiceInterface {
 	private Serializer serializer;
 
 	@Reference
-	private UrlGrabberService urlGrabberService;
+	private UrlGrabberServiceInterface urlGrabberService;
 
 	@Override
 	public ContentItem create(final TaskRequest taskRequest)

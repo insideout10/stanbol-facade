@@ -14,14 +14,11 @@ import org.apache.http.client.methods.HttpHead;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
 import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.tools.shell.Global;
-import org.mozilla.javascript.tools.shell.Main;
 
 @Component(immediate = true)
 @Service
-public class UrlGrabberService {
+public class UrlGrabberService implements UrlGrabberServiceInterface {
 
 	private final static String CONTENT_TYPE_TEXT_PLAIN = "text/plain";
 	private final static String CONTENT_TYPE_TEXT_HTML = "text/html";
@@ -78,12 +75,12 @@ public class UrlGrabberService {
 
 	private String getContent(final String url) throws IOException {
 
-		final Context cx = ContextFactory.getGlobal().enterContext();
+		final Context cx = Context.enter();
 		cx.setOptimizationLevel(-1);
 		cx.setLanguageVersion(Context.VERSION_1_5);
 
-		final Global global = Main.getGlobal();
-		global.init(cx);
+		// final Global global = Main.getGlobal();
+		// global.init(cx);
 
 		final ScriptableObject scope = cx.initStandardObjects();
 
@@ -105,6 +102,10 @@ public class UrlGrabberService {
 				"", 1, null);
 
 		final String results = Context.toString(scope.get("results", scope));
+
+		System.out.println("================================================");
+		System.out.println(results);
+		System.out.println("================================================");
 
 		Context.exit();
 
