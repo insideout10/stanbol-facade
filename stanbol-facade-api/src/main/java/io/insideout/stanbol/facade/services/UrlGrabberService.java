@@ -103,6 +103,15 @@ public class UrlGrabberService implements UrlGrabberServiceInterface {
 
 		final String results = Context.toString(scope.get("results", scope));
 
+		// TODO: handle unreadable pages:
+		// Sorry, readability was unable to parse this page for content. If you
+		// feel like it should have been able to, please let us know by
+		// submitting an issue.Also, please note that Readability does not play
+		// very nicely with front pages. Readability is intended to work on
+		// articles with a sizable chunk of text that you'd like to read
+		// comfortably. If you're using Readability on a landing page (like
+		// nytimes.com for example), please click into an article first before
+		// using Readability.
 		System.out.println("================================================");
 		System.out.println(results);
 		System.out.println("================================================");
