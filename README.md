@@ -28,16 +28,19 @@ where **localhost:8080** is your installation of Apache Stanbol.
 
 The aim for the API is to be very simple for developers to use and integrate, in fact only one end-point is implemented at present time: */api/tasks*
 
+The consumer shall send a HTTP request as follows:
+
 ```sh
 curl -ik \
  -X POST \
  -H "Content-Type: application/json" \
- -H "Accept: application/json" \
  http://localhost:8080/api/tasks \
  -d @*a json file*
 ```
 
 where **localhost:8080** is your installation of Apache Stanbol.
+
+The response will be the result of the anaysis as performed by Apache Stanbol. The format of the response will be the one specified in the *mimeType* property of the JSON payload.
 
 ### JSON payload
 
