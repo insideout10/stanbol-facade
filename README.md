@@ -53,6 +53,7 @@ Example content payload:
 	"mimeType": "application/rdf+xml",
 	"content": "Thank you so much.\nTonight, *...* God bless these United States."
 }
+```
 
 The original test file is available [here](https://github.com/insideout10/stanbol-facade/blob/master/home/var/samples/obamareelectionspeech.json).
 
