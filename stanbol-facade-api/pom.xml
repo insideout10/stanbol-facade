@@ -122,7 +122,8 @@
 						<Private-Package>
 							org.ccil.cowan.tagsoup.*;version=${tagsource-version},
 							org.mozilla.javascript.*;version=${rhino-version},
-							org.mozilla.classfile;version=${rhino-version}
+							org.mozilla.classfile;version=${rhino-version},
+							com.fasterxml.jackson.*;version=${jackson-version}
 						</Private-Package>
 						<Import-Package>
 							org.apache.xmlbeans.*;resolution:=optional,
