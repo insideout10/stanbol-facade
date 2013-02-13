@@ -11,7 +11,7 @@
 
 	<groupId>io.insideout</groupId>
 	<artifactId>stanbol-facade-parent</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Stanbol Facade (parent)</name>
@@ -69,9 +69,17 @@
 				<version>${tagsource-version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-web-api</artifactId>
+				<version>6.0</version>
+				<scope>provided</scope>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
 	<repositories>
+	
 	</repositories>
 </project>
