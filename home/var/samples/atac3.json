@@ -1,0 +1,7 @@
+{
+	"content": "Solo Trenitalia é peggio della metropolitana di Roma.",
+	"mimeType": "application/rdf+xml",
+	"configuration": {
+		"freebase.entity-recognition.score.minimum": "1"
+	}
+}

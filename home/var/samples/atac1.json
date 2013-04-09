@@ -1,0 +1,7 @@
+{
+	"url": "http://fai.informazione.it/p/F2DF5070-D18F-4D1C-B525-0A94213AA34C/Nel-nome-dell-ATAC",
+	"mimeType": "application/rdf+xml",
+	"configuration": {
+		"freebase.entity-recognition.score.minimum": "1"
+	}
+}

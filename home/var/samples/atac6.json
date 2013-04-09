@@ -1,0 +1,9 @@
+{
+	"content": "RT @Giovanni_N0: Se mai un giorno dovessi diventà qualcuno a prima cosa che farò sarà trasformà la metà delle patenti attive in abbonamenti atac annuali.",
+	"mimeType": "application/rdf+xml",
+	"configuration": {
+		"freebase.entity-recognition.search.score.minimum": "40",
+		"freebase.entity-recognition.entity.score.minimum": "0.5",
+		"freebase.entity-recognition.search.limit": "3"
+	}
+}

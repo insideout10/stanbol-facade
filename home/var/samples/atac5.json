@@ -1,0 +1,9 @@
+{
+	"content": "La loro app non funziona. Il loro sito non funziona. Su Twitter non ti cagano. Ecco l\u2019#atac. Benvenuti a Roma e morite tutti.",
+	"mimeType": "application/rdf+xml",
+	"configuration": {
+		"freebase.entity-recognition.search.score.minimum": "40",
+		"freebase.entity-recognition.entity.score.minimum": "0.5",
+		"freebase.entity-recognition.search.limit": "3"
+	}
+}
